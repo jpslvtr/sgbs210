@@ -106,6 +106,6 @@ def plot_journey(data):
 
 
 if __name__ == '__main__':
-    file_path = '../data_james/ships/269047000.txt'
+    file_path = '../data_james/ships_basic/269047000.txt'
     journey_data = parse_file(file_path)
     plot_journey(journey_data)
