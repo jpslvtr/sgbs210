@@ -1,0 +1,212 @@
+[
+  {
+    "mmsi": 238218640,
+    "port": "AEMSA",
+    "recordTime": "2024-01-22T13:33:35Z",
+    "status": "UnableToPredict",
+    "predictionRejectedReason": "VesselEtaIsBeforeCurrentTime",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "HR KAS"
+    },
+    "ship": {
+      "imo": "9030656",
+      "mmsi": "238218640",
+      "callSign": "9A2506",
+      "name": "RAB"
+    },
+    "portcallId": "863be6d5-4f04-3889-a107-7af4fef10008",
+    "predictionRequestId": "961d5bf1-053c-36da-a353-c5975734180a"
+  },
+  {
+    "mmsi": 477961400,
+    "port": "AEMSA",
+    "recordTime": "2024-01-22T13:08:42Z",
+    "status": "UnableToPredict",
+    "predictionRejectedReason": "VesselEtaIsBeforeCurrentTime",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "SAQR"
+    },
+    "ship": {
+      "imo": "9482500",
+      "mmsi": "477961400",
+      "callSign": "VRGW8",
+      "name": "FLC FORTUNE"
+    },
+    "portcallId": "661cbee7-293b-3f91-a78f-253ed92f5d07",
+    "predictionRequestId": "0ebd8c88-2ed4-3d13-9661-24cfa3da37d4"
+  },
+  {
+    "mmsi": 356911000,
+    "port": "AEMSA",
+    "recordTime": "2024-01-22T13:18:46Z",
+    "eventTime": "2024-01-22T13:18:46Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9047087",
+      "mmsi": "356911000",
+      "callSign": "3FMY5",
+      "name": "ALPS"
+    },
+    "portcallId": "6ed1cb2c-ee2e-34a9-ac87-a614f2aecb48",
+    "predictionRequestId": "909640ec-1714-36be-879c-48e8d384ffb7"
+  },
+  {
+    "mmsi": 352531000,
+    "port": "AEMSA",
+    "recordTime": "2024-01-22T13:14:47Z",
+    "status": "UnableToPredict",
+    "predictionRejectedReason": "VesselEtaIsBeforeCurrentTime",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "MINA SAQR"
+    },
+    "ship": {
+      "imo": "9186962",
+      "mmsi": "352531000",
+      "callSign": "3FMV7",
+      "name": "PRIMAVERA II"
+    },
+    "portcallId": "f42d49ed-2dc4-3cfe-b0b5-37f4cfd4327d",
+    "predictionRequestId": "468c8c62-1961-3820-b523-fd23506b301e"
+  },
+  {
+    "mmsi": 538008913,
+    "port": "AEMSA",
+    "recordTime": "2024-01-22T13:20:01Z",
+    "eventTime": "2024-01-23T00:17:01Z",
+    "status": "Underway",
+    "warnings": ["Recalculated reported ETA"],
+    "timeType": "Estimate",
+    "travelDistance": 100.69654427645789,
+    "waypoints": [
+      {
+        "coordinates": [56.84278034321991, 25.826849263726867],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.7540825504772, 25.918322827051863],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.71157256173318, 25.979638572189423],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69754712787665, 26.03660449361555],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69749055427387, 26.10137023187993],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.700054160216425, 26.1764368413756],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69695772196048, 26.258116001952956],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.682812899357266, 26.339438674378115],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.65486864607483, 26.41251319963567],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.612678600506584, 26.470332840717717],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.5548974622379, 26.511063818200974],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.48810674787951, 26.527529612707852],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.42454787267482, 26.521262583548584],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.35474014695487, 26.496588394458662],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.27798934063656, 26.462974250363594],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.2005028233302, 26.420168776278537],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.12594603288787, 26.370432816112334],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.058937938154855, 26.315022602928096],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.005132073396574, 26.254370703099408],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.97127062213742, 26.18854666651377],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.96521155330295, 26.117997384182836],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99592880966533, 26.044567153259294],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.07348554859199, 25.972797449460426],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "BASRAH IRAQ"
+    },
+    "ship": {
+      "imo": "9884045",
+      "mmsi": "538008913",
+      "callSign": "V7A2900",
+      "name": "NISSOS SIFNOS"
+    },
+    "portcallId": "9f055c47-9af5-331b-b5ab-f57c3cb4b4f5",
+    "predictionRequestId": "a35660e3-c9fa-32a4-ae6a-c56c4649b8de"
+  }
+]

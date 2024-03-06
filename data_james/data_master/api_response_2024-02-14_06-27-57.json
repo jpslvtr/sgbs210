@@ -1,0 +1,4744 @@
+[
+  {
+    "mmsi": 538003024,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T22:07:16Z",
+    "eventTime": "2024-02-13T22:07:16Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AEMSA"
+    },
+    "ship": {
+      "imo": "9379155",
+      "mmsi": "538003024",
+      "callSign": "V7NV2",
+      "name": "CLEAN THRASHER"
+    },
+    "portcallId": "33efb8fc-1117-3b1f-968a-b12f3aad90b6",
+    "predictionRequestId": "385552a4-616f-350a-b6ed-217748dbe98d"
+  },
+  {
+    "mmsi": 470144000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T21:09:05Z",
+    "status": "NotMoving",
+    "statusMessage": "Speed over ground too low.",
+    "predictionRejectedReason": "VesselSpeedTooLow",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "RAK"
+    },
+    "ship": {
+      "imo": "9507257",
+      "mmsi": "470144000",
+      "callSign": "A6E2181",
+      "name": "MAKASIB"
+    },
+    "portcallId": "5bf3079b-df40-39f4-8e92-ed234ef2e9c3",
+    "predictionRequestId": "3572ea47-b08d-3525-8a0e-7e3d5bf541f7"
+  },
+  {
+    "mmsi": 241768000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T19:36:48Z",
+    "eventTime": "2024-02-13T19:36:48Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9899193",
+      "mmsi": "241768000",
+      "callSign": "SVDN5",
+      "name": "DESERT PIONEER"
+    },
+    "portcallId": "2c28af97-d6ef-399f-a88f-3a8c95fd29dc",
+    "predictionRequestId": "dbffbd1f-b2e8-3f7d-a517-d9aa6d4710e4"
+  },
+  {
+    "mmsi": 305860000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T01:30:07Z",
+    "eventTime": "2024-02-14T06:09:39Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 53.225161987041034,
+    "waypoints": [
+      {
+        "coordinates": [56.486717637796744, 26.604894864898963],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.42562842562838, 26.530891580792037],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.340309117287475, 26.476039987193786],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.27481443308777, 26.443191238029577],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.21666220227368, 26.417139179030855],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.145293555407385, 26.381093681545785],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06058179909167, 26.324790591403683],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99437302526587, 26.257238403027387],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.95779321043807, 26.184588697046628],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.965412085598224, 26.113105372217156],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.01422068455495, 26.044775596426334],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.065577546745445, 25.974300255307842],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9457153",
+      "mmsi": "305860000",
+      "callSign": "V2FZ5",
+      "name": "BORKUM"
+    },
+    "portcallId": "34a68065-6ece-395e-b9b1-7c3b4ceab862",
+    "predictionRequestId": "2bf36f3b-4ab6-3051-9224-51ff8b739665"
+  },
+  {
+    "mmsi": 215626000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T01:23:30Z",
+    "eventTime": "2024-02-25T14:24:19.800Z",
+    "status": "Underway",
+    "warnings": ["Recalculated reported ETA"],
+    "timeType": "Estimate",
+    "travelDistance": 3171.8525917926568,
+    "waypoints": [
+      {
+        "coordinates": [39.73415935094655, -16.69588882879136],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.933232369461216, -16.636747077179123],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.1882032819785, -16.457810027043905],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.456043661816736, -16.22162646141046],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.711121770946804, -15.966360723944266],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.940653899337995, -15.712185396297087],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.140792129125444, -15.466817224880405],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.31334852359919, -15.230196297066799],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.463155741014965, -14.998308466819243],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.59606407109253, -14.766151028990722],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.71968555446215, -14.51999999925507],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.81680979728931, -14.27999999926738],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.930203255353206, -14.039999999279692],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.039720013996124, -13.799999999292005],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.182647460482265, -13.559999999304319],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.29582123891232, -13.319999999316629],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.43213891288567, -13.079999999328944],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.61016987262886, -12.839999999341254],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.77264880652818, -12.599999999353567],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.923943462597954, -12.359999999365883],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.02246977838238, -12.11999999937819],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.10384169922892, -11.879999999390506],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.15836101541943, -11.639999999402818],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.243932693972035, -11.399999999415135],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.3571581617277, -11.159999999427447],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.542839141661645, -10.919999999439758],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.763791625160884, -10.679999999452075],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.01034970833573, -10.439999999464385],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.28503324580988, -10.199999999476699],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.535209581777664, -9.959999999489012],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.77691532951058, -9.719999999501322],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.98769793819542, -9.479999999513634],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.239999997679035, -9.23999999952595],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.47999999766672, -8.999999999538263],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.71999999765442, -8.759999999550574],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.95999999764211, -8.519999999562886],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.199999997629796, -8.279999999575201],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.43999999761748, -8.039999999587513],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.67999999760515, -7.799999999599826],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.919999997592846, -7.559999999612138],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.15999999758053, -7.319999999624452],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.39999999756822, -7.0799999996367635],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.63999999755591, -6.839999999649076],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.87999999754359, -6.599999999661387],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.11999999753127, -6.359999999673701],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.35999999751896, -6.119999999686013],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.59999999750666, -5.879999999698327],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.839999997494346, -5.639999999710639],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.079999997482034, -5.3999999997229535],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.31999999746972, -5.159999999735266],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.5599999974574, -4.9199999997475805],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.799999997445084, -4.679999999759893],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.03999999743277, -4.439999999772207],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.27999999742046, -4.199999999784519],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.51999999740816, -3.953848970048863],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.759999997395845, -3.7284576657126007],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.999999997383526, -3.484529276978311],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.239999997371214, -3.246745456826286],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.4799999973589, -2.993590523470045],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.7199999973466, -2.736810876155182],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.95999999733428, -2.497534526726081],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.199999997321974, -2.291772243791425],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.439999997309656, -2.1235945617432495],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.67999999729734, -1.9842789068843316],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.919999997285025, -1.855721092918657],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.15999999727271, -1.7164054380597373],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.399999997260394, -1.5482277560115603],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.63999999724808, -1.3424654730769006],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.87999999723577, -1.103189123647796],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.126151026971435, -0.8464094763329304],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.35769336105567, -0.5932545429766898],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.58701305413854, -0.3554707228246662],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.82872526303715, -0.11154233409037669],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.079664016557736, 0.1138489702458842],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.355749626989116, 0.35999999998153903],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.59719692809397, 0.5999999999692254],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.80616394921665, 0.8399999999569134],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.937887734376126, 1.0799999999445995],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.02468703441204, 1.3199999999322862],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.054731454924706, 1.5599999999199723],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.085809661949625, 1.79999999990766],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.11684910198034, 2.0399999998953477],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.198272712152495, 2.279999999883035],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.30479795107556, 2.5199999998707234],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.452616499997845, 2.7599999998584117],
+        "type": "Point"
+      },
+      { "coordinates": [56.5854128386638, 2.999999999846098], "type": "Point" },
+      {
+        "coordinates": [56.71201291942187, 3.2399999998337865],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.820974017814464, 3.479999999821474],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.94133261250475, 3.719999999809159],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.0525163518987, 3.9599999997968447],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.18133261249245, 4.199999999784533],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.30712504753781, 4.439999999772219],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.42970628322946, 4.679999999759906],
+        "type": "Point"
+      },
+      { "coordinates": [57.5201238360583, 4.919999999747596], "type": "Point" },
+      {
+        "coordinates": [57.65210606784586, 5.159999999735283],
+        "type": "Point"
+      },
+      { "coordinates": [57.76812922035034, 5.39999999972297], "type": "Point" },
+      {
+        "coordinates": [57.92358486713198, 5.639999999710659],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.05114120041389, 5.879999999698347],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.203204735202156, 6.119999999686032],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.31457584840146, 6.359999999673718],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.44320473518985, 6.599999999661405],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.53114120038927, 6.839999999649093],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.643584867095036, 7.079999999636779],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.72812922030109, 7.319999999624464],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.852106067784284, 7.5599999996121525],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.96012383598442, 7.799999999599839],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.10970628314327, 8.039999999587527],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.23327607718727, 8.279999999575216],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.33287494647816, 8.519999999562902],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.447987074618695, 8.759999999550589],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.580738185124744, 8.999999999538282],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.70507685788724, 9.239999999525965],
+        "type": "Point"
+      },
+      { "coordinates": [59.8422150999047, 9.47999999951365], "type": "Point" },
+      { "coordinates": [59.9504525477387, 9.719999999501335], "type": "Point" },
+      {
+        "coordinates": [60.055116970939686, 9.959999999489025],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.09917565985923, 10.199999999476711],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.11879822009512, 10.439999999464398],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.12576335672151, 10.679999999452086],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.15136249523143, 10.91999999943977],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.151821237996245, 11.159999999427459],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.148474354162786, 11.399999999415147],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.069060166523855, 11.639999999402834],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.9955579455019, 11.879999999390522],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.894699148899186, 12.119999999378212],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.80288598427877, 12.359999999365899],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.666619999631024, 12.599999999353583],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.57602153416252, 12.839999999341273],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.53663426804529, 13.079999999328958],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.55400188145132, 13.319999999316643],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.61916919871814, 13.559999999304331],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.709535062221384, 13.799999999292018],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.80505693595453, 14.039999999279706],
+        "type": "Point"
+      },
+      { "coordinates": [59.9198072388158, 14.27999999926739], "type": "Point" },
+      {
+        "coordinates": [60.03445416302582, 14.519999999255084],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.10650908293059, 14.75999999924277],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.13233436224008, 14.999999999230454],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.120478123177556, 15.239999999218142],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.100810334781734, 15.47999999920583],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.12854165797321, 15.719999999193519],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.12777924042041, 15.959999999181203],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.10479041285395, 16.19999999916889],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.090272173522365, 16.43999999915658],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.147259655010885, 16.679999999144265],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.17770466779704, 16.919999999131953],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.15582069956557, 17.159999999119638],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.07332453588693, 17.399999999107326],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.95921388843013, 17.63999999909501],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.859298422019855, 17.879999999082703],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.775484180538086, 18.119999999070387],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.787870235188144, 18.35999999905808],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.86553990808765, 18.59999999904576],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.974591462800056, 18.839999999033452],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.07771166739835, 19.079999999021133],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.13971947463707, 19.319999999008825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.14523084898057, 19.55999999899651],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.07692986634845, 19.799999998984198],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.032141065704636, 20.039999998971883],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.046853140007286, 20.279999998959575],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.096158295476556, 20.519999998947263],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.13767774627534, 20.759999998934948],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.12745618213533, 20.999999998922632],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.08914146952458, 21.23999999891032],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.03214752687034, 21.47999999889801],
+        "type": "Point"
+      },
+      { "coordinates": [59.97256265676974, 21.7199999988857], "type": "Point" },
+      {
+        "coordinates": [59.92593242390095, 21.959999998873386],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.91344299059966, 22.199999998861074],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.85794157722251, 22.439999998848755],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.77335845702225, 22.679999998836436],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.63770628311617, 22.919999998824128],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.44334795764492, 23.15999999881182],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.19574962679209, 23.399999998799505],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.9196640163607, 23.639999998787193],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.66257423309217, 23.87999999877488],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.42931969009699, 24.11999999876257],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.2168313336669, 24.359999998750254],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.9751191247683, 24.606151028485915],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.70119800484696, 24.84384439231812],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.435282269229965, 25.06470641949752],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.22841340691888, 25.31173703055594],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.05247267342973, 25.567040281941793],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.90110404679455, 25.824958543300845],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.76267919088588, 26.072972425017465],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.623330975660515, 26.289852886109745],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.471465309169204, 26.443746144715448],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.30375128427899, 26.49019139245464],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.13258964010801, 26.37007131266902],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99505953817318, 26.007495402537952],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "M0MA"
+    },
+    "ship": {
+      "imo": "9595747",
+      "mmsi": "215626000",
+      "callSign": "9HA2773",
+      "name": "ELISAR"
+    },
+    "portcallId": "9d0debf6-64d5-3283-bbc2-29e8ea2e7151",
+    "predictionRequestId": "578922f2-e3d3-3f75-a17b-d53d58783dc1"
+  },
+  {
+    "mmsi": 419000479,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T01:07:08Z",
+    "eventTime": "2024-02-14T05:47:28.250Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 56.836933045356375,
+    "waypoints": [
+      {
+        "coordinates": [55.22846587594787, 26.11664195506602],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.29846393155744, 26.102962176131232],
+        "type": "Point"
+      },
+      { "coordinates": [55.368461987167, 26.133907276058405], "type": "Point" },
+      {
+        "coordinates": [55.438460042776576, 26.105453335874078],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.50845809838614, 26.03506727331285],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.578456154037184, 25.979973763643358],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.6484542096468, 25.976143425541615],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.71845226525644, 26.04434072347333],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.788450320824374, 26.10407095821329],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.85844837643393, 26.11435239206531],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.92844643204349, 26.05535654543819],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.998444487653074, 25.966495581431367],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06844254326263, 25.976042627151074],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "MINA SAQAR"
+    },
+    "ship": {
+      "imo": "9610298",
+      "mmsi": "419000479",
+      "callSign": "AVQU",
+      "name": "DESH VIBHOR"
+    },
+    "portcallId": "b02843de-8060-3cd8-b7fb-6ac4762936d1",
+    "predictionRequestId": "370a185a-650c-386a-a119-fac59dd68261"
+  },
+  {
+    "mmsi": 447215000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T01:49:41Z",
+    "eventTime": "2024-02-14T01:49:41Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "MINA SAQR"
+    },
+    "ship": {
+      "imo": "9547972",
+      "mmsi": "447215000",
+      "callSign": "9KGO",
+      "name": "HEISCO 23"
+    },
+    "portcallId": "c5a77a26-cff3-3d5e-8348-b874c1e2ebe5",
+    "predictionRequestId": "58d9388a-b1a8-3062-94ca-1e482186896a"
+  },
+  {
+    "mmsi": 563591000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T23:52:05Z",
+    "eventTime": "2024-02-18T23:58:58.181Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 1297.8201943844492,
+    "waypoints": [
+      {
+        "coordinates": [71.01144988558352, 11.069999999999995],
+        "type": "Point"
+      },
+      {
+        "coordinates": [70.82422242562932, 11.249999999999998],
+        "type": "Point"
+      },
+      {
+        "coordinates": [70.6520559429264, 11.430000000000003],
+        "type": "Point"
+      },
+      {
+        "coordinates": [70.47720969174856, 11.610000000000007],
+        "type": "Point"
+      },
+      {
+        "coordinates": [70.29436290214025, 11.790000000000008],
+        "type": "Point"
+      },
+      {
+        "coordinates": [70.10588132992326, 11.97000000000001],
+        "type": "Point"
+      },
+      { "coordinates": [69.9178940368825, 12.15000000000001], "type": "Point" },
+      {
+        "coordinates": [69.73718040113073, 12.330000000000009],
+        "type": "Point"
+      },
+      {
+        "coordinates": [69.56886735765248, 12.510000000000009],
+        "type": "Point"
+      },
+      {
+        "coordinates": [69.41493686546556, 12.68999999934897],
+        "type": "Point"
+      },
+      {
+        "coordinates": [69.27672768523303, 12.869999999339731],
+        "type": "Point"
+      },
+      {
+        "coordinates": [69.14327230766554, 13.049999999330499],
+        "type": "Point"
+      },
+      { "coordinates": [69.005063127433, 13.229999999321263], "type": "Point" },
+      {
+        "coordinates": [68.85403176386556, 13.409999999312024],
+        "type": "Point"
+      },
+      {
+        "coordinates": [68.6861076825712, 13.589999999302792],
+        "type": "Point"
+      },
+      {
+        "coordinates": [68.50281733394687, 13.769999999293557],
+        "type": "Point"
+      },
+      {
+        "coordinates": [68.31128415317866, 13.949999999284325],
+        "type": "Point"
+      },
+      {
+        "coordinates": [68.12198976632607, 14.129999999275086],
+        "type": "Point"
+      },
+      {
+        "coordinates": [67.94365674708634, 14.309999999265854],
+        "type": "Point"
+      },
+      {
+        "coordinates": [67.77461326883413, 14.489999999256618],
+        "type": "Point"
+      },
+      {
+        "coordinates": [67.58999999653238, 14.669999999247382],
+        "type": "Point"
+      },
+      {
+        "coordinates": [67.40999999654161, 14.849999999238152],
+        "type": "Point"
+      },
+      {
+        "coordinates": [67.22999999655086, 15.029999999228911],
+        "type": "Point"
+      },
+      {
+        "coordinates": [67.0499999965601, 15.209999999219677],
+        "type": "Point"
+      },
+      {
+        "coordinates": [66.86999999656932, 15.389999999210444],
+        "type": "Point"
+      },
+      {
+        "coordinates": [66.68538672426759, 15.569999999201206],
+        "type": "Point"
+      },
+      {
+        "coordinates": [66.5117299737044, 15.749999999191976],
+        "type": "Point"
+      },
+      {
+        "coordinates": [66.34435347620324, 15.929999999182742],
+        "type": "Point"
+      },
+      {
+        "coordinates": [66.15672607010168, 16.109999999173503],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.95589850247165, 16.289999999164273],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.7610749730699, 16.469999999155043],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.58986054314192, 16.64999999914581],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.45090509827088, 16.829999999136575],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.34166455446172, 17.009999999127338],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.24999999665243, 17.189999999118104],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.15833543884317, 17.36999999910887],
+        "type": "Point"
+      },
+      {
+        "coordinates": [65.04909489503402, 17.549999999099633],
+        "type": "Point"
+      },
+      {
+        "coordinates": [64.91013945016294, 17.729999999090396],
+        "type": "Point"
+      },
+      {
+        "coordinates": [64.73892502023499, 17.90999999908116],
+        "type": "Point"
+      },
+      {
+        "coordinates": [64.54410149083321, 18.089999999071928],
+        "type": "Point"
+      },
+      {
+        "coordinates": [64.3432739232032, 18.269999999062694],
+        "type": "Point"
+      },
+      {
+        "coordinates": [64.15564651710163, 18.449999999053457],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.98827001960047, 18.62999999904422],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.81461326903729, 18.809999999034986],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.62999999673554, 18.989999999025752],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.449999996744786, 19.169999999016515],
+        "type": "Point"
+      },
+      { "coordinates": [63.269999996754, 19.349999999007277], "type": "Point" },
+      {
+        "coordinates": [63.089999996763254, 19.52999999899805],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.909999996772484, 19.709999998988813],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.72999999678173, 19.88999999897958],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.54999999679096, 20.069999998970342],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.3699999968002, 20.249999998961105],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.189999996809426, 20.429999998951875],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.009999996818664, 20.60999999894264],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.829999996827894, 20.7899999989334],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.64999999683714, 20.969999998924173],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.469999996846376, 21.149999998914936],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.289999996855585, 21.32999999890571],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.10999999686484, 21.509999998896472],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.92999999687408, 21.689999998887235],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.7499999968833, 21.869999998878004],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.569999996892555, 22.049999998868767],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.389999996901764, 22.22999999885953],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.209999996911016, 22.409999998850292],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.029999996920246, 22.589999998841066],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.84999999692947, 22.769999998831825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.66999999693871, 22.94999999882259],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.489999996947944, 23.129999998813357],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.30999999695718, 23.30999999880413],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.12999999696641, 23.489999998794886],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.94999999697565, 23.669999998785652],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.769999996984886, 23.84999999877641],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.589999996994116, 24.029999998767188],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.409999997003354, 24.209999998757944],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.2253867247016, 24.389999998748713],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.05172997413845, 24.569999998739473],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.88435347663727, 24.74999999873024],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.6967260705357, 24.929999998721012],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.495898502905675, 25.11461327102275],
+        "type": "Point"
+      },
+      { "coordinates": [57.30107497350392, 25.2928832938969], "type": "Point" },
+      {
+        "coordinates": [57.12986054357596, 25.45852981428145],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.98167855408295, 25.63180374077681],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.88198115493343, 25.835041324538995],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.802021879856646, 26.042095032978896],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.71876190359652, 26.235301655673737],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.607284621691434, 26.39153425763901],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.45017242012261, 26.485691210122514],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.24989272996488, 26.495634136492146],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.044193369962834, 26.408574774532234],
+        "type": "Point"
+      },
+      { "coordinates": [55.92450717703336, 26.2289107551487], "type": "Point" },
+      { "coordinates": [56.05736592469285, 25.98751029748277], "type": "Point" }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "BASRAH IRAQ"
+    },
+    "ship": {
+      "imo": "9597276",
+      "mmsi": "563591000",
+      "callSign": "S6NK8",
+      "name": "EAGLE VERSAILLES"
+    },
+    "portcallId": "bf3f265a-77ca-34e1-be82-4ad5483d9a35",
+    "predictionRequestId": "95144daf-1f21-3cf2-8c2c-5a6371ba0bd2"
+  },
+  {
+    "mmsi": 419000372,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T02:10:46Z",
+    "eventTime": "2024-02-14T11:33:58Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 59.75053995680346,
+    "waypoints": [
+      {
+        "coordinates": [56.62603481834167, 26.601424520979734],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.566072206760936, 26.54471823735328],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.4846384126069, 26.529670480525013],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.41148969433711, 26.515227513923346],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.34841809552815, 26.48916393511078],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.2859382878538, 26.453351713836284],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.215206744931706, 26.41314756367207],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.13708273781427, 26.377082967528384],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.05990286837563, 26.324484406858293],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.994434553358346, 26.25889422469038],
+        "type": "Point"
+      },
+      { "coordinates": [55.95844668121216, 26.1855637886576], "type": "Point" },
+      {
+        "coordinates": [55.965723969376796, 26.112395539477564],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.013522658955516, 26.044290703209604],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06580032087287, 25.974570819356572],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "RMC_UAE"
+    },
+    "ship": {
+      "imo": "9386134",
+      "mmsi": "419000372",
+      "callSign": "AVOD",
+      "name": "CHANDRA SUN"
+    },
+    "portcallId": "636d3d0e-6192-3d6c-9e91-aebb4174a7c9",
+    "predictionRequestId": "c4e96494-afc7-3eb6-ad8d-3d5ee3ffec1b"
+  },
+  {
+    "mmsi": 636016413,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T00:08:30Z",
+    "eventTime": "2024-02-14T12:04:48Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 157.62634989200865,
+    "waypoints": [
+      {
+        "coordinates": [57.18329853156252, 24.99416569428238],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.127045937002634, 25.064177362893815],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.054119690644825, 25.134189031505247],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.97458466299686, 25.20420070011668],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.8968370402687, 25.274212368728115],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.82734106610436, 25.34422403733955],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.770486011499294, 25.41423570595099],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.728563372903125, 25.484247374562432],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.70186429850783, 25.55425904317387],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.68889723981308, 25.624270710470686],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69046510580484, 25.694282379078533],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69852303246445, 25.764294047686374],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69924666292219, 25.834305716294217],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.700891791540954, 25.904317384902054],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69892442123398, 25.976123402911295],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.697827668821475, 26.04366784109223],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.70140059420655, 26.112358250319428],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.70168891571706, 26.178607816610896],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.69668757395966, 26.254750807280427],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.68200390592139, 26.330381126692416],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.65420632029091, 26.40759281075543],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.6120058503154, 26.470332840717717],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.55669146274771, 26.511063818200974],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.48810674787951, 26.527529612707852],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.42454787267482, 26.521262583548584],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.35474014695487, 26.496588394458662],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.27798934063656, 26.462974250363594],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.2005028233302, 26.420168776278537],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.12594603288787, 26.370432816112334],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.058937938154855, 26.315022602928096],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.005132073396574, 26.254370703099408],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.97127062213742, 26.18854666651377],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.96521155330295, 26.117997384182836],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99592880966533, 26.044567153259294],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.07348554859199, 25.972797449460426],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9539523",
+      "mmsi": "636016413",
+      "callSign": "D5GB7",
+      "name": "MORNING IBIS"
+    },
+    "portcallId": "65bb5530-bf1f-3084-aa50-f72eee573444",
+    "predictionRequestId": "ba9f3346-0586-3fc4-861d-6cd7483e8b5e"
+  },
+  {
+    "mmsi": 538007335,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T15:47:14Z",
+    "eventTime": "2024-02-13T15:47:14Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9812183",
+      "mmsi": "538007335",
+      "callSign": "V7JS7",
+      "name": "TOPAZ ISHIM"
+    },
+    "portcallId": "025f3e9e-eb56-3f4e-a833-0d6bbfaa2ade",
+    "predictionRequestId": "f3f68a77-a03e-3c58-b9e5-73ce50f36ee9"
+  },
+  {
+    "mmsi": 538007333,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T01:10:19Z",
+    "eventTime": "2024-02-14T06:57:18Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 45.26619870410367,
+    "waypoints": [
+      { "coordinates": [55.4384600427766, 25.69428238039673], "type": "Point" },
+      {
+        "coordinates": [55.50845809838617, 25.76429404900817],
+        "type": "Point"
+      },
+      { "coordinates": [55.57845615399572, 25.8343057176196], "type": "Point" },
+      {
+        "coordinates": [55.64845420960529, 25.904317386231043],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.718452265214864, 25.97432905484247],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.78845032082444, 26.044340723453907],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.858448376433984, 26.044340723453907],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.92844643204356, 26.044340723453907],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99844448765313, 25.97432905484247],
+        "type": "Point"
+      },
+      { "coordinates": [56.06844254326268, 25.97432905484247], "type": "Point" }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "MINA SAQR"
+    },
+    "ship": {
+      "imo": "9812274",
+      "mmsi": "538007333",
+      "callSign": "V7JR5",
+      "name": "TOPAZ OB"
+    },
+    "portcallId": "42037b11-9ff9-330d-98b6-0daabde6cb39",
+    "predictionRequestId": "d3f8da30-486c-3bb8-ad71-b5c6ec1998e1"
+  },
+  {
+    "mmsi": 374260000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T01:21:43Z",
+    "eventTime": "2024-02-14T13:00:24.600Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 111.27969762419006,
+    "waypoints": [
+      {
+        "coordinates": [54.178495041804375, 26.115720292193483],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.248493097413956, 26.036914369578206],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.318491153023515, 25.989456101117096],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.388489208633075, 25.967245349965026],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.45848726424264, 25.963556218771316],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.52848531985221, 25.971847899587825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.598483375461775, 25.986390245892437],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.66848143107135, 26.002704066727915],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.73847948668093, 26.017816142956125],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.80847753947863, 26.030328964292174],
+        "type": "Point"
+      },
+      { "coordinates": [54.8784755950846, 26.03964374868469], "type": "Point" },
+      {
+        "coordinates": [54.94847365069058, 26.048364814525275],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.018471706296545, 26.05344252175988],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.08846976190252, 26.066383701371176],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.15846781750851, 26.09144050908346],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.22846587311449, 26.11901920702584],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.29846392872046, 26.129958706947768],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.36846198432644, 26.106328708580925],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.43846003993242, 26.066851136929515],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.5084580983862, 26.047141190198378],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.57845615399576, 26.034574541614095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.648454209605326, 26.032127153209657],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.718452265214886, 26.03980262327932],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.78845032082445, 26.053909358939187],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.85844837643401, 26.06651322416689],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.92844643204357, 26.06506566465783],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.998444487653124, 26.032207309497796],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06844254326265, 25.945747049652102],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "SAQR UAE"
+    },
+    "ship": {
+      "imo": "9104419",
+      "mmsi": "374260000",
+      "callSign": "3FQZ4",
+      "name": "SUKHOOR ALKHALEEJ"
+    },
+    "portcallId": "5e31cd5d-d652-3864-a4f1-cb4e1b734d66",
+    "predictionRequestId": "4e388f64-a38b-39cc-9948-106b66c5ee07"
+  },
+  {
+    "mmsi": 408345000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T02:06:06Z",
+    "eventTime": "2024-02-16T00:18:36.555Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 224.8196544276458,
+    "waypoints": [
+      {
+        "coordinates": [52.07855337351741, 26.034649488942986],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.148551429126975, 26.05830616038115],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.21854948473655, 26.070318066222985],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.288547540346116, 26.08084396221146],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.35854559595569, 26.094553063509913],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.428543651565256, 26.112262011566724],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.49854170717482, 26.132352259356836],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.56853976278439, 26.151967875000068],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.63853781839396, 26.167993763756257],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.708535871299375, 26.17781430705419],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.778533926905354, 26.186827520118744],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.848531982511325, 26.1820513842121],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.91853003811731, 26.15781258872692],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.98852809372327, 26.138189719380406],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.058526149329246, 26.12642089830658],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.12852420493523, 26.121567484747143],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.198522260541196, 26.117714911032394],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.268520316147175, 26.101235922779914],
+        "type": "Point"
+      },
+      { "coordinates": [53.33851837175316, 26.078199642965], "type": "Point" },
+      {
+        "coordinates": [53.40851642735913, 26.047456330899777],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.47851448296509, 26.012449554185455],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.54851253857108, 25.98066582103876],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.618510594177046, 25.96649573826601],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.688508649783024, 25.96307855815601],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.758506705388996, 25.968844224982536],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.828504760994974, 25.976945184779996],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.89850281660096, 25.97991189271885],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.96850087220693, 25.97500193453542],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.038498927812924, 25.972534704108508],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.10849698341888, 25.972534704108508],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.17849503902486, 25.976796283936814],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.24849309463083, 25.977444662291937],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.31849115023681, 25.973829575997957],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.38848920584279, 25.96934370249448],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.45848726144877, 25.968063909171427],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.528485317054745, 25.970966533203086],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.59848337266071, 25.986495571772476],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.668481428266695, 26.003398644704912],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.73847948387265, 26.017887262192822],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.80847753947863, 26.02965608326665],
+        "type": "Point"
+      },
+      { "coordinates": [54.8784755950846, 26.04143809808608], "type": "Point" },
+      {
+        "coordinates": [54.94847365069058, 26.048364814525275],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.018471706296545, 26.05344252175988],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.08846976190252, 26.066383701371176],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.15846781750851, 26.09144050908346],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.22846587311449, 26.11901920702584],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.29846392872046, 26.129958706947768],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.36846198432644, 26.106328708580925],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.43846003993242, 26.066851136929515],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.5084580983862, 26.047141190198378],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.57845615399576, 26.034574541614095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.648454209605326, 26.032127153209657],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.718452265214886, 26.03980262327932],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.78845032082445, 26.053909358939187],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.85844837643401, 26.06651322416689],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.92844643204357, 26.06506566465783],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.998444487653124, 26.032207309497796],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06844254326265, 25.945747049652102],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "MINA_SAQR"
+    },
+    "ship": {
+      "imo": "9533294",
+      "mmsi": "408345000",
+      "callSign": "A9IM",
+      "name": "UCO 26"
+    },
+    "portcallId": "687c9838-e1f5-34eb-98ff-d4a093e111cd",
+    "predictionRequestId": "caf75b58-b637-3be0-b1d3-39b3eeb04f04"
+  },
+  {
+    "mmsi": 440209000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T14:39:03Z",
+    "eventTime": "2024-02-13T14:39:03Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AEMSA"
+    },
+    "ship": {
+      "imo": "9686546",
+      "mmsi": "440209000",
+      "callSign": "D7LO",
+      "name": "YOUNG HARMONY"
+    },
+    "portcallId": "76a0e4df-11d6-3c53-b2af-320f19e2cab2",
+    "predictionRequestId": "1492b9c6-ef3a-3463-be51-e03e15419b39"
+  },
+  {
+    "mmsi": 356911000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T02:01:37Z",
+    "eventTime": "2024-02-14T13:17:45.250Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 107.70626349892008,
+    "waypoints": [
+      {
+        "coordinates": [54.24849309741396, 26.257642843393267],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.318491153023565, 26.1840325721023],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.38848920863313, 26.17085445338106],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.45848726424269, 26.182682680580154],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.528485319852244, 26.19704110835574],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.598483375461804, 26.201730011329065],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.66848143107137, 26.192370916512544],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.738479486680944, 26.170169509502383],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.80847754229052, 26.13989661443777],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.8784755950846, 26.108087246387118],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.94847365069058, 26.07775294043545],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.018471706296545, 26.05658828767471],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.08846976190252, 26.058050908615346],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.15846781750851, 26.083305622511606],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.22846587311449, 26.11600160892539],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.29846392872046, 26.130780488816473],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.36846198432644, 26.111911547789873],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.43846003993242, 26.067524017955037],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.5084580983862, 26.046722508671362],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.57845615399576, 26.033553665553093],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.648454209605326, 26.03125852497666],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.718452265214886, 26.039657172229347],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.78845032082445, 26.054522039930692],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.85844837643401, 26.067293300091745],
+        "type": "Point"
+      },
+      { "coordinates": [55.92844643204357, 26.0651363511494], "type": "Point" },
+      {
+        "coordinates": [55.998444487653124, 26.03134139997603],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06844254326265, 25.946065138864192],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9047087",
+      "mmsi": "356911000",
+      "callSign": "3FMY5",
+      "name": "ALPS"
+    },
+    "portcallId": "edf8bf1c-14fb-3c4c-bb1f-de3d21d1228f",
+    "predictionRequestId": "ecdac52c-4ae7-3f30-a9b4-b7134c05aa81"
+  },
+  {
+    "mmsi": 518100907,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T02:08:33Z",
+    "eventTime": "2024-02-15T03:27:13.142Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 255.82235421166305,
+    "waypoints": [
+      {
+        "coordinates": [51.93855726229831, 27.30742579556895],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.00855531790788, 27.23021051320774],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.07855337351744, 27.157328605212783],
+        "type": "Point"
+      },
+      { "coordinates": [52.148551429127, 27.097085277417726], "type": "Point" },
+      {
+        "coordinates": [52.218549484736556, 27.051325512364635],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.28854754034613, 27.017745802015042],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.358545595955704, 26.991836455584224],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.42854365156528, 26.968454482498696],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.49854170717485, 26.943027050476942],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.568539760087425, 26.91238551735262],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.6385378156934, 26.873409308033956],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.708535871299375, 26.825813813197893],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.778533926905354, 26.785399485609002],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.848531982511325, 26.74739961346463],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.91853003811731, 26.703564336124142],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.98852809372327, 26.655708736017722],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.058526149329246, 26.62055494328101],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.12852420493523, 26.57962794443458],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.198522260541196, 26.53886680981853],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.268520316147175, 26.48946565665629],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.33851837175316, 26.438956228863766],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.40851642735913, 26.385674229674773],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.47851448296509, 26.337475592182788],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.54851253857108, 26.288562607607687],
+        "type": "Point"
+      },
+      { "coordinates": [53.618510594177046, 26.229243527397], "type": "Point" },
+      {
+        "coordinates": [53.688508649783024, 26.16899711535282],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.758506705388996, 26.103275298885276],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.828504760994974, 26.04830826990128],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.89850281660096, 26.007232370211664],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.96850087220693, 25.974998164893822],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.038498927812924, 25.961683790764173],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.10849698341888, 25.962105990623325],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.17849503902486, 25.976894294618404],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.24849309463083, 25.980733674587555],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.31849115023681, 25.97761806580552],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.38848920584279, 25.970016583520003],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.45848726144877, 25.966269559770033],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.528485317054745, 25.970966533203086],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.59848337266071, 25.986495571772476],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.668481428266695, 26.003398644704912],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.73847948387265, 26.017887262192822],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.80847753947863, 26.02965608326665],
+        "type": "Point"
+      },
+      { "coordinates": [54.8784755950846, 26.04143809808608], "type": "Point" },
+      {
+        "coordinates": [54.94847365069058, 26.048364814525275],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.018471706296545, 26.05344252175988],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.08846976190252, 26.066383701371176],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.15846781750851, 26.09144050908346],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.22846587311449, 26.11901920702584],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.29846392872046, 26.129958706947768],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.36846198432644, 26.106328708580925],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.43846003993242, 26.066851136929515],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.5084580983862, 26.047141190198378],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.57845615399576, 26.034574541614095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.648454209605326, 26.032127153209657],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.718452265214886, 26.03980262327932],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.78845032082445, 26.053909358939187],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.85844837643401, 26.06651322416689],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.92844643204357, 26.06506566465783],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.998444487653124, 26.032207309497796],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.06844254326265, 25.945747049652102],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "RMC,UAE"
+    },
+    "ship": {
+      "imo": "9031894",
+      "mmsi": "518100907",
+      "callSign": "E5U3818",
+      "name": "NOBLE ONE"
+    },
+    "portcallId": "5e35451e-4e23-34cd-bad7-e1dc89453744",
+    "predictionRequestId": "4d2d17e9-83e7-3a1f-aa7b-88287b8871f2"
+  },
+  {
+    "mmsi": 376864000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T16:15:35Z",
+    "eventTime": "2024-02-13T16:15:35Z",
+    "status": "Arrived",
+    "warnings": [],
+    "timeType": "Actual",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "SAQR PORT"
+    },
+    "ship": {
+      "imo": "9444675",
+      "mmsi": "376864000",
+      "callSign": "J8B6267",
+      "name": "MT KEAMARI"
+    },
+    "portcallId": "5ef9ccf8-387a-355b-95e7-2d00da1cb37b",
+    "predictionRequestId": "8b2ce823-deef-39fe-8592-d6d2596e051b"
+  },
+  {
+    "mmsi": 538007142,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T20:08:40Z",
+    "status": "DestinationChanged",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": ""
+    },
+    "ship": {
+      "imo": "9503287",
+      "mmsi": "538007142",
+      "callSign": "V7OQ9",
+      "name": "TRISTAR PROSPERITY"
+    },
+    "portcallId": "c89665b8-96d3-3eaf-a990-67cf3c2f4682",
+    "predictionRequestId": "dc1167cd-1e52-3a95-9314-207f853f1369"
+  },
+  {
+    "mmsi": 355127000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T20:30:59Z",
+    "status": "UnableToPredict",
+    "predictionRejectedReason": "VesselEtaIsBeforeCurrentTime",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "RAK   PORT"
+    },
+    "ship": {
+      "imo": "9541227",
+      "mmsi": "355127000",
+      "callSign": "HO7966",
+      "name": "SAMSON SUPPLIER"
+    },
+    "portcallId": "e3d91541-bcc3-331b-8aa6-68441ceef91e",
+    "predictionRequestId": "d39b3b0a-bae3-3aa0-ab7d-3aeda10138f4"
+  },
+  {
+    "mmsi": 311001064,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T16:01:32Z",
+    "status": "DestinationChanged",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "COGH"
+    },
+    "ship": {
+      "imo": "9370771",
+      "mmsi": "311001064",
+      "callSign": "C6FB8",
+      "name": "YARRA STAR"
+    },
+    "portcallId": "24b92263-dc0a-358d-9f8f-e8d2ecef9580",
+    "predictionRequestId": "55e371f3-645b-3318-a16a-f11f208f3c73"
+  },
+  {
+    "mmsi": 414449000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T00:09:51Z",
+    "eventTime": "2024-02-14T22:45:12.500Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 299.2656587473002,
+    "waypoints": [
+      {
+        "coordinates": [59.988333657398414, 24.36768083495507],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.91833560178888, 24.426638417962543],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.84833754617932, 24.502420425471747],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.77833949056975, 24.578880711447894],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.708341434960175, 24.650053989406715],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.63834337935061, 24.716223342297617],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.56834532374104, 24.780690959027254],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.498347268131475, 24.847252097623517],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.428349212521915, 24.918372275039996],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.35835115386701, 24.994067682318512],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.288353098261055, 25.074606075093133],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.21835504265506, 25.14683429296151],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.14835698704909, 25.203531587439702],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.07835893144311, 25.24310340013109],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.008360875837134, 25.26598323981962],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.938362820231184, 25.284641080916646],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.868364764625184, 25.294988747107443],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.79836670901922, 25.29956886165091],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.728368653413256, 25.312462920742206],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.65837059780727, 25.327586722839648],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.5883725422013, 25.341257328100454],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.51837448659532, 25.357670347624946],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.44837643098934, 25.37448106433818],
+        "type": "Point"
+      },
+      { "coordinates": [58.37837837538336, 25.3898291601108], "type": "Point" },
+      {
+        "coordinates": [58.3083803197774, 25.407429616739147],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.23838226417141, 25.423778552356442],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.168384208565456, 25.459665540384258],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.09838615295947, 25.488812409232064],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.02838809735349, 25.52333855664244],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.958390041747506, 25.55739349885288],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.88839198614154, 25.592096819418437],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.81839393053556, 25.617219595858707],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.74839587492958, 25.61759090555627],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.678397819323614, 25.603554645060296],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.60839976371764, 25.58137972835088],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.53840170811167, 25.558594129702335],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.468403652505685, 25.55317526990296],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.398405596899714, 25.57383856033095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.32840754129375, 25.62183929163897],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.25661548517795, 25.68886728892076],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.189084180272964, 25.766435204114927],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.122201127653035, 25.839296721772037],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.053497692162864, 25.90373686009573],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.97425450367756, 25.940669923667425],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.89913827014654, 25.975001934535417],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.82871998122786, 26.009982323758546],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.76978932582578, 26.05179895802248],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.727519131040545, 26.104524935075535],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.70185851660558, 26.16735732125701],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.687159772932766, 26.24926597875307],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.67404397088626, 26.33299725796251],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.652510311405585, 26.413175649964376],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.615294223098616, 26.47100572174324],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.56047921592493, 26.50926946879958],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.488779498070684, 26.527529612707852],
+        "type": "Point"
+      },
+      { "coordinates": [56.422753872165, 26.521262583548584], "type": "Point" },
+      {
+        "coordinates": [56.35474014695487, 26.496588394458662],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.27798934063656, 26.462974250363594],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.2005028233302, 26.420168776278537],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.12594603288787, 26.370432816112334],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.058937938154855, 26.315022602928096],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.005132073396574, 26.254370703099408],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.97127062213742, 26.18854666651377],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.96521155330295, 26.117997384182836],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99592880966533, 26.044567153259294],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.07348554859199, 25.972797449460426],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9591222",
+      "mmsi": "414449000",
+      "callSign": "BRHE",
+      "name": "ZHONGCHANGRONGSHENG"
+    },
+    "portcallId": "ad3c2058-0cd5-321e-8598-c1f35383c7f8",
+    "predictionRequestId": "954a444a-13fd-3190-8e98-fb70db2e7c8f"
+  },
+  {
+    "mmsi": 238218640,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T15:27:01Z",
+    "eventTime": "2024-02-27T01:47:21.636Z",
+    "status": "Underway",
+    "warnings": ["Recalculated reported ETA"],
+    "timeType": "Estimate",
+    "travelDistance": 3967.4638228941685,
+    "waypoints": [
+      {
+        "coordinates": [16.337984762614674, 43.50032238665522],
+        "type": "Point"
+      },
+      {
+        "coordinates": [16.514424780620924, 43.35906773880523],
+        "type": "Point"
+      },
+      {
+        "coordinates": [16.720869656554125, 43.191496185439576],
+        "type": "Point"
+      },
+      {
+        "coordinates": [16.946459906536603, 43.005261099229095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [17.182419916516686, 42.80649184516213],
+        "type": "Point"
+      },
+      {
+        "coordinates": [17.42181856622834, 42.59997496578823],
+        "type": "Point"
+      },
+      {
+        "coordinates": [17.659343218084235, 42.38932548679449],
+        "type": "Point"
+      },
+      {
+        "coordinates": [17.891087071002328, 42.177148342914414],
+        "type": "Point"
+      },
+      {
+        "coordinates": [18.114349879165864, 41.96518992416935],
+        "type": "Point"
+      },
+      {
+        "coordinates": [18.327452035716885, 41.75447974244244],
+        "type": "Point"
+      },
+      {
+        "coordinates": [18.52956202138319, 41.54546221838517],
+        "type": "Point"
+      },
+      {
+        "coordinates": [18.720537218038757, 41.33811858865645],
+        "type": "Point"
+      },
+      {
+        "coordinates": [18.90077808719765, 41.13207893349425],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.071095713441384, 40.92672432461977],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.232592712779756, 40.721279093474244],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.386557505945156, 40.51489321978817],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.534371956620333, 40.3067148404832],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.67743237459964, 40.09595287890655],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.817083883883726, 39.881929794397955],
+        "type": "Point"
+      },
+      {
+        "coordinates": [19.954568155707744, 39.664124452189164],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.0909844551274, 39.442205012776114],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.245194718089973, 39.22367134646538],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.390979918547337, 38.99611800915638],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.534890125642722, 38.75490755440071],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.676999140800927, 38.5175695548234],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.817396728858714, 38.27908175602489],
+        "type": "Point"
+      },
+      {
+        "coordinates": [20.95617510546713, 38.03380648426684],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.093489478828193, 37.79739088808795],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.229723645254772, 37.55539079542129],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.365791638042445, 37.309154226384045],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.503606429142117, 37.0774241595825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.64674668312233, 36.86026273851397],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.801352562909923, 36.64026230501545],
+        "type": "Point"
+      },
+      {
+        "coordinates": [21.97728158679787, 36.42109320337907],
+        "type": "Point"
+      },
+      {
+        "coordinates": [22.189555536209227, 36.210440043091154],
+        "type": "Point"
+      },
+      {
+        "coordinates": [22.410866191885713, 35.9917022907908],
+        "type": "Point"
+      },
+      {
+        "coordinates": [22.636395987583068, 35.768601902389875],
+        "type": "Point"
+      },
+      {
+        "coordinates": [22.87071846190687, 35.54114381564691],
+        "type": "Point"
+      },
+      {
+        "coordinates": [23.11266791846215, 35.30589726390413],
+        "type": "Point"
+      },
+      {
+        "coordinates": [23.362829867018696, 35.08718287563184],
+        "type": "Point"
+      },
+      {
+        "coordinates": [23.624720328850135, 34.86421975089591],
+        "type": "Point"
+      },
+      {
+        "coordinates": [23.881591860236476, 34.64459029360311],
+        "type": "Point"
+      },
+      {
+        "coordinates": [24.141815310707468, 34.440275818220854],
+        "type": "Point"
+      },
+      {
+        "coordinates": [24.386629136889212, 34.23922055851802],
+        "type": "Point"
+      },
+      { "coordinates": [24.6219331111505, 34.05000076875677], "type": "Point" },
+      {
+        "coordinates": [24.850496232118616, 33.87802751568962],
+        "type": "Point"
+      },
+      {
+        "coordinates": [25.079872680195262, 33.73278269870655],
+        "type": "Point"
+      },
+      {
+        "coordinates": [25.323989415308176, 33.59942545103903],
+        "type": "Point"
+      },
+      {
+        "coordinates": [25.555704771202368, 33.48351568877214],
+        "type": "Point"
+      },
+      {
+        "coordinates": [25.796208524325085, 33.393821871428955],
+        "type": "Point"
+      },
+      {
+        "coordinates": [26.03345113483825, 33.31410319942118],
+        "type": "Point"
+      },
+      {
+        "coordinates": [26.279999932798205, 33.24797451543094],
+        "type": "Point"
+      },
+      {
+        "coordinates": [26.519999932184483, 33.19526528613983],
+        "type": "Point"
+      },
+      {
+        "coordinates": [26.759999931570764, 33.15935497971203],
+        "type": "Point"
+      },
+      {
+        "coordinates": [26.999999930957046, 33.12535356857355],
+        "type": "Point"
+      },
+      {
+        "coordinates": [27.239999930343334, 33.07580652198542],
+        "type": "Point"
+      },
+      {
+        "coordinates": [27.479999929729612, 33.01760539724359],
+        "type": "Point"
+      },
+      {
+        "coordinates": [27.726548727689565, 32.96056365217885],
+        "type": "Point"
+      },
+      {
+        "coordinates": [27.970340136776386, 32.896250786729944],
+        "type": "Point"
+      },
+      {
+        "coordinates": [28.208086501025978, 32.82567792136379],
+        "type": "Point"
+      },
+      {
+        "coordinates": [28.433756812082947, 32.75166282410547],
+        "type": "Point"
+      },
+      {
+        "coordinates": [28.665797494003233, 32.677852234352756],
+        "type": "Point"
+      },
+      {
+        "coordinates": [28.901544312943205, 32.60778035276094],
+        "type": "Point"
+      },
+      {
+        "coordinates": [29.14036236950468, 32.54389116505739],
+        "type": "Point"
+      },
+      {
+        "coordinates": [29.382528991088005, 32.48645226764516],
+        "type": "Point"
+      },
+      {
+        "coordinates": [29.621888948581258, 32.432287862855446],
+        "type": "Point"
+      },
+      {
+        "coordinates": [29.874282234079633, 32.3732585917079],
+        "type": "Point"
+      },
+      {
+        "coordinates": [30.12641783482188, 32.31904748294866],
+        "type": "Point"
+      },
+      {
+        "coordinates": [30.382245620405197, 32.251251335973706],
+        "type": "Point"
+      },
+      {
+        "coordinates": [30.640625052916384, 32.17493405096053],
+        "type": "Point"
+      },
+      {
+        "coordinates": [30.897246625332176, 32.09054501210702],
+        "type": "Point"
+      },
+      {
+        "coordinates": [31.146201972379604, 32.00148431175163],
+        "type": "Point"
+      },
+      {
+        "coordinates": [31.38123020895789, 31.89063819073095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [31.596668051222718, 31.76537045476943],
+        "type": "Point"
+      },
+      {
+        "coordinates": [31.79468007400782, 31.62938468770429],
+        "type": "Point"
+      },
+      {
+        "coordinates": [31.956746479370093, 31.46556897299913],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.088167198365575, 31.280716793226862],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.19401609099197, 31.07709461567466],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.27950459403813, 30.859606375209168],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.356703003992884, 30.63652706260677],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.415600214186846, 30.395748438919636],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.46826417266271, 30.149494503424407],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.52454027009685, 29.90594220228272],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.59879925047411, 29.651879755692455],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.681087297167174, 29.39731693953684],
+        "type": "Point"
+      },
+      {
+        "coordinates": [32.78144400530336, 29.147038496009344],
+        "type": "Point"
+      },
+      { "coordinates": [32.9058288941295, 28.90787155067903], "type": "Point" },
+      {
+        "coordinates": [33.063171496464335, 28.66502829961642],
+        "type": "Point"
+      },
+      {
+        "coordinates": [33.24344992085136, 28.42704761463878],
+        "type": "Point"
+      },
+      {
+        "coordinates": [33.44006565994065, 28.197788275742067],
+        "type": "Point"
+      },
+      {
+        "coordinates": [33.64163982988991, 27.95962343043688],
+        "type": "Point"
+      },
+      {
+        "coordinates": [33.85333800052877, 27.71876783793353],
+        "type": "Point"
+      },
+      {
+        "coordinates": [34.07447134250142, 27.477746294592553],
+        "type": "Point"
+      },
+      {
+        "coordinates": [34.3072678507302, 27.243791340043497],
+        "type": "Point"
+      },
+      {
+        "coordinates": [34.536728872975516, 27.006548729530333],
+        "type": "Point"
+      },
+      {
+        "coordinates": [34.748300251610424, 26.759999931570388],
+        "type": "Point"
+      },
+      {
+        "coordinates": [34.95054377687765, 26.519999932184103],
+        "type": "Point"
+      },
+      {
+        "coordinates": [35.16074397610357, 26.279999932797818],
+        "type": "Point"
+      },
+      {
+        "coordinates": [35.355120297187675, 26.039999933411533],
+        "type": "Point"
+      },
+      {
+        "coordinates": [35.53609619200788, 25.799999934025255],
+        "type": "Point"
+      },
+      {
+        "coordinates": [35.701785924566614, 25.559999934638977],
+        "type": "Point"
+      },
+      {
+        "coordinates": [35.87074494703642, 25.31999993525269],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.03785613983776, 25.079999935866407],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.20947556035588, 24.839999936480122],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.373582663029794, 24.599999937093838],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.520189223485765, 24.359999937707553],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.655147798282194, 24.119999938321268],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.78101671838591, 23.87999993893499],
+        "type": "Point"
+      },
+      {
+        "coordinates": [36.89583395340869, 23.63999993954871],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.0097740136967, 23.399999940162424],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.135332686002776, 23.159999940776135],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.25991236940221, 22.91999994138985],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.39150124316168, 22.679999942003565],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.54244605200848, 22.439999942617288],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.70224490016375, 22.19999994323101],
+        "type": "Point"
+      },
+      {
+        "coordinates": [37.86542511932667, 21.95999994384473],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.02383881180773, 21.71999994445844],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.19003891590363, 21.479999945072155],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.35223970055735, 21.239999945685863],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.527071590633746, 20.999999946299585],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.683823594898875, 20.759999946913307],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.841365212988386, 20.51999994752703],
+        "type": "Point"
+      },
+      {
+        "coordinates": [38.987930115623165, 20.27999994814073],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.13420759253925, 20.03999994875445],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.27343848460703, 19.79999994936817],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.39892947349152, 19.55999994998189],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.528095503560394, 19.31999995059561],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.65817274276785, 19.079999951209327],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.79518726171076, 18.839999951823042],
+        "type": "Point"
+      },
+      {
+        "coordinates": [39.92280794197162, 18.59999995243675],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.04605353334583, 18.359999953050465],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.16169921585717, 18.11999995366419],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.28218469054777, 17.879999954277906],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.42008339343389, 17.63999995489163],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.56598674481779, 17.39999995550534],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.71007591555099, 17.159999956119062],
+        "type": "Point"
+      },
+      {
+        "coordinates": [40.85877078053666, 16.91345115815911],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.01364520212744, 16.67620854764595],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.154709785013736, 16.435704794523232],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.285540736928176, 16.197440640055383],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.40525806500062, 15.969178890962912],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.51613259619771, 15.727235112829913],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.624819862958496, 15.49107513597889],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.74381787402715, 15.25595114903704],
+        "type": "Point"
+      },
+      {
+        "coordinates": [41.868565380999435, 15.011606554433738],
+        "type": "Point"
+      },
+      { "coordinates": [41.9985256013518, 14.77158974860354], "type": "Point" },
+      {
+        "coordinates": [42.12900312416824, 14.529123670031403],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.273801158309126, 14.281167960151489],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.4192126969019, 14.021232754344489],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.57554172193388, 13.767658615941174],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.749093720917216, 13.518660623520825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [42.9253184141719, 13.269207436003855],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.11401730654005, 13.038876109734094],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.321602071428444, 12.826598511198792],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.53453442276417, 12.627356372335104],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.76485664428898, 12.459951985067963],
+        "type": "Point"
+      },
+      {
+        "coordinates": [43.998163728791276, 12.32175660117682],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.24570429963508, 12.205479806889379],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.49235884390874, 12.127073091296719],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.7487277837384, 12.080655897136635],
+        "type": "Point"
+      },
+      {
+        "coordinates": [44.999074470701515, 12.055493645792874],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.25335218549797, 12.064127178053829],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.49505678342595, 12.097528121627278],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.73313062343308, 12.148844698281556],
+        "type": "Point"
+      },
+      {
+        "coordinates": [45.97428758781208, 12.206224655717788],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.20642142476184, 12.28135750494027],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.44398936130109, 12.364961741273124],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.675704717195295, 12.44421554138194],
+        "type": "Point"
+      },
+      {
+        "coordinates": [46.91620847031802, 12.531199378355389],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.15345108083117, 12.61819406635425],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.39999987879112, 12.69481894963611],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.639999878177406, 12.776064900460092],
+        "type": "Point"
+      },
+      {
+        "coordinates": [47.87999987756369, 12.85705185982843],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.11999987694996, 12.929481858322715],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.35999987633623, 13.008828403988366],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.59999987572255, 13.088078193673795],
+        "type": "Point"
+      },
+      {
+        "coordinates": [48.83999987510881, 13.152982307531307],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.07999987449511, 13.225926808419276],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.31999987388138, 13.296797956551181],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.55999987326766, 13.375333180319984],
+        "type": "Point"
+      },
+      {
+        "coordinates": [49.799999872653956, 13.463260297775701],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.03999987204023, 13.536899276333475],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.27999987142652, 13.615758700078553],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.51999987081281, 13.689169102568801],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.759999870199074, 13.751293722051361],
+        "type": "Point"
+      },
+      {
+        "coordinates": [50.999999869585366, 13.81837889803874],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.239999868971644, 13.883923348850471],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.479999868357915, 13.953368731255209],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.71999986774423, 14.007535201473175],
+        "type": "Point"
+      },
+      {
+        "coordinates": [51.95999986713048, 14.070216757964356],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.199999866516784, 14.138863704817638],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.439999865903076, 14.212876098352103],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.67999986528936, 14.310775187730146],
+        "type": "Point"
+      },
+      {
+        "coordinates": [52.91999986467564, 14.425369513064384],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.159999864061916, 14.551955486028966],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.399999863448194, 14.705444185909808],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.639999862834486, 14.875524145800213],
+        "type": "Point"
+      },
+      {
+        "coordinates": [53.88654866079444, 15.054893065177515],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.12379127130758, 15.256443293019663],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.35774622585664, 15.468503967393215],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.59221897062395, 15.683165858972794],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.835831952000426, 15.913566873875817],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.07349304356918, 16.149234212968718],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.31758582453165, 16.384502346329192],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.5552411834832, 16.611246258563206],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.79990555214509, 16.84257903451919],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.038937076437385, 17.06800047050381],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.28544847388743, 17.281554335094835],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.53268012771971, 17.498855012996714],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.77707543069427, 17.71206230715674],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.01707664043354, 17.91780633588824],
+        "type": "Point"
+      },
+      { "coordinates": [57.2587717121006, 18.13391636967136], "type": "Point" },
+      {
+        "coordinates": [57.49284422745384, 18.35402549407371],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.71601325069808, 18.57504614676244],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.92855959577291, 18.81336348450247],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.13247022874708, 19.05881157780846],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.33010780685224, 19.301420592446227],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.52331924446503, 19.546775024903543],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.71290408512175, 19.79367271163233],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.89837034742491, 20.04076914314126],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.077912401476276, 20.286709145584904],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.24855232124695, 20.530298172810948],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.40639304706918, 20.770716653252812],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.54693858121094, 21.007780836055627],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.65889452969548, 21.24225358082293],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.74691937261812, 21.47620853537198],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.81662126555591, 21.71345114588514],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.8546456732908, 21.966548742418766],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.85250549821004, 22.216888950079245],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.799297832305356, 22.45842672402938],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.705118442851735, 22.68674842855462],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.572584059941185, 22.913435463536032],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.4046258921687, 23.139991818069987],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.205394041436804, 23.36809931613033],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.980128523991965, 23.599482133311795],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.73498088853074, 23.835743173493213],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.476786584291716, 24.07817236284997],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.212788079132885, 24.327526861215734],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.950308727594944, 24.583783190793543],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.69637738895017, 24.845861282215978],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.457303795236925, 25.111320437954863],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.238204669279995, 25.37602721308003],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.04248059269644, 25.633795213367442],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.87124362388724, 25.87599681075664],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.72269566601459, 26.091146776157316],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.59145758496503, 26.264457829605348],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.46784907729765, 26.377368107767985],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.33711928817903, 26.407040548798314],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.178628179303125, 26.32583419453907],
+        "type": "Point"
+      },
+      { "coordinates": [55.96497864679634, 26.1007474100756], "type": "Point" }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "HR KAS"
+    },
+    "ship": {
+      "imo": "9030656",
+      "mmsi": "238218640",
+      "callSign": "9A2506",
+      "name": "RAB"
+    },
+    "portcallId": "cfb208cc-7ce7-37d8-950e-f1ae3ea529f9",
+    "predictionRequestId": "aa7ed64c-8858-3384-b00a-7449bdee088a"
+  },
+  {
+    "mmsi": 413348790,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T23:39:36Z",
+    "eventTime": "2024-02-16T02:33:28.777Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 583.0761339092873,
+    "waypoints": [
+      {
+        "coordinates": [63.63000000000002, 20.78999999999999],
+        "type": "Point"
+      },
+      { "coordinates": [63.45000000000002, 20.97], "type": "Point" },
+      {
+        "coordinates": [63.27000000000001, 21.150000000000002],
+        "type": "Point"
+      },
+      { "coordinates": [63.09, 21.330000000000002], "type": "Point" },
+      { "coordinates": [62.910000000000004, 21.51], "type": "Point" },
+      { "coordinates": [62.73, 21.69], "type": "Point" },
+      { "coordinates": [62.55, 21.870000000000005], "type": "Point" },
+      { "coordinates": [62.37, 22.050000000000004], "type": "Point" },
+      {
+        "coordinates": [62.190000000000005, 22.230000000000008],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.009999996818664, 22.409999998850292],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.829999996827894, 22.589999998841066],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.64999999683714, 22.769999998831825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.469999996846376, 22.954613271133567],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.289999996855585, 23.123656749385766],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.10999999686484, 23.301989768625507],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.92999999687408, 23.49128415547809],
+        "type": "Point"
+      },
+      { "coordinates": [60.7499999968833, 23.6828173362463], "type": "Point" },
+      {
+        "coordinates": [60.569999996892555, 23.870720957181597],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.389999996901764, 24.032301789048393],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.209999996911016, 24.175322922437207],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.029999996920246, 24.31481625935292],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.84999999692947, 24.456475702070108],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.66999999693871, 24.621749090135395],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.489999996947944, 24.77847920185168],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.30999999695718, 24.90755875494776],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.12999999696641, 25.023544755749448],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.94999999697565, 25.09556898511714],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.769999996984886, 25.138925022266623],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.589999996994116, 25.15867195994228],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.409999997003354, 25.168824066550986],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.22999999701258, 25.206423205060293],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.049999997021835, 25.259790818464484],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.86999999703106, 25.339142009737838],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.689999997040296, 25.427312692193944],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.509999997049526, 25.51357410018521],
+        "type": "Point"
+      },
+      { "coordinates": [57.32077345243681, 25.6375557935427], "type": "Point" },
+      {
+        "coordinates": [57.15253729977119, 25.816928415668333],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.98470555439985, 26.021762140995364],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.80977416267944, 26.226398947613156],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.62172190555441, 26.397594596115944],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.420458914083625, 26.50039909935262],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.21756030788431, 26.506384532360826],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.04328495943412, 26.404220183800486],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.95487938423123, 26.212595048886886],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.04616675681281, 25.995487663823358],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9233480",
+      "mmsi": "413348790",
+      "callSign": "BOZT3",
+      "name": "XIN XIE"
+    },
+    "portcallId": "4a461d12-35cd-3bb4-8a95-5e3ed69763ba",
+    "predictionRequestId": "75341c5a-58ae-38fb-bde0-e4d04cfb74bf"
+  },
+  {
+    "mmsi": 470515000,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T20:21:05Z",
+    "status": "DestinationChanged",
+    "warnings": [],
+    "timeType": "Estimate",
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "MUGHARRAQ PORT"
+    },
+    "ship": {
+      "imo": "9751705",
+      "mmsi": "470515000",
+      "callSign": "A6E2506",
+      "name": "SWAYDA"
+    },
+    "portcallId": "3e199358-d237-3e9c-8942-22f45bdc31ca",
+    "predictionRequestId": "533cb925-d9bc-3691-87e7-1cdeba46623b"
+  },
+  {
+    "mmsi": 563160300,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T23:43:35Z",
+    "eventTime": "2024-02-15T07:33:42Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 360.4719222462203,
+    "waypoints": [
+      {
+        "coordinates": [60.54831810227492, 23.31388564760793],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.47832004666537, 23.38389731621937],
+        "type": "Point"
+      },
+      { "coordinates": [60.4083219910558, 23.45390898483081], "type": "Point" },
+      {
+        "coordinates": [60.338323935446226, 23.523920653442243],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.26832587983666, 23.59393232205368],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.1983278242271, 23.663943990665114],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.12832976861755, 23.73395565927655],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.05833171300799, 23.803967327887985],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.988333657398435, 23.87397899649942],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.918335598714826, 23.943990663882442],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.848337543108855, 24.01400233249029],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.778339487502876, 24.08401400109813],
+        "type": "Point"
+      },
+      { "coordinates": [59.7083414318969, 24.15402566970597], "type": "Point" },
+      {
+        "coordinates": [59.638343376290926, 24.224037338313817],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.56834532068494, 24.294049006921664],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.49834726507898, 24.36406067552951],
+        "type": "Point"
+      },
+      { "coordinates": [59.428349209473, 24.43407234413735], "type": "Point" },
+      {
+        "coordinates": [59.35835115386701, 24.50408401274519],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.288353098261055, 24.57409568135304],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.21835504265506, 24.64410734996088],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.14835698704909, 24.714119018568724],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.07835893144311, 24.78592503657796],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.008360875837134, 24.853469474758892],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.938362820231184, 24.918571185183307],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.868364764625184, 24.993343911131394],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.79836670901922, 25.067194959708395],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.728368653413256, 25.144118266189025],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.65837059780727, 25.211860610553934],
+        "type": "Point"
+      },
+      { "coordinates": [58.5883725422013, 25.26548376230769], "type": "Point" },
+      {
+        "coordinates": [58.51837448659532, 25.31221977885904],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.44837643098934, 25.353071384873484],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.37837837538336, 25.38075563278066],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.3083803197774, 25.402252014002155],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.23838226417141, 25.41846901216346],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.168384208565456, 25.445623625425892],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.09838615295947, 25.48565533439243],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.02838809735349, 25.530766635414377],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.958390041747506, 25.567288808051728],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.88839198614154, 25.592728234386367],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.81839393053556, 25.608261042597356],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.74839587492958, 25.60811779621657],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.678397819323614, 25.58729995048299],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.60839976371764, 25.563276024568985],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.53840170811167, 25.542339435125022],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.468403652505685, 25.541907811161874],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.398405596899714, 25.569141586897903],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.32840754129375, 25.62311908496202],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.25661548517795, 25.693353162424238],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.189084180272964, 25.770050290408903],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.122201127653035, 25.838648343416914],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.053497692162864, 25.899475280267428],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.97425450367756, 25.942464273068815],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.89913827014654, 25.975001934535417],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.82871998122786, 26.009982323758546],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.76978932582578, 26.05179895802248],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.727519131040545, 26.104524935075535],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.70185851660558, 26.16735732125701],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.687159772932766, 26.24926597875307],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.67404397088626, 26.33299725796251],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.652510311405585, 26.413175649964376],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.615294223098616, 26.47100572174324],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.56047921592493, 26.50926946879958],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.488779498070684, 26.527529612707852],
+        "type": "Point"
+      },
+      { "coordinates": [56.422753872165, 26.521262583548584], "type": "Point" },
+      {
+        "coordinates": [56.35474014695487, 26.496588394458662],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.27798934063656, 26.462974250363594],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.2005028233302, 26.420168776278537],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.12594603288787, 26.370432816112334],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.058937938154855, 26.315022602928096],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.005132073396574, 26.254370703099408],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.97127062213742, 26.18854666651377],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.96521155330295, 26.117997384182836],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.99592880966533, 26.044567153259294],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.07348554859199, 25.972797449460426],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "AE MSA"
+    },
+    "ship": {
+      "imo": "9942811",
+      "mmsi": "563160300",
+      "callSign": "9V7572",
+      "name": "LIGNUM NETWORK"
+    },
+    "portcallId": "d0a6abc6-69c4-3379-ad18-4c38e97f3828",
+    "predictionRequestId": "f1574b04-d642-3393-86cf-5e693b22890f"
+  },
+  {
+    "mmsi": 671261100,
+    "port": "AEMSA",
+    "recordTime": "2024-02-13T22:54:08Z",
+    "eventTime": "2024-02-14T17:57:31.666Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 150.0291576673866,
+    "waypoints": [
+      {
+        "coordinates": [53.968500874975675, 24.7293494342532],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.03849893058526, 24.74394289347095],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.10849698619484, 24.730993637687444],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.17849504180441, 24.723411323457917],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.24849309741398, 24.737058345613114],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.318491153023544, 24.77590142946952],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.38848920863311, 24.83641344132539],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.45848726424268, 24.91122541724258],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.52848531985225, 24.992028810114213],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.59848337266071, 25.071727953731862],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.668481428266695, 25.13618317062195],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.73847948387265, 25.204873579849156],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.80847753947863, 25.272418018030077],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.8784755950846, 25.346018385440697],
+        "type": "Point"
+      },
+      {
+        "coordinates": [54.94847365069058, 25.411768474220242],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.018471706296545, 25.48292611387435],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.08846976190252, 25.552291288947867],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.15846781750851, 25.62614045270407],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.22846587311449, 25.702841350330335],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.29846392872046, 25.77196903798308],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.36846198432644, 25.82641020196394],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.43846003993242, 25.87105972188993],
+        "type": "Point"
+      },
+      { "coordinates": [55.5084580983862, 25.92497376565051], "type": "Point" },
+      {
+        "coordinates": [55.57845615399576, 25.976074713039978],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.648454209605326, 26.021304443637828],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.718452265214886, 26.056370278072336],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.78845032082445, 26.076423514835827],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.85844837643401, 26.077071579054177],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.92844643204357, 26.055723784537967],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.998444487653124, 26.013270709115133],
+        "type": "Point"
+      },
+      { "coordinates": [56.06844254326265, 25.95609718324526], "type": "Point" }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "GHASHA"
+    },
+    "ship": {
+      "imo": "9578476",
+      "mmsi": "671261100",
+      "callSign": "5VHY4",
+      "name": "VENTURE"
+    },
+    "portcallId": "8f7a16b9-f802-34c3-9b71-8a9b552cda7e",
+    "predictionRequestId": "8b06aa91-e055-39fb-a23c-f82b432f0b96"
+  },
+  {
+    "mmsi": 477855300,
+    "port": "AEMSA",
+    "recordTime": "2024-02-14T00:13:10Z",
+    "eventTime": "2024-02-21T20:27:05.636Z",
+    "status": "Underway",
+    "warnings": [],
+    "timeType": "Estimate",
+    "travelDistance": 701.8061555075594,
+    "waypoints": [
+      { "coordinates": [64.71, 18.810000000000006], "type": "Point" },
+      {
+        "coordinates": [64.52999999999999, 18.990000000000002],
+        "type": "Point"
+      },
+      { "coordinates": [64.34999999999998, 19.17], "type": "Point" },
+      { "coordinates": [64.16999999999999, 19.35], "type": "Point" },
+      {
+        "coordinates": [63.98999999999999, 19.530000000000005],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.809999999999995, 19.710000000000004],
+        "type": "Point"
+      },
+      { "coordinates": [63.63, 19.890000000000004], "type": "Point" },
+      {
+        "coordinates": [63.45000000000002, 20.070000000000004],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.27000000000002, 20.250000000000004],
+        "type": "Point"
+      },
+      {
+        "coordinates": [63.089999996763254, 20.429999998951875],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.909999996772484, 20.60999999894264],
+        "type": "Point"
+      },
+      { "coordinates": [62.72999999678173, 20.7899999989334], "type": "Point" },
+      {
+        "coordinates": [62.54999999679096, 20.969999998924173],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.3699999968002, 21.149999998914936],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.189999996809426, 21.32999999890571],
+        "type": "Point"
+      },
+      {
+        "coordinates": [62.009999996818664, 21.509999998896472],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.829999996827894, 21.689999998887235],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.64999999683714, 21.869999998878004],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.469999996846376, 22.049999998868767],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.289999996855585, 22.22999999885953],
+        "type": "Point"
+      },
+      {
+        "coordinates": [61.10999999686484, 22.409999998850292],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.92999999687408, 22.589999998841066],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.7499999968833, 22.769999998831825],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.569999996892555, 22.94999999882259],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.389999996901764, 23.129999998813357],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.209999996911016, 23.314613271115103],
+        "type": "Point"
+      },
+      {
+        "coordinates": [60.029999996920246, 23.483656749367295],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.84999999692947, 23.66198976860704],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.66999999693871, 23.851284155459616],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.489999996947944, 24.0474306085388],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.30999999695718, 24.21976443542456],
+        "type": "Point"
+      },
+      {
+        "coordinates": [59.12999999696641, 24.390634808278904],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.94999999697565, 24.540004036969577],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.769999996984886, 24.688079417228508],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.589999996994116, 24.834119530291417],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.409999997003354, 24.97178597260498],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.22999999701258, 25.09713904838264],
+        "type": "Point"
+      },
+      {
+        "coordinates": [58.049999997021835, 25.211196391222398],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.86999999703106, 25.323586753311123],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.689999997040296, 25.429808317446202],
+        "type": "Point"
+      },
+      {
+        "coordinates": [57.509999997049526, 25.529235965846002],
+        "type": "Point"
+      },
+      { "coordinates": [57.32077345243681, 25.6469761731357], "type": "Point" },
+      {
+        "coordinates": [57.15253729977119, 25.820842589850585],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.98470555439985, 26.020262401644654],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.80977416267944, 26.22187232834468],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.62172190555441, 26.393143117267684],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.420458914083625, 26.4984150809481],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.21756030788431, 26.507539260147517],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.04328495943412, 26.40712421346311],
+        "type": "Point"
+      },
+      {
+        "coordinates": [55.95487938423123, 26.214388433534243],
+        "type": "Point"
+      },
+      {
+        "coordinates": [56.04616675681281, 25.993618389847818],
+        "type": "Point"
+      }
+    ],
+    "destinationSource": { "type": "aisDestination" },
+    "destination": {
+      "port": "AEMSA",
+      "source": "AISDestination",
+      "aisDestination": "BASRAH IRAQ"
+    },
+    "ship": {
+      "imo": "9686352",
+      "mmsi": "477855300",
+      "callSign": "VROL8",
+      "name": "NEW COURAGE"
+    },
+    "portcallId": "202a063d-a2d8-3304-affd-33b1facb2d7f",
+    "predictionRequestId": "311016ce-065e-3c08-9064-95b3be399a6b"
+  }
+]
