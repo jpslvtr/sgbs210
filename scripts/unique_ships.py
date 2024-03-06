@@ -31,6 +31,6 @@ if __name__ == '__main__':
     folder_path = '../data_james/data_master' 
     ships = find_unique_ships(folder_path)
     for mmsi, name in ships.items():
-        print(f"{mmsi} ({name})")
+        print(f"{mmsi}, ")
     
     print(f"Total unique ships found: {len(ships)}")
