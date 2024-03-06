@@ -5,4 +5,4 @@
 - ships_detailed.py reads in the text files from data_james/ships_basic and outputs an even more accessible version in data_james/ships_detailed. Also one file per ship
 - unique_ships.py tell us that there are 904 unique ships
 - plot.py takes in a file from data_james/ships_basic and makes a plot for that ship. Something like this
-![Alt text](/img/image.png "1")
+![alt text](img/image.png "1")
