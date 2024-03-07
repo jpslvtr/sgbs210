@@ -9,6 +9,8 @@ from sklearn.metrics import mean_squared_error
 import numpy as np
 import re
 from datetime import datetime
+import os
+from tqdm import tqdm
 
 def parse_data_from_text(content):
     records_split = re.split(r'\n(?=Record time:)', content.strip())
@@ -58,32 +60,81 @@ def perform_regression_analysis(df):
     return model, mse, y_pred, mse_over_time
 
 def main():
-    fp = '../data_james/ships_processed/422039900_processed.txt'
+    # # fp = '../data_james/ships_processed/422039900_processed.txt'
     # fp = '../data_james/ships_processed/677010900_processed.txt'
-    # fp = '../data_james/ships_processed/677076600_processed.txt'
-    # fp = '../data_james/ships_processed/525119020_processed.txt'
-    with open(fp, 'r') as file:
-        content = file.read()
+    # # fp = '../data_james/ships_processed/677076600_processed.txt'
+    # # fp = '../data_james/ships_processed/525119020_processed.txt'
+    # with open(fp, 'r') as file:
+    #     content = file.read()
 
-    df = parse_data_from_text(content)
-    if not df.empty:
-        df['Journey'] = (df['Status'] == 'Arrived').shift(1, fill_value=0).cumsum()
-        journeys = df.groupby('Journey')
+    # df = parse_data_from_text(content)
 
-        for journey_id, journey_df in journeys:
-            print(f"\nAnalyzing journey {journey_id + 1} with {len(journey_df)} records")
-            underway_df = journey_df[journey_df['Status'] == 'Underway']
-            if not underway_df.empty:
-                model, mse, y_pred, mse_over_time = perform_regression_analysis(underway_df)
-                print("=== Predicting Travel Distance ===")
-                print(f"Model Coefficients: {model.coef_}")
-                print(f"Model Intercept: {model.intercept_}")
-                print(f"Overall MSE for Travel Distance: {mse}")
-                print("\nMSE over time (as ship approaches):")
-                for i, mse_val in enumerate(mse_over_time, 1):
-                    print(f"Time Step {i}: MSE = {mse_val}")
-    else:
-        print("No valid data found for regression analysis.")
+    # if not df.empty:
+    #     df['Journey'] = (df['Status'] == 'Arrived').shift(1, fill_value=0).cumsum()
+    #     journeys = df.groupby('Journey')
+    #     df = df.iloc[::-1].reset_index(drop=True)  # Reverse DataFrame back to original order after grouping
+
+    #     for journey_id, journey_df in journeys:
+    #         print(f"\nAnalyzing journey {journey_id + 1} with {len(journey_df)} records")
+    #         arrival_time = journey_df[journey_df['Status'] == 'Arrived']['EventTime'].iloc[0] if 'Arrived' in journey_df['Status'].values else 'No arrival time'
+    #         print(f"Arrival Time: {arrival_time}")
+    #         underway_df = journey_df[journey_df['Status'] == 'Underway']
+    #         if not underway_df.empty:
+    #             model, mse, y_pred, mse_over_time = perform_regression_analysis(underway_df)
+    #             print("=== Predicting Travel Distance ===")
+    #             print(f"Model Coefficients: {model.coef_}")
+    #             print(f"Model Intercept: {model.intercept_}")
+    #             print(f"Mean Squared Error (MSE): {mse}")
+    #             print("\nMSE over time (as ship approaches):")
+    #             for i, mse_val in enumerate(mse_over_time, 1):
+    #                 print(f"Time Step {i}: MSE = {mse_val}")
+    # else:
+    #     print("No valid data found for regression analysis.")
+
+    input_folder = '../data_james/ships_processed'
+    output_folder = '../data_james/regression_results/space'
+
+    # Create the output folder if it doesn't exist
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    # List all files in the input folder
+    input_files = [f for f in os.listdir(input_folder) if f.endswith('_processed.txt')]
+
+    for input_file in tqdm(input_files, desc="Processing files"):
+        file_path = os.path.join(input_folder, input_file)
+        with open(file_path, 'r') as file:
+            content = file.read()
+
+        df = parse_data_from_text(content)
+
+        output = ""
+        if not df.empty:
+            df['Journey'] = (df['Status'] == 'Arrived').shift(1, fill_value=0).cumsum()
+            journeys = df.groupby('Journey')
+
+            for journey_id, journey_df in journeys:
+                output += f"Analyzing journey {journey_id + 1} with {len(journey_df)} records"
+                arrival_time = journey_df[journey_df['Status'] == 'Arrived']['EventTime'].iloc[0] if 'Arrived' in journey_df['Status'].values else 'No arrival time'
+                output += f"\nArrival Time: {arrival_time}"
+                underway_df = journey_df[journey_df['Status'] == 'Underway']
+                if not underway_df.empty:
+                    model, mse, y_pred, mse_over_time = perform_regression_analysis(underway_df)
+                    output += "\n=== Predicting Travel Distance ==="
+                    output += f"\nModel Coefficients: {model.coef_}"
+                    output += f"\nModel Intercept: {model.intercept_}"
+                    output += f"\nMean Squared Error (MSE): {mse}"
+                    output += "\nMSE over time (as ship approaches):"
+                    for i, mse_val in enumerate(mse_over_time, 1):
+                        output += f"\nTime Step {i}: MSE = {mse_val}"
+                    output += "\n\n"
+                else:
+                    output += "\nNo valid data found for regression analysis."
+
+        # Write the output to a file
+        output_file_path = os.path.join(output_folder, input_file.replace('_processed.txt', '_regression_space.txt'))
+        with open(output_file_path, 'w') as output_file:
+            output_file.write(output)
 
 if __name__ == '__main__':
     main()

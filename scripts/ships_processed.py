@@ -33,7 +33,9 @@ def process_file(input_file, output_folder):
         content = f.read().strip()
 
     # Split the content into records and parse them
-    records = [parse_record(record) for record in content.split('\n\n') if 'Status: NotMoving' not in record]
+    excluded_statuses = {'NotMoving', 'UnableToPredict', 'DestinationChanged'}
+    records = [parse_record(record) for record in content.split('\n\n') if not any(status in record for status in excluded_statuses)]
+
 
     # Sort records by record time
     records.sort(key=lambda r: datetime.strptime(r['record_time'], '%Y-%m-%dT%H:%M:%SZ'))
