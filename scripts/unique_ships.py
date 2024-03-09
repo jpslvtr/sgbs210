@@ -28,7 +28,7 @@ def find_unique_ships(folder_path):
     return unique_ships
 
 if __name__ == '__main__':
-    folder_path = '../data_james/data_master' 
+    folder_path = '../data_master' 
     ships = find_unique_ships(folder_path)
     for mmsi, name in ships.items():
         print(f"{mmsi}, {mmsi}")
