@@ -1,0 +1,57 @@
+Analyzing journey 1 with 77 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 14 records
+Arrival Time: 2023-10-12 02:09:33
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.07754214044964997
+Model Intercept: -0.2900629981845988
+Mean Squared Error (MSE): 0.12380486168130254
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.6407988638803103
+Time Step 2: MSE = 0.34468176454347643
+Time Step 3: MSE = 0.32872933822972733
+Time Step 4: MSE = 0.32881033585475694
+Time Step 5: MSE = 0.27768472677375355
+Time Step 6: MSE = 0.23250457094833002
+Time Step 7: MSE = 0.2076604613790821
+Time Step 8: MSE = 0.1956525275250384
+Time Step 9: MSE = 0.17623757543310392
+Time Step 10: MSE = 0.16086448132591685
+Time Step 11: MSE = 0.14626087025821358
+Time Step 12: MSE = 0.13409282939144684
+Time Step 13: MSE = 0.12380486168130254
+
+=== Predicting Travel Estimates ===
+Model Coefficients: LinearRegression()
+Model Intercept: 20.58891771671512
+Mean Squared Error (MSE): [1403.51759394 1390.35306435 1390.48539586  116.57460061  111.7830165
+  110.03378545  106.22428002   72.89991216   66.36506828   53.11149978
+   47.76619233    9.65770534    9.69710784]
+MSE over time (as ship approaches):
+Time Step 1: MSE = 105.17968792464951
+Time Step 2: MSE = 56.82044544194821
+Time Step 3: MSE = 54.65003039959703
+Time Step 4: MSE = 54.60577406626324
+Time Step 5: MSE = 46.09460837338915
+Time Step 6: MSE = 38.58915151056848
+Time Step 7: MSE = 34.48448743375611
+Time Step 8: MSE = 32.5154804439975
+Time Step 9: MSE = 29.297697835471258
+Time Step 10: MSE = 26.75051860937653
+Time Step 11: MSE = 24.321333756846364
+Time Step 12: MSE = 22.298802485522668
+Time Step 13: MSE = 20.58891771671512
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2023-11-23 19:15:43
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+

@@ -35,6 +35,6 @@ def process_ais_data(input_folder, output_folder):
                     output_file.write('\n')
 
 if __name__ == '__main__':
-    input_folder = '../data_james/data_master'
-    output_folder = '../data_james/ships'
+    input_folder = '../data_master'
+    output_folder = '../data_james/ships_basic'
     process_ais_data(input_folder, output_folder)

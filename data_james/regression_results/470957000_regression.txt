@@ -1,0 +1,61 @@
+Analyzing journey 1 with 16 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 16 records
+Arrival Time: 2023-06-10 05:25:21
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.11648786375089805
+Model Intercept: 1.2630526650451248
+Mean Squared Error (MSE): 0.9741946992134839
+MSE over time (as ship approaches):
+Time Step 1: MSE = 2.0768110661743946
+Time Step 2: MSE = 1.7654700394155258
+Time Step 3: MSE = 1.2898286099348901
+Time Step 4: MSE = 1.0320179553243296
+Time Step 5: MSE = 0.8271869501224278
+Time Step 6: MSE = 0.6987832582735484
+Time Step 7: MSE = 0.6280223868444218
+Time Step 8: MSE = 1.0066000854807107
+Time Step 9: MSE = 1.1573604742285408
+Time Step 10: MSE = 1.142249472149953
+Time Step 11: MSE = 1.1255883114543777
+Time Step 12: MSE = 1.034762673540286
+Time Step 13: MSE = 0.977726112307895
+Time Step 14: MSE = 0.9635716950348951
+Time Step 15: MSE = 0.9741946992134839
+
+=== Predicting Travel Estimates ===
+Model Coefficients: LinearRegression()
+Model Intercept: 70.25710239121658
+Mean Squared Error (MSE): [176.09855864 172.4214203  172.14832613 172.76439119 173.81268656
+ 175.31266031 177.10044144 161.30262442 133.57460948 110.31299856
+ 101.63286121  73.60481792  47.34679489  28.51013894  19.66412141]
+MSE over time (as ship approaches):
+Time Step 1: MSE = 181.1359808293944
+Time Step 2: MSE = 155.07935538107085
+Time Step 3: MSE = 115.36961202882985
+Time Step 4: MSE = 93.76270990589302
+Time Step 5: MSE = 75.6571204149391
+Time Step 6: MSE = 63.206098725235336
+Time Step 7: MSE = 55.26722670644124
+Time Step 8: MSE = 78.98186928539798
+Time Step 9: MSE = 89.09976853312068
+Time Step 10: MSE = 88.2225516738496
+Time Step 11: MSE = 87.48055137266464
+Time Step 12: MSE = 80.8324296668054
+Time Step 13: MSE = 75.27088733476621
+Time Step 14: MSE = 72.0079481332394
+Time Step 15: MSE = 70.25710239121658
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2023-07-10 13:13:22
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+

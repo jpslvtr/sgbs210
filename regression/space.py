@@ -129,9 +129,9 @@ def main():
                         output += f"\nTime Step {i}: MSE = {mse_val}"
                     output += "\n\n"
                 else:
-                    output += "\nNo valid data found for regression analysis."
+                    output += "\nNo valid data found for regression analysis\n\n."
 
-        # Write the output to a file
+        # Write the output to a  file
         output_file_path = os.path.join(output_folder, input_file.replace('_processed.txt', '_regression_space.txt'))
         with open(output_file_path, 'w') as output_file:
             output_file.write(output)

@@ -1,0 +1,37 @@
+Analyzing journey 1 with 1 records
+Arrival Time: 2023-06-18 03:53:48
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 4 records
+Arrival Time: 2024-01-28 03:48:12
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.08267242174639557
+Model Intercept: -0.027413668411027103
+Mean Squared Error (MSE): 0.002396084388956871
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0009041735941181045
+Time Step 2: MSE = 0.0028349821324232826
+Time Step 3: MSE = 0.002396084388956871
+
+=== Predicting Travel Estimates ===
+Model Coefficients: LinearRegression()
+Model Intercept: 0.34287961333856454
+Mean Squared Error (MSE): [47.64371212 41.14163694 38.30644359]
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.06013480978579188
+Time Step 2: MSE = 0.3561820336742149
+Time Step 3: MSE = 0.34287961333856454
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2024-02-08 10:46:39
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+

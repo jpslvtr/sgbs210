@@ -141,7 +141,7 @@ def main():
                         analysis_output += f"\nTime Step {i}: MSE = {mse_val}"
                     analysis_output += "\n\n"
                 else:
-                    analysis_output += "\nNo 'Underway' records found for this journey, skipping regression analysis."
+                    analysis_output += "\nNo 'Underway' records found for this journey, skipping regression analysis.\n\n"
 
                 results[journey_id] = analysis_output
 

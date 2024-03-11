@@ -1,0 +1,61 @@
+Analyzing journey 1 with 19 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 16 records
+Arrival Time: 2023-08-23 01:30:12
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.09484277632550511
+Model Intercept: -0.004155093276747124
+Mean Squared Error (MSE): 49.64349480831283
+MSE over time (as ship approaches):
+Time Step 1: MSE = 34.7465030527159
+Time Step 2: MSE = 32.914271414195355
+Time Step 3: MSE = 30.05414552411243
+Time Step 4: MSE = 28.21746808741363
+Time Step 5: MSE = 25.717253935208845
+Time Step 6: MSE = 23.3206032282213
+Time Step 7: MSE = 65.8471071734896
+Time Step 8: MSE = 92.22785356934581
+Time Step 9: MSE = 82.21941326162822
+Time Step 10: MSE = 74.22615766993405
+Time Step 11: MSE = 67.5922490673039
+Time Step 12: MSE = 62.02053632860879
+Time Step 13: MSE = 57.260784628862375
+Time Step 14: MSE = 53.18020011735411
+Time Step 15: MSE = 49.64349480831283
+
+=== Predicting Travel Estimates ===
+Model Coefficients: LinearRegression()
+Model Intercept: 4123.082375029037
+Mean Squared Error (MSE): [253.60606816 250.42035704 247.96653381 245.21372161 241.579992
+ 246.28490273 396.36758498 386.31221252 115.0125532  112.235344
+ 106.89645062  83.1460333   66.40783671  60.90647905  49.64393028]
+MSE over time (as ship approaches):
+Time Step 1: MSE = 6957.880422305243
+Time Step 2: MSE = 6596.817329759882
+Time Step 3: MSE = 6095.53261246007
+Time Step 4: MSE = 5750.362740959289
+Time Step 5: MSE = 5296.271729201582
+Time Step 6: MSE = 4904.718359865846
+Time Step 7: MSE = 6237.7940212324
+Time Step 8: MSE = 6950.298507378948
+Time Step 9: MSE = 6189.580912706329
+Time Step 10: MSE = 5581.97088838427
+Time Step 11: MSE = 5099.574831093003
+Time Step 12: MSE = 4737.293623031251
+Time Step 13: MSE = 4484.631393155964
+Time Step 14: MSE = 4279.358340416369
+Time Step 15: MSE = 4123.082375029037
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2024-01-18 11:54:47
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+

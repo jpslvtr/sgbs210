@@ -1,0 +1,70 @@
+Analyzing journey 1 with 18 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 20 records
+Arrival Time: 2023-10-07 04:48:39
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.08831820649887535
+Model Intercept: -0.3542105395278412
+Mean Squared Error (MSE): 0.05543789902017177
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.3177467116793645
+Time Step 2: MSE = 0.19425009733109153
+Time Step 3: MSE = 0.19019352945026655
+Time Step 4: MSE = 0.14295081631761788
+Time Step 5: MSE = 0.11527377059485215
+Time Step 6: MSE = 0.09859504732355512
+Time Step 7: MSE = 0.08460540957974362
+Time Step 8: MSE = 0.07593873237516859
+Time Step 9: MSE = 0.06862678167286544
+Time Step 10: MSE = 0.06270917435025065
+Time Step 11: MSE = 0.0570576532071021
+Time Step 12: MSE = 0.06720600913025081
+Time Step 13: MSE = 0.06211930716295509
+Time Step 14: MSE = 0.05980588665525225
+Time Step 15: MSE = 0.05858347722170728
+Time Step 16: MSE = 0.06281394632130982
+Time Step 17: MSE = 0.059709224401032567
+Time Step 18: MSE = 0.05761389593340635
+Time Step 19: MSE = 0.05543789902017177
+
+=== Predicting Travel Estimates ===
+Model Coefficients: LinearRegression()
+Model Intercept: 7.105267750461789
+Mean Squared Error (MSE): [488.03219206 455.92551196 406.91979011 391.95615428 356.60185267
+ 285.54108994 244.42436733 208.10896262 174.16906576 138.40129113
+ 113.56618341  96.17516223  79.20390264  61.82126411  59.18111781
+  38.00647575  23.82052765  13.45618963   8.04095075]
+MSE over time (as ship approaches):
+Time Step 1: MSE = 41.83952447773892
+Time Step 2: MSE = 25.227553271690255
+Time Step 3: MSE = 24.39994116742773
+Time Step 4: MSE = 18.328500609188662
+Time Step 5: MSE = 14.79494035884711
+Time Step 6: MSE = 12.641405819737736
+Time Step 7: MSE = 10.849026348407051
+Time Step 8: MSE = 9.73929877176883
+Time Step 9: MSE = 8.802764807264667
+Time Step 10: MSE = 8.047077218152783
+Time Step 11: MSE = 7.320807113769404
+Time Step 12: MSE = 8.599335655415546
+Time Step 13: MSE = 7.946703709233412
+Time Step 14: MSE = 7.640943776223105
+Time Step 15: MSE = 7.497894338610051
+Time Step 16: MSE = 8.06358061746133
+Time Step 17: MSE = 7.671552775084701
+Time Step 18: MSE = 7.392509188303304
+Time Step 19: MSE = 7.105267750461789
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2023-11-07 13:30:21
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+
