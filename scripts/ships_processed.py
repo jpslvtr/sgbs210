@@ -1,77 +1,85 @@
+import os
 import re
 from datetime import datetime
-import os
+import pandas as pd
 from tqdm import tqdm
+import warnings
 
-def parse_record(record):
+# Suppress FutureWarning across all modules
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
+def parse_record(record, mmsi):
     # Extract the relevant fields from the record
-    file_name = re.search(r'File: (.+\.json)', record).group(1)
     record_time = re.search(r'Record time: (.+)', record).group(1)
     event_time = re.search(r'Event time: (.+)', record).group(1)
     status = re.search(r'Status: (.+)', record).group(1)
     travel_distance = re.search(r'Travel distance: (.+)', record).group(1)
     waypoints = re.findall(r'- (\d+\.\d+), (\d+\.\d+)', record)
     waypoints = [(float(lat), float(lon)) for lat, lon in waypoints]
+    
+    try:
+        record_time_dt = datetime.strptime(record_time, "%Y-%m-%dT%H:%M:%S.%fZ")
+    except ValueError:
+        record_time_dt = datetime.strptime(record_time, "%Y-%m-%dT%H:%M:%SZ")
+    day_of_week = record_time_dt.strftime('%A')  # Full weekday name
+    
     return {
-        'file_name': file_name,
-        'record_time': record_time,
-        'event_time': event_time,
-        'status': status,
-        'travel_distance': travel_distance,
-        'waypoints': waypoints
+        'MMSI': mmsi,
+        'RecordTime': record_time_dt.strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'EventTime': event_time,
+        'Status': status,
+        'TravelDistance': travel_distance,
+        'NumWaypoints': len(waypoints),
+        'Waypoints': ', '.join([f"({lat}, {lon})" for lat, lon in waypoints]),
+        'DayOfWeek': day_of_week,
     }
 
-def format_record(record):
-    # Format the waypoints as an array of pairs
-    waypoints_formatted = ', '.join(str(wp) for wp in record['waypoints'])
-    # Format the file names as a comma-separated list
-    file_names_formatted = ', '.join(record['file_name'].split(', '))
-    return f"Record time: {record['record_time']}\nEvent time: {record['event_time']}\nStatus: {record['status']}\nTravel distance: {record['travel_distance']}\nWaypoints: {waypoints_formatted}\nAssociated file(s): {file_names_formatted}\n"
-
 def process_file(input_file, output_folder):
+    mmsi = os.path.splitext(os.path.basename(input_file))[0]
     with open(input_file, 'r') as f:
         content = f.read().strip()
 
-    # Split the content into records and parse them
+    records = [parse_record(record, mmsi) for record in content.split('\n\n')]
+    df = pd.DataFrame(records)
+    
+    # Exclude records with excluded statuses
     excluded_statuses = {'NotMoving', 'UnableToPredict', 'DestinationChanged'}
-    records = [parse_record(record) for record in content.split('\n\n') if not any(status in record for status in excluded_statuses)]
-
+    df = df[~df['Status'].isin(excluded_statuses)]
+    
+    # Remove duplicate records based on RecordTime and EventTime
+    df.drop_duplicates(subset=['RecordTime', 'EventTime'], inplace=True)
 
     # Sort records by record time
-    records.sort(key=lambda r: datetime.strptime(r['record_time'], '%Y-%m-%dT%H:%M:%SZ'))
-
-    # Combine records with identical record time and event time
-    unique_records = {}
-    for record in records:
-        key = (record['record_time'], record['event_time'])
-        if key not in unique_records:
-            unique_records[key] = record
-        else:
-            unique_records[key]['file_name'] += ', ' + record['file_name']
-
-    # Format the records
-    formatted_records = [format_record(record) for record in unique_records.values()]
-
-    # Determine the output file name
-    base_name = os.path.basename(input_file)
-    output_file = os.path.join(output_folder, f"{os.path.splitext(base_name)[0]}_processed.txt")
-
-    # Write the output to a new file
-    with open(output_file, 'w') as f:
-        f.write('\n'.join(formatted_records))
+    df.sort_values(by='RecordTime', inplace=True)
+    
+    # Add journey number
+    df['Journey'] = (df['Status'] == 'Arrived').cumsum()
+    
+    # Count the number of journeys for each MMSI
+    num_journeys = df['Journey'].max() or 0
+    
+    # Format and write the records to a file
+    output_file_path = os.path.join(output_folder, f"{mmsi}_processed.txt")
+    with open(output_file_path, 'w') as output_file:
+        for _, row in df.iterrows():
+            output_file.write(f"MMSI: {row['MMSI']}\n")
+            output_file.write(f"Record time: {row['RecordTime']}\n")
+            output_file.write(f"Event time: {row['EventTime']}\n")
+            output_file.write(f"Status: {row['Status']}\n")
+            output_file.write(f"Travel distance: {row['TravelDistance']}\n")
+            output_file.write(f"Num waypoints: {row['NumWaypoints']}\n")
+            output_file.write(f"Waypoints: {row['Waypoints']}\n")
+            output_file.write(f"Day of Week: {row['DayOfWeek']}\n\n")
+        output_file.write(f"Number of Journeys: {num_journeys}\n")
 
 def main():
     input_folder = '../data_james/ships_basic'
     output_folder = '../data_james/ships_processed'
-
-    # Create the output directory if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    # Get the list of input files
-    input_files = [os.path.join(input_folder, f) for f in os.listdir(input_folder) if os.path.isfile(os.path.join(input_folder, f))]
+    input_files = [os.path.join(input_folder, f) for f in os.listdir(input_folder) if f.endswith('.txt')]
 
-    # Process each file
     for input_file in tqdm(input_files, desc="Processing files"):
         process_file(input_file, output_folder)
 
