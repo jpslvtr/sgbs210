@@ -1,0 +1,62 @@
+Analyzing journey 1 with 19 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 18 records
+Arrival Time: 2023-11-19 07:14:11
+
+=== Random Forest Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.20725437755283413
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.3816477970880658
+Time Step 2: MSE = 0.3920491253379999
+Time Step 3: MSE = 0.2619688233022941
+Time Step 4: MSE = 0.47897943682218186
+Time Step 5: MSE = 0.40990582007322185
+Time Step 6: MSE = 0.41831469626421997
+Time Step 7: MSE = 0.3693199587430627
+Time Step 8: MSE = 0.32698013602076215
+Time Step 9: MSE = 0.30861598997320694
+Time Step 10: MSE = 0.2778082188082508
+Time Step 11: MSE = 0.28095143077719387
+Time Step 12: MSE = 0.2822088802638988
+Time Step 13: MSE = 0.26323758766368754
+Time Step 14: MSE = 0.24491364210753042
+Time Step 15: MSE = 0.23336691578079685
+Time Step 16: MSE = 0.2193752941039356
+Time Step 17: MSE = 0.20725437755283413
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 2.954479870287122
+Model Intercept: 49.327881375576645
+Mean Squared Error (MSE): 107.02998776556225
+MSE over time (as ship approaches):
+Time Step 1: MSE = 704.938276357713
+Time Step 2: MSE = 587.3101961412895
+Time Step 3: MSE = 487.8632034280528
+Time Step 4: MSE = 378.31980905180285
+Time Step 5: MSE = 310.46407759019473
+Time Step 6: MSE = 263.94291013187205
+Time Step 7: MSE = 227.34269129399425
+Time Step 8: MSE = 200.803481665744
+Time Step 9: MSE = 179.13480327035302
+Time Step 10: MSE = 162.3967424148189
+Time Step 11: MSE = 150.26183839706448
+Time Step 12: MSE = 138.1139316145786
+Time Step 13: MSE = 131.80595077120543
+Time Step 14: MSE = 127.2999381518125
+Time Step 15: MSE = 119.55475222331486
+Time Step 16: MSE = 113.00331353774034
+Time Step 17: MSE = 107.02998776556225
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2024-01-30 11:57:36
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+

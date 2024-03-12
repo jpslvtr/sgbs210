@@ -1,0 +1,54 @@
+Analyzing journey 1 with 77 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 14 records
+Arrival Time: 2023-10-12 02:09:33
+
+=== Random Forest Time Regression ===
+Feature Importances: [0.51211316 0.48788684 0.         0.        ]
+Mean Squared Error (MSE): 0.06833447190458079
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.37500698442196606
+Time Step 2: MSE = 0.27093754087136634
+Time Step 3: MSE = 0.1869362182151456
+Time Step 4: MSE = 0.1511214003251468
+Time Step 5: MSE = 0.12144498170856813
+Time Step 6: MSE = 0.10121582350541124
+Time Step 7: MSE = 0.08746868624986386
+Time Step 8: MSE = 0.08463864225122028
+Time Step 9: MSE = 0.07525602784011498
+Time Step 10: MSE = 0.0677358170985132
+Time Step 11: MSE = 0.06854215666418094
+Time Step 12: MSE = 0.0684956633223682
+Time Step 13: MSE = 0.06833447190458079
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 12.89536394302129
+Model Intercept: 3.7652404266115695
+Mean Squared Error (MSE): 20.58891771671512
+MSE over time (as ship approaches):
+Time Step 1: MSE = 105.17968792464951
+Time Step 2: MSE = 56.82044544194821
+Time Step 3: MSE = 54.65003039959703
+Time Step 4: MSE = 54.60577406626324
+Time Step 5: MSE = 46.09460837338915
+Time Step 6: MSE = 38.58915151056848
+Time Step 7: MSE = 34.48448743375611
+Time Step 8: MSE = 32.5154804439975
+Time Step 9: MSE = 29.297697835471258
+Time Step 10: MSE = 26.75051860937653
+Time Step 11: MSE = 24.321333756846364
+Time Step 12: MSE = 22.298802485522668
+Time Step 13: MSE = 20.58891771671512
+
+=================================
+
+Analyzing journey 3 with 1 records
+Arrival Time: 2023-11-23 19:15:43
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+
