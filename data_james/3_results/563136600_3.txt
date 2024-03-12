@@ -1,12 +1,45 @@
-Analyzing journey 1 with 11 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 12 records
+Arrival Time: 2023-11-22 07:08:28
+
+=== Decision Tree Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.000527040476786382
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.0
+Time Step 3: MSE = 0.0
+Time Step 4: MSE = 0.0
+Time Step 5: MSE = 0.0
+Time Step 6: MSE = 0.0
+Time Step 7: MSE = 0.0
+Time Step 8: MSE = 0.0
+Time Step 9: MSE = 5.563410261012035e-05
+Time Step 10: MSE = 0.00042730778273319584
+Time Step 11: MSE = 0.000527040476786382
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 13.291594566925719
+Model Intercept: 3.674243815627328
+Mean Squared Error (MSE): 2.6127806412799712
+MSE over time (as ship approaches):
+Time Step 1: MSE = 13.281969212649882
+Time Step 2: MSE = 6.847635518807375
+Time Step 3: MSE = 7.2903590521125325
+Time Step 4: MSE = 5.46834836322027
+Time Step 5: MSE = 4.422527762240187
+Time Step 6: MSE = 4.020433737665388
+Time Step 7: MSE = 3.769114965054514
+Time Step 8: MSE = 3.31092301566998
+Time Step 9: MSE = 2.956086605131216
+Time Step 10: MSE = 2.872592101341719
+Time Step 11: MSE = 2.6127806412799712
 
 =================================
 
 Analyzing journey 2 with 54 records
-Arrival Time: 2023-11-22 07:08:28
+Arrival Time: 2024-01-03 09:28:58
 
-=== Random Forest Time Regression ===
+=== Decision Tree Time Regression ===
 Feature Importances: [9.99493901e-01 5.06098606e-04 0.00000000e+00 0.00000000e+00]
 Mean Squared Error (MSE): 0.13199339001547403
 MSE over time (as ship approaches):
@@ -122,13 +155,6 @@ Time Step 50: MSE = 528.6943935049142
 Time Step 51: MSE = 518.4656220843145
 Time Step 52: MSE = 508.9020533818748
 Time Step 53: MSE = 499.3054322592388
-
-=================================
-
-Analyzing journey 3 with 1 records
-Arrival Time: 2024-01-03 09:28:58
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

@@ -1,12 +1,24 @@
-Analyzing journey 1 with 4 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 5 records
 Arrival Time: 2024-01-02 16:06:38
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Decision Tree Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.0
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.0
+Time Step 3: MSE = 0.0
+Time Step 4: MSE = 0.0
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 15.347273091560803
+Model Intercept: -20.564557012139375
+Mean Squared Error (MSE): 1.1264116433409332
+MSE over time (as ship approaches):
+Time Step 1: MSE = 1.35617863586273
+Time Step 2: MSE = 2.1695748494784564
+Time Step 3: MSE = 1.48617702403908
+Time Step 4: MSE = 1.1264116433409332
 
 =================================
 

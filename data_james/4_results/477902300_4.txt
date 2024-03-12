@@ -1,12 +1,50 @@
-Analyzing journey 1 with 17 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 18 records
 Arrival Time: 2023-12-21 19:02:38
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Random Forest Time Regression ===
+Feature Importances: [0.73620447 0.26379553 0.         0.        ]
+Mean Squared Error (MSE): 0.4441453088311576
+MSE over time (as ship approaches):
+Time Step 1: MSE = 2.1343308469683673
+Time Step 2: MSE = 1.1705384018080363
+Time Step 3: MSE = 0.8028457942294089
+Time Step 4: MSE = 0.6854798576051696
+Time Step 5: MSE = 0.5496157631007473
+Time Step 6: MSE = 0.4848673051030361
+Time Step 7: MSE = 0.4650590565391396
+Time Step 8: MSE = 0.42779632324995204
+Time Step 9: MSE = 0.3867437666606824
+Time Step 10: MSE = 0.3833002489883276
+Time Step 11: MSE = 0.3924011957121883
+Time Step 12: MSE = 0.46885875851612413
+Time Step 13: MSE = 0.4401248112688363
+Time Step 14: MSE = 0.4088868609322432
+Time Step 15: MSE = 0.40698445651114457
+Time Step 16: MSE = 0.3841988919226355
+Time Step 17: MSE = 0.4441453088311576
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 11.56966257331155
+Model Intercept: 13.47550176017603
+Mean Squared Error (MSE): 183.08663272275888
+MSE over time (as ship approaches):
+Time Step 1: MSE = 1634.5214022247392
+Time Step 2: MSE = 913.9764620133872
+Time Step 3: MSE = 610.4519843443502
+Time Step 4: MSE = 466.99502962569323
+Time Step 5: MSE = 407.3123376637044
+Time Step 6: MSE = 403.21391956544466
+Time Step 7: MSE = 367.0676231350937
+Time Step 8: MSE = 324.683684769592
+Time Step 9: MSE = 296.00791293752627
+Time Step 10: MSE = 278.1202931606981
+Time Step 11: MSE = 260.6983755187023
+Time Step 12: MSE = 239.83725235140074
+Time Step 13: MSE = 222.3682957603395
+Time Step 14: MSE = 207.74333638451228
+Time Step 15: MSE = 195.9079222066304
+Time Step 16: MSE = 186.79471880034328
+Time Step 17: MSE = 183.08663272275888
 
 =================================
 

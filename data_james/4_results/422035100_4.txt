@@ -1,10 +1,39 @@
-Analyzing journey 1 with 9 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 10 records
+Arrival Time: 2023-10-02 01:21:18
+
+=== Random Forest Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.09228915904068553
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.3955618967209774
+Time Step 2: MSE = 0.2099501027878683
+Time Step 3: MSE = 0.1429374220824289
+Time Step 4: MSE = 0.13082475821945466
+Time Step 5: MSE = 0.1433083168710361
+Time Step 6: MSE = 0.12569739514814457
+Time Step 7: MSE = 0.10774654621336392
+Time Step 8: MSE = 0.1015797551273095
+Time Step 9: MSE = 0.09228915904068553
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 9.226517488142902
+Model Intercept: 6.4539304142903084
+Mean Squared Error (MSE): 5.476444716062091
+MSE over time (as ship approaches):
+Time Step 1: MSE = 2.654733809260073
+Time Step 2: MSE = 1.7169009944734133
+Time Step 3: MSE = 5.724452098460476
+Time Step 4: MSE = 5.520164970138702
+Time Step 5: MSE = 8.173730571423523
+Time Step 6: MSE = 7.192220304854541
+Time Step 7: MSE = 6.166451805062394
+Time Step 8: MSE = 5.67472996881383
+Time Step 9: MSE = 5.476444716062091
 
 =================================
 
 Analyzing journey 2 with 33 records
-Arrival Time: 2023-10-02 01:21:18
+Arrival Time: 2023-10-15 11:17:23
 
 === Random Forest Time Regression ===
 Feature Importances: [0.82751312 0.17248688 0.         0.        ]
@@ -84,7 +113,7 @@ Time Step 32: MSE = 22.084334365645105
 =================================
 
 Analyzing journey 3 with 25 records
-Arrival Time: 2023-10-15 11:17:23
+Arrival Time: 2023-10-30 01:37:45
 
 === Random Forest Time Regression ===
 Feature Importances: [0.91762201 0.08237799 0.         0.        ]
@@ -144,13 +173,6 @@ Time Step 21: MSE = 33.905830027906035
 Time Step 22: MSE = 32.40351240602294
 Time Step 23: MSE = 31.025122103350736
 Time Step 24: MSE = 29.86381408208209
-
-=================================
-
-Analyzing journey 4 with 1 records
-Arrival Time: 2023-10-30 01:37:45
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

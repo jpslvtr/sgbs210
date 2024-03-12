@@ -1,12 +1,56 @@
-Analyzing journey 1 with 20 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 21 records
 Arrival Time: 2023-10-31 03:48:14
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Decision Tree Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.001425768831983025
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.0
+Time Step 3: MSE = 0.0
+Time Step 4: MSE = 0.0
+Time Step 5: MSE = 0.0
+Time Step 6: MSE = 0.0
+Time Step 7: MSE = 0.0
+Time Step 8: MSE = 0.0
+Time Step 9: MSE = 0.0
+Time Step 10: MSE = 0.0
+Time Step 11: MSE = 0.0
+Time Step 12: MSE = 0.0
+Time Step 13: MSE = 0.0
+Time Step 14: MSE = 0.0
+Time Step 15: MSE = 0.0
+Time Step 16: MSE = 0.0
+Time Step 17: MSE = 0.0004098595225127083
+Time Step 18: MSE = 0.0007741790980795611
+Time Step 19: MSE = 0.0011171210632919114
+Time Step 20: MSE = 0.001425768831983025
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 11.512860733426203
+Model Intercept: 2.9669240171299975
+Mean Squared Error (MSE): 66.4617144267159
+MSE over time (as ship approaches):
+Time Step 1: MSE = 193.74498903883108
+Time Step 2: MSE = 177.80351884884132
+Time Step 3: MSE = 163.03901819722168
+Time Step 4: MSE = 139.5554936212465
+Time Step 5: MSE = 144.91672719543007
+Time Step 6: MSE = 182.8340710363499
+Time Step 7: MSE = 176.74188085990684
+Time Step 8: MSE = 156.19769986706996
+Time Step 9: MSE = 138.99299306946497
+Time Step 10: MSE = 125.97983864387189
+Time Step 11: MSE = 114.95146987981848
+Time Step 12: MSE = 105.37241890657077
+Time Step 13: MSE = 97.40268799025397
+Time Step 14: MSE = 90.44694276952008
+Time Step 15: MSE = 84.63044971265113
+Time Step 16: MSE = 79.36590570882647
+Time Step 17: MSE = 76.73330042039306
+Time Step 18: MSE = 73.3420478325065
+Time Step 19: MSE = 69.91639248931888
+Time Step 20: MSE = 66.4617144267159
 
 =================================
 

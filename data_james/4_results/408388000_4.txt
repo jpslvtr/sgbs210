@@ -1,10 +1,79 @@
-Analyzing journey 1 with 29 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 30 records
+Arrival Time: 2023-07-06 03:38:08
+
+=== Random Forest Time Regression ===
+Feature Importances: [0.68432411 0.31567589 0.         0.        ]
+Mean Squared Error (MSE): 0.9850704787375165
+MSE over time (as ship approaches):
+Time Step 1: MSE = 7.554409758194372
+Time Step 2: MSE = 7.080836579411096
+Time Step 3: MSE = 5.145679247136404
+Time Step 4: MSE = 3.9911861905795223
+Time Step 5: MSE = 3.1982455540849974
+Time Step 6: MSE = 2.671684266318477
+Time Step 7: MSE = 2.32644836813236
+Time Step 8: MSE = 2.1012570953183496
+Time Step 9: MSE = 1.8678282225310052
+Time Step 10: MSE = 1.6899894736208823
+Time Step 11: MSE = 1.579228295008919
+Time Step 12: MSE = 1.4520952133435638
+Time Step 13: MSE = 1.352144143500509
+Time Step 14: MSE = 1.3103001377799528
+Time Step 15: MSE = 1.2251856744690621
+Time Step 16: MSE = 1.159328043174686
+Time Step 17: MSE = 1.1194351580972748
+Time Step 18: MSE = 1.0603887067329127
+Time Step 19: MSE = 1.0143668044772653
+Time Step 20: MSE = 0.978105601484803
+Time Step 21: MSE = 0.9617224147391713
+Time Step 22: MSE = 1.2099954202095415
+Time Step 23: MSE = 1.1737024861813465
+Time Step 24: MSE = 1.1269827060197526
+Time Step 25: MSE = 1.0915937164870624
+Time Step 26: MSE = 1.0604181781212967
+Time Step 27: MSE = 1.0389904911942704
+Time Step 28: MSE = 1.0038061276692531
+Time Step 29: MSE = 0.9850704787375165
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 3.7617878884253244
+Model Intercept: 12.130010824837797
+Mean Squared Error (MSE): 8.024413685626566
+MSE over time (as ship approaches):
+Time Step 1: MSE = 35.21724110765142
+Time Step 2: MSE = 31.466386102126684
+Time Step 3: MSE = 22.514051174596386
+Time Step 4: MSE = 18.320612153248685
+Time Step 5: MSE = 14.658601852492549
+Time Step 6: MSE = 12.712430606614873
+Time Step 7: MSE = 11.136056917558195
+Time Step 8: MSE = 14.125588930097312
+Time Step 9: MSE = 13.999163924542877
+Time Step 10: MSE = 14.157087948070103
+Time Step 11: MSE = 14.006209475841366
+Time Step 12: MSE = 12.903096545317647
+Time Step 13: MSE = 12.405228275129417
+Time Step 14: MSE = 12.055730740176363
+Time Step 15: MSE = 11.458010381319665
+Time Step 16: MSE = 10.773863305445698
+Time Step 17: MSE = 10.240227578485658
+Time Step 18: MSE = 9.734154805853937
+Time Step 19: MSE = 9.941982882035353
+Time Step 20: MSE = 10.021542443488778
+Time Step 21: MSE = 9.562618432083163
+Time Step 22: MSE = 9.333211683076716
+Time Step 23: MSE = 8.986688914949216
+Time Step 24: MSE = 8.612260812167529
+Time Step 25: MSE = 8.699292793200714
+Time Step 26: MSE = 8.376819217018781
+Time Step 27: MSE = 8.074256131587736
+Time Step 28: MSE = 8.028619099684173
+Time Step 29: MSE = 8.024413685626566
 
 =================================
 
 Analyzing journey 2 with 17 records
-Arrival Time: 2023-07-06 03:38:08
+Arrival Time: 2023-07-23 13:37:38
 
 === Random Forest Time Regression ===
 Feature Importances: [0.4017327 0.5982673 0.        0.       ]
@@ -52,7 +121,7 @@ Time Step 16: MSE = 19.394895424324904
 =================================
 
 Analyzing journey 3 with 23 records
-Arrival Time: 2023-07-23 13:37:38
+Arrival Time: 2023-08-31 01:09:36
 
 === Random Forest Time Regression ===
 Feature Importances: [0.51224636 0.48775364 0.         0.        ]
@@ -112,7 +181,7 @@ Time Step 22: MSE = 5.428285088784045
 =================================
 
 Analyzing journey 4 with 27 records
-Arrival Time: 2023-08-31 01:09:36
+Arrival Time: 2023-12-02 05:46:45
 
 === Random Forest Time Regression ===
 Feature Importances: [0.70998353 0.29001647 0.         0.        ]
@@ -176,13 +245,6 @@ Time Step 23: MSE = 14.406897957921695
 Time Step 24: MSE = 13.985566080275374
 Time Step 25: MSE = 13.81233028107814
 Time Step 26: MSE = 13.76054980200046
-
-=================================
-
-Analyzing journey 5 with 1 records
-Arrival Time: 2023-12-02 05:46:45
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

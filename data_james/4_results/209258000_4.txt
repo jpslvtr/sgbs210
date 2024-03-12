@@ -1,10 +1,25 @@
-Analyzing journey 1 with 2 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 3 records
+Arrival Time: 2023-06-14 05:06:31
+
+=== Random Forest Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.1717673694926718
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.14333690833526413
+Time Step 2: MSE = 0.1717673694926718
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 13.411828873632805
+Model Intercept: 2.169200795077195
+Mean Squared Error (MSE): 6.310887241768095e-30
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 6.310887241768095e-30
 
 =================================
 
 Analyzing journey 2 with 3 records
-Arrival Time: 2023-06-14 05:06:31
+Arrival Time: 2023-06-17 15:14:08
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -24,7 +39,7 @@ Time Step 2: MSE = 3.155443620884047e-29
 =================================
 
 Analyzing journey 3 with 2 records
-Arrival Time: 2023-06-17 15:14:08
+Arrival Time: 2023-06-24 07:59:42
 
 === Random Forest Time Regression ===
 Feature Importances: [0. 0. 0. 0.]
@@ -42,7 +57,7 @@ Time Step 1: MSE = 0.0
 =================================
 
 Analyzing journey 4 with 2 records
-Arrival Time: 2023-06-24 07:59:42
+Arrival Time: 2023-06-28 23:42:28
 
 === Random Forest Time Regression ===
 Feature Importances: [0. 0. 0. 0.]
@@ -60,7 +75,7 @@ Time Step 1: MSE = 0.0
 =================================
 
 Analyzing journey 5 with 4 records
-Arrival Time: 2023-06-28 23:42:28
+Arrival Time: 2023-07-02 14:01:12
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -82,7 +97,7 @@ Time Step 3: MSE = 0.001320292399861479
 =================================
 
 Analyzing journey 6 with 3 records
-Arrival Time: 2023-07-02 14:01:12
+Arrival Time: 2023-07-10 19:37:00
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -102,7 +117,7 @@ Time Step 2: MSE = 6.310887241768095e-30
 =================================
 
 Analyzing journey 7 with 2 records
-Arrival Time: 2023-07-10 19:37:00
+Arrival Time: 2023-07-19 23:53:21
 
 === Random Forest Time Regression ===
 Feature Importances: [0. 0. 0. 0.]
@@ -120,7 +135,7 @@ Time Step 1: MSE = 0.0
 =================================
 
 Analyzing journey 8 with 4 records
-Arrival Time: 2023-07-19 23:53:21
+Arrival Time: 2023-07-23 04:43:54
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -142,7 +157,7 @@ Time Step 3: MSE = 0.5377075585007852
 =================================
 
 Analyzing journey 9 with 3 records
-Arrival Time: 2023-07-23 04:43:54
+Arrival Time: 2023-07-26 01:02:10
 
 === Random Forest Time Regression ===
 Feature Importances: [0.46153846 0.53846154 0.         0.        ]
@@ -162,7 +177,7 @@ Time Step 2: MSE = 3.559734834809816e-29
 =================================
 
 Analyzing journey 10 with 3 records
-Arrival Time: 2023-07-26 01:02:10
+Arrival Time: 2023-08-03 22:30:28
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -182,7 +197,7 @@ Time Step 2: MSE = 2.5637979419682884e-29
 =================================
 
 Analyzing journey 11 with 4 records
-Arrival Time: 2023-08-03 22:30:28
+Arrival Time: 2023-08-08 14:53:29
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -204,7 +219,7 @@ Time Step 3: MSE = 1.182103361666113
 =================================
 
 Analyzing journey 12 with 2 records
-Arrival Time: 2023-08-08 14:53:29
+Arrival Time: 2023-08-21 11:47:27
 
 === Random Forest Time Regression ===
 Feature Importances: [0. 0. 0. 0.]
@@ -222,7 +237,7 @@ Time Step 1: MSE = 0.0
 =================================
 
 Analyzing journey 13 with 7 records
-Arrival Time: 2023-08-21 11:47:27
+Arrival Time: 2023-08-28 09:21:11
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -250,7 +265,7 @@ Time Step 6: MSE = 3.1468817081541567
 =================================
 
 Analyzing journey 14 with 3 records
-Arrival Time: 2023-08-28 09:21:11
+Arrival Time: 2023-09-02 23:33:26
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -270,7 +285,7 @@ Time Step 2: MSE = 3.717507015854018e-29
 =================================
 
 Analyzing journey 15 with 3 records
-Arrival Time: 2023-09-02 23:33:26
+Arrival Time: 2023-09-07 16:17:17
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -290,7 +305,7 @@ Time Step 2: MSE = 3.155443620884047e-29
 =================================
 
 Analyzing journey 16 with 3 records
-Arrival Time: 2023-09-07 16:17:17
+Arrival Time: 2023-09-10 12:45:59
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -310,7 +325,7 @@ Time Step 2: MSE = 2.524354896707238e-29
 =================================
 
 Analyzing journey 17 with 3 records
-Arrival Time: 2023-09-10 12:45:59
+Arrival Time: 2023-09-13 10:42:43
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -330,7 +345,7 @@ Time Step 2: MSE = 3.155443620884047e-29
 =================================
 
 Analyzing journey 18 with 3 records
-Arrival Time: 2023-09-13 10:42:43
+Arrival Time: 2023-09-25 20:34:56
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -350,7 +365,7 @@ Time Step 2: MSE = 2.524354896707238e-29
 =================================
 
 Analyzing journey 19 with 3 records
-Arrival Time: 2023-09-25 20:34:56
+Arrival Time: 2023-10-01 02:39:18
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -370,7 +385,7 @@ Time Step 2: MSE = 0.0
 =================================
 
 Analyzing journey 20 with 2 records
-Arrival Time: 2023-10-01 02:39:18
+Arrival Time: 2023-10-09 01:14:34
 
 === Random Forest Time Regression ===
 Feature Importances: [0. 0. 0. 0.]
@@ -388,7 +403,7 @@ Time Step 1: MSE = 0.0
 =================================
 
 Analyzing journey 21 with 5 records
-Arrival Time: 2023-10-09 01:14:34
+Arrival Time: 2023-10-26 11:39:54
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -412,7 +427,7 @@ Time Step 4: MSE = 0.7522948002171848
 =================================
 
 Analyzing journey 22 with 3 records
-Arrival Time: 2023-10-26 11:39:54
+Arrival Time: 2023-11-03 03:16:15
 
 === Random Forest Time Regression ===
 Feature Importances: [0.46153846 0.53846154 0.         0.        ]
@@ -432,7 +447,7 @@ Time Step 2: MSE = 0.0
 =================================
 
 Analyzing journey 23 with 3 records
-Arrival Time: 2023-11-03 03:16:15
+Arrival Time: 2023-11-13 00:09:27
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -452,7 +467,7 @@ Time Step 2: MSE = 4.4570641144987167e-29
 =================================
 
 Analyzing journey 24 with 4 records
-Arrival Time: 2023-11-13 00:09:27
+Arrival Time: 2023-11-21 09:05:29
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -474,7 +489,7 @@ Time Step 3: MSE = 0.6343955338917127
 =================================
 
 Analyzing journey 25 with 3 records
-Arrival Time: 2023-11-21 09:05:29
+Arrival Time: 2023-12-17 09:00:31
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -494,7 +509,7 @@ Time Step 2: MSE = 3.323076563243512e-29
 =================================
 
 Analyzing journey 26 with 5 records
-Arrival Time: 2023-12-17 09:00:31
+Arrival Time: 2023-12-23 16:43:23
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -518,7 +533,7 @@ Time Step 4: MSE = 0.8959660692539713
 =================================
 
 Analyzing journey 27 with 3 records
-Arrival Time: 2023-12-23 16:43:23
+Arrival Time: 2023-12-31 18:40:27
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -538,7 +553,7 @@ Time Step 2: MSE = 3.944304526105059e-29
 =================================
 
 Analyzing journey 28 with 3 records
-Arrival Time: 2023-12-31 18:40:27
+Arrival Time: 2024-01-24 00:13:17
 
 === Random Forest Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
@@ -554,13 +569,6 @@ Mean Squared Error (MSE): 2.524354896707238e-29
 MSE over time (as ship approaches):
 Time Step 1: MSE = 0.0
 Time Step 2: MSE = 2.524354896707238e-29
-
-=================================
-
-Analyzing journey 29 with 1 records
-Arrival Time: 2024-01-24 00:13:17
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

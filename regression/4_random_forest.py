@@ -39,6 +39,17 @@ def parse_data_from_text(content, ship_id, total_journeys):
 
     return pd.DataFrame(records)
 
+def identify_journeys(df):
+    df['Journey'] = 0
+    journey_number = 1
+
+    for i, row in df.iterrows():
+        df.at[i, 'Journey'] = journey_number
+        if row['Status'] == 'Arrived':
+            journey_number += 1
+
+    return df
+
 def perform_space_regression(df):
     X = df[["TimeDiff"]]
     y = df["TravelDistance"]
@@ -102,18 +113,13 @@ def main():
 
         df = parse_data_from_text(content, ship_id, total_journeys)
         if not df.empty:
-            df = df.iloc[::-1].reset_index(drop=True)
-            # Correctly initialize and increment journey numbers
-            df['Journey'] = df['Status'].eq('Arrived').shift(1, fill_value=False).cumsum() + 1
-            df = df.iloc[::-1].reset_index(drop=True)
+            df = identify_journeys(df)
             journeys = df.groupby('Journey')
 
-            total_journeys = len(journeys)
             results = {}
 
             for journey_id, journey_df in journeys:
-                new_journey_id = total_journeys - journey_id + 1
-                analysis_output = f"Analyzing journey {new_journey_id} with {len(journey_df)} records"
+                analysis_output = f"Analyzing journey {journey_id} with {len(journey_df)} records"
                 if 'Arrived' in journey_df['Status'].values:
                     arrival_time = journey_df[journey_df['Status'] == 'Arrived']['EventTime'].iloc[0]
                     analysis_output += f"\nArrival Time: {arrival_time}\n"
@@ -121,7 +127,8 @@ def main():
                     analysis_output += "\nNo 'Arrival Time' found for this journey, skipping regression analysis.\n"
                     analysis_output += "\n=================================\n\n"
                     results[journey_id] = analysis_output
-                    continue  # Skip to the next journey
+                    continue
+
                 underway_df = journey_df[journey_df['Status'] == 'Underway']
                 if not underway_df.empty:
                     # Random Forest time regression
@@ -151,7 +158,7 @@ def main():
 
             output_file_path = os.path.join(output_folder, input_file.replace('_processed.txt', '_4.txt'))
             with open(output_file_path, 'w') as output_file:
-                for journey_id in sorted(results.keys(), reverse=True):
+                for journey_id in sorted(results.keys()):
                     output_file.write(results[journey_id])
 
 if __name__ == '__main__':

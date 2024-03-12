@@ -1,12 +1,45 @@
-Analyzing journey 1 with 11 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 12 records
+Arrival Time: 2023-08-20 05:38:45
+
+=== Decision Tree Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.15289342603426254
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.41954492072616645
+Time Step 3: MSE = 0.5593932276348886
+Time Step 4: MSE = 0.41954492072616645
+Time Step 5: MSE = 0.33563593658093316
+Time Step 6: MSE = 0.2796966138174443
+Time Step 7: MSE = 0.23973995470066653
+Time Step 8: MSE = 0.20977246036308322
+Time Step 9: MSE = 0.18646440921162954
+Time Step 10: MSE = 0.16800036846407768
+Time Step 11: MSE = 0.15289342603426254
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 4.044295974013316
+Model Intercept: 55.187726890366065
+Mean Squared Error (MSE): 50.80480224436789
+MSE over time (as ship approaches):
+Time Step 1: MSE = 70.18295353169856
+Time Step 2: MSE = 43.780965738193515
+Time Step 3: MSE = 32.68756789912672
+Time Step 4: MSE = 28.298533627414088
+Time Step 5: MSE = 56.19747800801732
+Time Step 6: MSE = 49.66462448884048
+Time Step 7: MSE = 45.01547735947009
+Time Step 8: MSE = 42.43900726851439
+Time Step 9: MSE = 37.72807349845765
+Time Step 10: MSE = 44.55858894061367
+Time Step 11: MSE = 50.80480224436789
 
 =================================
 
 Analyzing journey 2 with 36 records
-Arrival Time: 2023-08-20 05:38:45
+Arrival Time: 2023-12-13 14:46:16
 
-=== Random Forest Time Regression ===
+=== Decision Tree Time Regression ===
 Feature Importances: [9.99855883e-01 1.44116670e-04 0.00000000e+00 0.00000000e+00]
 Mean Squared Error (MSE): 0.0
 MSE over time (as ship approaches):
@@ -86,13 +119,6 @@ Time Step 32: MSE = 78.55179630531191
 Time Step 33: MSE = 79.3583339939492
 Time Step 34: MSE = 80.29251775207359
 Time Step 35: MSE = 79.8742313547557
-
-=================================
-
-Analyzing journey 3 with 1 records
-Arrival Time: 2023-12-13 14:46:16
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

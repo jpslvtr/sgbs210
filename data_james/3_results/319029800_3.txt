@@ -1,12 +1,60 @@
-Analyzing journey 1 with 22 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 23 records
 Arrival Time: 2023-09-27 08:52:23
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Decision Tree Time Regression ===
+Feature Importances: [0.93345114 0.06654886 0.         0.        ]
+Mean Squared Error (MSE): 0.0
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.0
+Time Step 3: MSE = 0.0
+Time Step 4: MSE = 0.0
+Time Step 5: MSE = 0.0
+Time Step 6: MSE = 0.0
+Time Step 7: MSE = 0.0
+Time Step 8: MSE = 0.0
+Time Step 9: MSE = 0.0
+Time Step 10: MSE = 0.0
+Time Step 11: MSE = 0.0
+Time Step 12: MSE = 0.0
+Time Step 13: MSE = 0.0
+Time Step 14: MSE = 0.0
+Time Step 15: MSE = 0.0
+Time Step 16: MSE = 0.0
+Time Step 17: MSE = 0.0
+Time Step 18: MSE = 0.0
+Time Step 19: MSE = 0.0
+Time Step 20: MSE = 0.0
+Time Step 21: MSE = 0.0
+Time Step 22: MSE = 0.0
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 13.052120506481552
+Model Intercept: 12.787241465197496
+Mean Squared Error (MSE): 116.1545222771584
+MSE over time (as ship approaches):
+Time Step 1: MSE = 460.9198709120226
+Time Step 2: MSE = 377.0664597302431
+Time Step 3: MSE = 303.1703913812548
+Time Step 4: MSE = 227.41278692443154
+Time Step 5: MSE = 182.58461575013462
+Time Step 6: MSE = 156.89118973874275
+Time Step 7: MSE = 150.84748839048896
+Time Step 8: MSE = 151.25049904527134
+Time Step 9: MSE = 174.7169471888502
+Time Step 10: MSE = 200.82498612716714
+Time Step 11: MSE = 208.54475072999924
+Time Step 12: MSE = 191.838445307053
+Time Step 13: MSE = 177.47656787401107
+Time Step 14: MSE = 165.61504826032024
+Time Step 15: MSE = 156.97703540159708
+Time Step 16: MSE = 147.2236483630887
+Time Step 17: MSE = 138.75489471225472
+Time Step 18: MSE = 131.04666010039676
+Time Step 19: MSE = 126.56918511371377
+Time Step 20: MSE = 121.78102103438555
+Time Step 21: MSE = 119.27934965010242
+Time Step 22: MSE = 116.1545222771584
 
 =================================
 

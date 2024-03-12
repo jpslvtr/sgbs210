@@ -1,12 +1,31 @@
-Analyzing journey 1 with 7 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 8 records
 Arrival Time: 2023-12-07 08:36:25
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Predicting Time Estimates ===
+Model Coefficients: 0.08306868546450319
+Model Intercept: -1.6035967721258215
+Mean Squared Error (MSE): 0.009638641339407459
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.008466945312803939
+Time Step 2: MSE = 0.008466945312804428
+Time Step 3: MSE = 0.007596561218922116
+Time Step 4: MSE = 0.014248324938052715
+Time Step 5: MSE = 0.013393489762617871
+Time Step 6: MSE = 0.011224920816418673
+Time Step 7: MSE = 0.009638641339407459
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 12.517849777381711
+Model Intercept: 2.4909329181649724
+Mean Squared Error (MSE): 4.0496518516387825
+MSE over time (as ship approaches):
+Time Step 1: MSE = 7.061809975207861
+Time Step 2: MSE = 3.825957706744026
+Time Step 3: MSE = 3.8495090728103976
+Time Step 4: MSE = 6.579318541926131
+Time Step 5: MSE = 5.494657429268209
+Time Step 6: MSE = 4.63781989475065
+Time Step 7: MSE = 4.0496518516387825
 
 =================================
 

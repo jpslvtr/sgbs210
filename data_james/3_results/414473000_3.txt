@@ -1,12 +1,93 @@
-Analyzing journey 1 with 35 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 36 records
+Arrival Time: 2023-08-28 04:28:21
+
+=== Decision Tree Time Regression ===
+Feature Importances: [0.95253166 0.04746834 0.         0.        ]
+Mean Squared Error (MSE): 0.1214773132545341
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.2626562500000029
+Time Step 2: MSE = 0.2626562500000029
+Time Step 3: MSE = 0.38041554940558325
+Time Step 4: MSE = 0.2867882173954104
+Time Step 5: MSE = 0.37792446280521647
+Time Step 6: MSE = 0.34051901668028567
+Time Step 7: MSE = 0.31380084087676374
+Time Step 8: MSE = 0.2745757357671682
+Time Step 9: MSE = 0.3514792907417512
+Time Step 10: MSE = 0.31665111003005897
+Time Step 11: MSE = 0.38614640159235875
+Time Step 12: MSE = 0.35396753479299553
+Time Step 13: MSE = 0.326739262885842
+Time Step 14: MSE = 0.3034007441082819
+Time Step 15: MSE = 0.28317402783439644
+Time Step 16: MSE = 0.26547565109474663
+Time Step 17: MSE = 0.24985943632446742
+Time Step 18: MSE = 0.23597835652866367
+Time Step 19: MSE = 0.22355844302715505
+Time Step 20: MSE = 0.2123805208757973
+Time Step 21: MSE = 0.2022671627388546
+Time Step 22: MSE = 0.19307320079617937
+Time Step 23: MSE = 0.18467871380504114
+Time Step 24: MSE = 0.17698376739649777
+Time Step 25: MSE = 0.16990441670063786
+Time Step 26: MSE = 0.163369631442921
+Time Step 27: MSE = 0.15731890435244245
+Time Step 28: MSE = 0.15170037205414094
+Time Step 29: MSE = 0.14646932474192917
+Time Step 30: MSE = 0.14158701391719822
+Time Step 31: MSE = 0.13701969088761118
+Time Step 32: MSE = 0.13277048165420444
+Time Step 33: MSE = 0.12877880025312538
+Time Step 34: MSE = 0.12502068194502694
+Time Step 35: MSE = 0.1214773132545341
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 12.514172412171602
+Model Intercept: 4.901444910804116
+Mean Squared Error (MSE): 241.96756991732894
+MSE over time (as ship approaches):
+Time Step 1: MSE = 96.05751772899502
+Time Step 2: MSE = 52.6074993360159
+Time Step 3: MSE = 45.08860221082389
+Time Step 4: MSE = 85.23560517221445
+Time Step 5: MSE = 204.2865931565966
+Time Step 6: MSE = 177.87265247274343
+Time Step 7: MSE = 153.78061303060093
+Time Step 8: MSE = 209.77157941931426
+Time Step 9: MSE = 241.829262059663
+Time Step 10: MSE = 332.69546539612395
+Time Step 11: MSE = 508.75977112745585
+Time Step 12: MSE = 559.2461356314611
+Time Step 13: MSE = 565.5227587552157
+Time Step 14: MSE = 554.7567587623732
+Time Step 15: MSE = 530.2250988997798
+Time Step 16: MSE = 502.20095710490284
+Time Step 17: MSE = 472.66730041591893
+Time Step 18: MSE = 446.4166856140233
+Time Step 19: MSE = 424.57379065981894
+Time Step 20: MSE = 403.351380377199
+Time Step 21: MSE = 386.0278144094694
+Time Step 22: MSE = 377.83165170497944
+Time Step 23: MSE = 361.82541884526955
+Time Step 24: MSE = 347.28824413864373
+Time Step 25: MSE = 333.84293425059894
+Time Step 26: MSE = 321.8706450851075
+Time Step 27: MSE = 310.8165625683738
+Time Step 28: MSE = 300.1958351364964
+Time Step 29: MSE = 289.96320283754466
+Time Step 30: MSE = 281.37484756361334
+Time Step 31: MSE = 273.0938801780783
+Time Step 32: MSE = 264.5795166747881
+Time Step 33: MSE = 256.561960434915
+Time Step 34: MSE = 249.0267951221848
+Time Step 35: MSE = 241.96756991732894
 
 =================================
 
 Analyzing journey 2 with 38 records
-Arrival Time: 2023-08-28 04:28:21
+Arrival Time: 2023-10-20 11:21:55
 
-=== Random Forest Time Regression ===
+=== Decision Tree Time Regression ===
 Feature Importances: [0.99815109 0.00184891 0.         0.        ]
 Mean Squared Error (MSE): 0.0
 MSE over time (as ship approaches):
@@ -90,13 +171,6 @@ Time Step 34: MSE = 117.76542693192941
 Time Step 35: MSE = 114.9969734893568
 Time Step 36: MSE = 112.74972571851781
 Time Step 37: MSE = 111.18006791700594
-
-=================================
-
-Analyzing journey 3 with 1 records
-Arrival Time: 2023-10-20 11:21:55
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

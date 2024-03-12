@@ -1,10 +1,43 @@
-Analyzing journey 1 with 11 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 12 records
+Arrival Time: 2023-08-20 05:38:45
+
+=== Random Forest Time Regression ===
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 0.436213318149899
+MSE over time (as ship approaches):
+Time Step 1: MSE = 1.509902756655937
+Time Step 2: MSE = 1.1300463543006387
+Time Step 3: MSE = 1.0643530493544897
+Time Step 4: MSE = 0.8704522783645834
+Time Step 5: MSE = 0.8879275669074517
+Time Step 6: MSE = 0.7538032452171318
+Time Step 7: MSE = 0.6463389659599915
+Time Step 8: MSE = 0.5888579481859113
+Time Step 9: MSE = 0.5286851680698857
+Time Step 10: MSE = 0.47898007169317547
+Time Step 11: MSE = 0.436213318149899
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 4.044295974013316
+Model Intercept: 55.187726890366065
+Mean Squared Error (MSE): 50.80480224436789
+MSE over time (as ship approaches):
+Time Step 1: MSE = 70.18295353169856
+Time Step 2: MSE = 43.780965738193515
+Time Step 3: MSE = 32.68756789912672
+Time Step 4: MSE = 28.298533627414088
+Time Step 5: MSE = 56.19747800801732
+Time Step 6: MSE = 49.66462448884048
+Time Step 7: MSE = 45.01547735947009
+Time Step 8: MSE = 42.43900726851439
+Time Step 9: MSE = 37.72807349845765
+Time Step 10: MSE = 44.55858894061367
+Time Step 11: MSE = 50.80480224436789
 
 =================================
 
 Analyzing journey 2 with 36 records
-Arrival Time: 2023-08-20 05:38:45
+Arrival Time: 2023-12-13 14:46:16
 
 === Random Forest Time Regression ===
 Feature Importances: [0.96440188 0.03559812 0.         0.        ]
@@ -86,13 +119,6 @@ Time Step 32: MSE = 78.55179630531191
 Time Step 33: MSE = 79.3583339939492
 Time Step 34: MSE = 80.29251775207359
 Time Step 35: MSE = 79.8742313547557
-
-=================================
-
-Analyzing journey 3 with 1 records
-Arrival Time: 2023-12-13 14:46:16
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

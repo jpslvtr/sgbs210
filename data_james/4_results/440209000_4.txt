@@ -1,12 +1,36 @@
-Analyzing journey 1 with 10 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 11 records
 Arrival Time: 2024-02-13 14:39:03
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Random Forest Time Regression ===
+Feature Importances: [0.66184126 0.33815874 0.         0.        ]
+Mean Squared Error (MSE): 0.6589109840809574
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.13685446226897216
+Time Step 2: MSE = 0.35401078710564954
+Time Step 3: MSE = 0.26542237369868465
+Time Step 4: MSE = 0.3416755871565509
+Time Step 5: MSE = 0.5482946053855867
+Time Step 6: MSE = 1.0091607988865068
+Time Step 7: MSE = 0.8979825621021993
+Time Step 8: MSE = 0.7873591029840583
+Time Step 9: MSE = 0.7034790663850861
+Time Step 10: MSE = 0.6589109840809574
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 5.371607458942905
+Model Intercept: 24.226836579117624
+Mean Squared Error (MSE): 268.0994292562698
+MSE over time (as ship approaches):
+Time Step 1: MSE = 4.397899159349015
+Time Step 2: MSE = 35.36054832289139
+Time Step 3: MSE = 24.19789993642856
+Time Step 4: MSE = 33.21756425351369
+Time Step 5: MSE = 92.23414273833464
+Time Step 6: MSE = 312.7316786043432
+Time Step 7: MSE = 308.1492490087107
+Time Step 8: MSE = 274.6741254569288
+Time Step 9: MSE = 266.9477989891329
+Time Step 10: MSE = 268.0994292562698
 
 =================================
 

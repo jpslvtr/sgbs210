@@ -1,12 +1,49 @@
-Analyzing journey 1 with 16 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 17 records
 Arrival Time: 2023-08-08 16:00:36
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Predicting Time Estimates ===
+Model Coefficients: 0.08370814894176168
+Model Intercept: -1.3754564341703155
+Mean Squared Error (MSE): 0.11353096748603944
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.6870763574437283
+Time Step 2: MSE = 0.3728013228175273
+Time Step 3: MSE = 0.33603350318426956
+Time Step 4: MSE = 0.27614850357816434
+Time Step 5: MSE = 0.22768518089241258
+Time Step 6: MSE = 0.19626711051924559
+Time Step 7: MSE = 0.17604098158364875
+Time Step 8: MSE = 0.1937770273231265
+Time Step 9: MSE = 0.18144564677902286
+Time Step 10: MSE = 0.16432338954371448
+Time Step 11: MSE = 0.15080139565652245
+Time Step 12: MSE = 0.13823886288050255
+Time Step 13: MSE = 0.1302357220772125
+Time Step 14: MSE = 0.12093843208944108
+Time Step 15: MSE = 0.11514229357772089
+Time Step 16: MSE = 0.11353096748603944
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 12.51696717988159
+Model Intercept: 2.1254012458490195
+Mean Squared Error (MSE): 26.608824202162555
+MSE over time (as ship approaches):
+Time Step 1: MSE = 132.07716889523107
+Time Step 2: MSE = 72.78229371900018
+Time Step 3: MSE = 60.90266150373901
+Time Step 4: MSE = 53.14539415692519
+Time Step 5: MSE = 42.61343866838037
+Time Step 6: MSE = 44.371475504572885
+Time Step 7: MSE = 49.160559403323134
+Time Step 8: MSE = 43.47872053787936
+Time Step 9: MSE = 44.41657767707077
+Time Step 10: MSE = 41.78252269950212
+Time Step 11: MSE = 38.076526364821035
+Time Step 12: MSE = 35.21709583120381
+Time Step 13: MSE = 32.5637053425887
+Time Step 14: MSE = 30.247054359099003
+Time Step 15: MSE = 28.2488395349011
+Time Step 16: MSE = 26.608824202162555
 
 =================================
 

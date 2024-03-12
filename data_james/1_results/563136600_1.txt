@@ -1,10 +1,44 @@
-Analyzing journey 1 with 11 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 12 records
+Arrival Time: 2023-11-22 07:08:28
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.07509631610224492
+Model Intercept: -0.2691506840818789
+Mean Squared Error (MSE): 0.014761976071074932
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.07020311549768861
+Time Step 2: MSE = 0.036631287918452965
+Time Step 3: MSE = 0.0405179404520837
+Time Step 4: MSE = 0.030388916764468133
+Time Step 5: MSE = 0.024566964853536835
+Time Step 6: MSE = 0.022373150196054185
+Time Step 7: MSE = 0.020985791586432212
+Time Step 8: MSE = 0.018474491077684212
+Time Step 9: MSE = 0.01653376234232432
+Time Step 10: MSE = 0.016215429161297458
+Time Step 11: MSE = 0.014761976071074932
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 13.291594566925719
+Model Intercept: 3.674243815627328
+Mean Squared Error (MSE): 2.6127806412799712
+MSE over time (as ship approaches):
+Time Step 1: MSE = 13.281969212649882
+Time Step 2: MSE = 6.847635518807375
+Time Step 3: MSE = 7.2903590521125325
+Time Step 4: MSE = 5.46834836322027
+Time Step 5: MSE = 4.422527762240187
+Time Step 6: MSE = 4.020433737665388
+Time Step 7: MSE = 3.769114965054514
+Time Step 8: MSE = 3.31092301566998
+Time Step 9: MSE = 2.956086605131216
+Time Step 10: MSE = 2.872592101341719
+Time Step 11: MSE = 2.6127806412799712
 
 =================================
 
 Analyzing journey 2 with 54 records
-Arrival Time: 2023-11-22 07:08:28
+Arrival Time: 2024-01-03 09:28:58
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.08228544804475794
@@ -123,13 +157,6 @@ Time Step 50: MSE = 528.6943935049142
 Time Step 51: MSE = 518.4656220843145
 Time Step 52: MSE = 508.9020533818748
 Time Step 53: MSE = 499.3054322592388
-
-=================================
-
-Analyzing journey 3 with 1 records
-Arrival Time: 2024-01-03 09:28:58
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

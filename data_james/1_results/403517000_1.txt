@@ -1,12 +1,49 @@
-Analyzing journey 1 with 16 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 17 records
 Arrival Time: 2023-10-15 05:33:12
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Predicting Time Estimates ===
+Model Coefficients: 0.08873712560612752
+Model Intercept: -0.16445894693785945
+Mean Squared Error (MSE): 0.053176172152389053
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.2187817309825625
+Time Step 2: MSE = 0.1153832682662798
+Time Step 3: MSE = 0.08551160028479093
+Time Step 4: MSE = 0.08500892036238965
+Time Step 5: MSE = 0.08653457642638288
+Time Step 6: MSE = 0.0805156302387005
+Time Step 7: MSE = 0.07635271697361375
+Time Step 8: MSE = 0.06687333502233751
+Time Step 9: MSE = 0.06688115683910284
+Time Step 10: MSE = 0.06031282218832764
+Time Step 11: MSE = 0.05938858358689796
+Time Step 12: MSE = 0.05445245314910647
+Time Step 13: MSE = 0.05260667235394369
+Time Step 14: MSE = 0.05742378451198426
+Time Step 15: MSE = 0.05504198329022033
+Time Step 16: MSE = 0.053176172152389053
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 11.236288106956874
+Model Intercept: 2.0885367526612555
+Mean Squared Error (MSE): 6.73340258260655
+MSE over time (as ship approaches):
+Time Step 1: MSE = 24.990995973243663
+Time Step 2: MSE = 13.036814166781522
+Time Step 3: MSE = 9.924008059597687
+Time Step 4: MSE = 10.228859923915774
+Time Step 5: MSE = 10.63767757145293
+Time Step 6: MSE = 9.992843576641766
+Time Step 7: MSE = 9.544731000897972
+Time Step 8: MSE = 8.364545938631391
+Time Step 9: MSE = 8.361526695737057
+Time Step 10: MSE = 7.538335818837339
+Time Step 11: MSE = 7.4606984346435095
+Time Step 12: MSE = 6.839008731952891
+Time Step 13: MSE = 6.651146385290664
+Time Step 14: MSE = 7.370659409670828
+Time Step 15: MSE = 7.017913407986919
+Time Step 16: MSE = 6.73340258260655
 
 =================================
 

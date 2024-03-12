@@ -1,12 +1,73 @@
-Analyzing journey 1 with 25 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 26 records
+Arrival Time: 2023-11-05 21:37:40
+
+=== Decision Tree Time Regression ===
+Feature Importances: [0.99146854 0.00853146 0.         0.        ]
+Mean Squared Error (MSE): 0.0036882469025077834
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.0
+Time Step 3: MSE = 0.0
+Time Step 4: MSE = 0.0073240671478056575
+Time Step 5: MSE = 0.011718507436489538
+Time Step 6: MSE = 0.009765422863741283
+Time Step 7: MSE = 0.008370362454635386
+Time Step 8: MSE = 0.007324067147805962
+Time Step 9: MSE = 0.006510281909160855
+Time Step 10: MSE = 0.005859253718244769
+Time Step 11: MSE = 0.005326594289313427
+Time Step 12: MSE = 0.004882711431870641
+Time Step 13: MSE = 0.004507118244803669
+Time Step 14: MSE = 0.004185181227317693
+Time Step 15: MSE = 0.003906169145496513
+Time Step 16: MSE = 0.003662033573902981
+Time Step 17: MSE = 0.003446619834261629
+Time Step 18: MSE = 0.0032551409545804274
+Time Step 19: MSE = 0.0030838177464446157
+Time Step 20: MSE = 0.0029296268591223846
+Time Step 21: MSE = 0.002790120818211795
+Time Step 22: MSE = 0.0026632971446567135
+Time Step 23: MSE = 0.0025475016166281606
+Time Step 24: MSE = 0.0031416397863571308
+Time Step 25: MSE = 0.0036882469025077834
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 12.0160309511419
+Model Intercept: -0.5872628506575097
+Mean Squared Error (MSE): 114.97064095252499
+MSE over time (as ship approaches):
+Time Step 1: MSE = 558.6364338640539
+Time Step 2: MSE = 623.7015892497986
+Time Step 3: MSE = 498.80058648644587
+Time Step 4: MSE = 381.74574503061547
+Time Step 5: MSE = 305.7979837208103
+Time Step 6: MSE = 269.14171332891084
+Time Step 7: MSE = 273.2616651698555
+Time Step 8: MSE = 257.9587433753924
+Time Step 9: MSE = 237.88008766902607
+Time Step 10: MSE = 214.41607059767594
+Time Step 11: MSE = 216.68116987889027
+Time Step 12: MSE = 226.05804704775525
+Time Step 13: MSE = 208.677712851351
+Time Step 14: MSE = 194.3364831481292
+Time Step 15: MSE = 185.80511492864838
+Time Step 16: MSE = 174.20999654702123
+Time Step 17: MSE = 164.27882740032115
+Time Step 18: MSE = 155.18206104064132
+Time Step 19: MSE = 147.05154056781225
+Time Step 20: MSE = 139.9112956325467
+Time Step 21: MSE = 133.74135070561755
+Time Step 22: MSE = 127.66434672532877
+Time Step 23: MSE = 122.3484303945712
+Time Step 24: MSE = 117.82261609215804
+Time Step 25: MSE = 114.97064095252499
 
 =================================
 
 Analyzing journey 2 with 22 records
-Arrival Time: 2023-11-05 21:37:40
+Arrival Time: 2023-12-09 13:41:25
 
-=== Random Forest Time Regression ===
+=== Decision Tree Time Regression ===
 Feature Importances: [0.9988248 0.0011752 0.        0.       ]
 Mean Squared Error (MSE): 0.001856218365345689
 MSE over time (as ship approaches):
@@ -62,9 +123,9 @@ Time Step 21: MSE = 223.0315854845519
 =================================
 
 Analyzing journey 3 with 28 records
-Arrival Time: 2023-12-09 13:41:25
+Arrival Time: 2023-12-24 11:26:24
 
-=== Random Forest Time Regression ===
+=== Decision Tree Time Regression ===
 Feature Importances: [0.89421437 0.10578563 0.         0.        ]
 Mean Squared Error (MSE): 0.0035872406237367617
 MSE over time (as ship approaches):
@@ -132,9 +193,9 @@ Time Step 27: MSE = 80.29807405372232
 =================================
 
 Analyzing journey 4 with 27 records
-Arrival Time: 2023-12-24 11:26:24
+Arrival Time: 2024-02-01 05:39:29
 
-=== Random Forest Time Regression ===
+=== Decision Tree Time Regression ===
 Feature Importances: [0.98926734 0.01073266 0.         0.        ]
 Mean Squared Error (MSE): 0.0
 MSE over time (as ship approaches):
@@ -196,13 +257,6 @@ Time Step 23: MSE = 21.123538245684493
 Time Step 24: MSE = 20.265045779403167
 Time Step 25: MSE = 19.454620658766185
 Time Step 26: MSE = 19.30634722238007
-
-=================================
-
-Analyzing journey 5 with 1 records
-Arrival Time: 2024-02-01 05:39:29
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

@@ -1,12 +1,62 @@
-Analyzing journey 1 with 23 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 24 records
 Arrival Time: 2024-02-14 13:26:03
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Decision Tree Time Regression ===
+Feature Importances: [0.98176049 0.01823951 0.         0.        ]
+Mean Squared Error (MSE): 0.0003376178550993008
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.0
+Time Step 2: MSE = 0.0
+Time Step 3: MSE = 0.001294201777880653
+Time Step 4: MSE = 0.0019413026668209795
+Time Step 5: MSE = 0.0015530421334567835
+Time Step 6: MSE = 0.001294201777880653
+Time Step 7: MSE = 0.0011093158096119884
+Time Step 8: MSE = 0.0009706513334104898
+Time Step 9: MSE = 0.0008628011852537687
+Time Step 10: MSE = 0.0007765210667283918
+Time Step 11: MSE = 0.0007059282424803562
+Time Step 12: MSE = 0.0006471008889403265
+Time Step 13: MSE = 0.0005973238974833783
+Time Step 14: MSE = 0.0005546579048059942
+Time Step 15: MSE = 0.0005176807111522612
+Time Step 16: MSE = 0.0004853256667052449
+Time Step 17: MSE = 0.0004567770980755246
+Time Step 18: MSE = 0.00043140059262688433
+Time Step 19: MSE = 0.00040869529827810094
+Time Step 20: MSE = 0.0003882605333641959
+Time Step 21: MSE = 0.0003697719365373294
+Time Step 22: MSE = 0.0003529641212401781
+Time Step 23: MSE = 0.0003376178550993008
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 5.725263799959983
+Model Intercept: 4.8569617550289905
+Mean Squared Error (MSE): 6.240890215234142
+MSE over time (as ship approaches):
+Time Step 1: MSE = 28.11410482762331
+Time Step 2: MSE = 16.184904368159184
+Time Step 3: MSE = 11.715653252620372
+Time Step 4: MSE = 10.202801104490845
+Time Step 5: MSE = 10.328297879259003
+Time Step 6: MSE = 12.877559071199036
+Time Step 7: MSE = 11.037908609720159
+Time Step 8: MSE = 9.726092486845314
+Time Step 9: MSE = 9.698891454109948
+Time Step 10: MSE = 10.749252499535086
+Time Step 11: MSE = 11.136915058895768
+Time Step 12: MSE = 10.580162192170095
+Time Step 13: MSE = 9.83061532265663
+Time Step 14: MSE = 9.152900381095725
+Time Step 15: MSE = 8.631247502110975
+Time Step 16: MSE = 8.231797775899723
+Time Step 17: MSE = 7.771583121866645
+Time Step 18: MSE = 7.397414319977939
+Time Step 19: MSE = 7.029082959888207
+Time Step 20: MSE = 6.67894551270898
+Time Step 21: MSE = 6.725036969638675
+Time Step 22: MSE = 6.428141623984498
+Time Step 23: MSE = 6.240890215234142
 
 =================================
 

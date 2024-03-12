@@ -1,10 +1,50 @@
-Analyzing journey 1 with 14 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 15 records
+Arrival Time: 2023-06-23 07:30:34
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.17109944844686964
+Model Intercept: -0.18087075684998588
+Mean Squared Error (MSE): 0.05927810844144999
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.24022962473413992
+Time Step 2: MSE = 0.14870022858882848
+Time Step 3: MSE = 0.12382206801824545
+Time Step 4: MSE = 0.10137060087321445
+Time Step 5: MSE = 0.1043907408516358
+Time Step 6: MSE = 0.0985315497453257
+Time Step 7: MSE = 0.08578812759678922
+Time Step 8: MSE = 0.08400754345476805
+Time Step 9: MSE = 0.07955201290157186
+Time Step 10: MSE = 0.07802443795521094
+Time Step 11: MSE = 0.07096323811644115
+Time Step 12: MSE = 0.06504980357172206
+Time Step 13: MSE = 0.06045296091683293
+Time Step 14: MSE = 0.05927810844144999
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 5.817862488476969
+Model Intercept: 1.3495680463716155
+Mean Squared Error (MSE): 2.015622415033516
+MSE over time (as ship approaches):
+Time Step 1: MSE = 9.10286969825127
+Time Step 2: MSE = 5.70219490469245
+Time Step 3: MSE = 4.53265921556839
+Time Step 4: MSE = 3.642380486882335
+Time Step 5: MSE = 3.6502153908696187
+Time Step 6: MSE = 3.412473031592226
+Time Step 7: MSE = 2.974953489127319
+Time Step 8: MSE = 2.8943808050788995
+Time Step 9: MSE = 2.749716353735884
+Time Step 10: MSE = 2.679856018822401
+Time Step 11: MSE = 2.439072850943604
+Time Step 12: MSE = 2.236496590254046
+Time Step 13: MSE = 2.0868545383606296
+Time Step 14: MSE = 2.015622415033516
 
 =================================
 
 Analyzing journey 2 with 12 records
-Arrival Time: 2023-06-23 07:30:34
+Arrival Time: 2023-07-23 00:08:09
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.19739399470375515
@@ -43,7 +83,7 @@ Time Step 11: MSE = 7.082397751280689
 =================================
 
 Analyzing journey 3 with 8 records
-Arrival Time: 2023-07-23 00:08:09
+Arrival Time: 2023-08-11 23:35:36
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.16343814955960134
@@ -74,7 +114,7 @@ Time Step 7: MSE = 1.1863023387638805
 =================================
 
 Analyzing journey 4 with 17 records
-Arrival Time: 2023-08-11 23:35:36
+Arrival Time: 2023-08-19 18:42:59
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.18354575957337388
@@ -123,7 +163,7 @@ Time Step 16: MSE = 5.57801705950732
 =================================
 
 Analyzing journey 5 with 22 records
-Arrival Time: 2023-08-19 18:42:59
+Arrival Time: 2023-08-29 20:30:03
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.14063008855159068
@@ -182,7 +222,7 @@ Time Step 21: MSE = 86.53629879659886
 =================================
 
 Analyzing journey 6 with 13 records
-Arrival Time: 2023-08-29 20:30:03
+Arrival Time: 2023-09-08 20:38:32
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.20716189508013944
@@ -223,7 +263,7 @@ Time Step 12: MSE = 3.324466329489828
 =================================
 
 Analyzing journey 7 with 17 records
-Arrival Time: 2023-09-08 20:38:32
+Arrival Time: 2023-10-11 23:25:15
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.19306679271423366
@@ -272,7 +312,7 @@ Time Step 16: MSE = 7.422886117962771
 =================================
 
 Analyzing journey 8 with 18 records
-Arrival Time: 2023-10-11 23:25:15
+Arrival Time: 2024-01-16 06:43:49
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.1985048396030446
@@ -319,13 +359,6 @@ Time Step 14: MSE = 4.353259726963074
 Time Step 15: MSE = 4.136859036025566
 Time Step 16: MSE = 3.9138643192423856
 Time Step 17: MSE = 4.006390175870657
-
-=================================
-
-Analyzing journey 9 with 1 records
-Arrival Time: 2024-01-16 06:43:49
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

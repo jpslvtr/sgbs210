@@ -1,10 +1,44 @@
-Analyzing journey 1 with 11 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 12 records
+Arrival Time: 2023-08-20 05:38:45
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.1947846574357588
+Model Intercept: -8.647226214432699
+Mean Squared Error (MSE): 2.4469020232068943
+MSE over time (as ship approaches):
+Time Step 1: MSE = 8.857887228487877
+Time Step 2: MSE = 6.091207618515058
+Time Step 3: MSE = 4.060830356117681
+Time Step 4: MSE = 3.0763585687616852
+Time Step 5: MSE = 3.9545648775054287
+Time Step 6: MSE = 3.4142218631732315
+Time Step 7: MSE = 3.0707541385040393
+Time Step 8: MSE = 2.961321453240301
+Time Step 9: MSE = 2.6881198137466744
+Time Step 10: MSE = 2.545490291911449
+Time Step 11: MSE = 2.4469020232068943
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 4.044295974013316
+Model Intercept: 55.187726890366065
+Mean Squared Error (MSE): 50.80480224436789
+MSE over time (as ship approaches):
+Time Step 1: MSE = 70.18295353169856
+Time Step 2: MSE = 43.780965738193515
+Time Step 3: MSE = 32.68756789912672
+Time Step 4: MSE = 28.298533627414088
+Time Step 5: MSE = 56.19747800801732
+Time Step 6: MSE = 49.66462448884048
+Time Step 7: MSE = 45.01547735947009
+Time Step 8: MSE = 42.43900726851439
+Time Step 9: MSE = 37.72807349845765
+Time Step 10: MSE = 44.55858894061367
+Time Step 11: MSE = 50.80480224436789
 
 =================================
 
 Analyzing journey 2 with 36 records
-Arrival Time: 2023-08-20 05:38:45
+Arrival Time: 2023-12-13 14:46:16
 
 === Predicting Time Estimates ===
 Model Coefficients: 0.08042909571663223
@@ -87,13 +121,6 @@ Time Step 32: MSE = 78.55179630531191
 Time Step 33: MSE = 79.3583339939492
 Time Step 34: MSE = 80.29251775207359
 Time Step 35: MSE = 79.8742313547557
-
-=================================
-
-Analyzing journey 3 with 1 records
-Arrival Time: 2023-12-13 14:46:16
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

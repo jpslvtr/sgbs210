@@ -1,12 +1,52 @@
-Analyzing journey 1 with 18 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
-
-=================================
-
-Analyzing journey 2 with 1 records
+Analyzing journey 1 with 19 records
 Arrival Time: 2023-08-16 12:53:28
 
-No 'Underway' records found for this journey, skipping regression analysis.
+=== Random Forest Time Regression ===
+Feature Importances: [0.93794313 0.06205687 0.         0.        ]
+Mean Squared Error (MSE): 0.18872635483713043
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.2971970800536908
+Time Step 2: MSE = 0.3516060684150907
+Time Step 3: MSE = 0.28729104347118345
+Time Step 4: MSE = 0.21757768314098222
+Time Step 5: MSE = 0.17536959020863468
+Time Step 6: MSE = 0.14733241410407155
+Time Step 7: MSE = 0.1508206387356055
+Time Step 8: MSE = 0.16044982654672593
+Time Step 9: MSE = 0.30251430841382976
+Time Step 10: MSE = 0.27590379738671406
+Time Step 11: MSE = 0.25243197593675076
+Time Step 12: MSE = 0.2396384259745903
+Time Step 13: MSE = 0.2213699663805394
+Time Step 14: MSE = 0.20781100259562146
+Time Step 15: MSE = 0.1972634121459595
+Time Step 16: MSE = 0.1926150541627161
+Time Step 17: MSE = 0.18833677177199437
+Time Step 18: MSE = 0.18872635483713043
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 11.899390025763703
+Model Intercept: 2.688887782439906
+Mean Squared Error (MSE): 221.32052952335104
+MSE over time (as ship approaches):
+Time Step 1: MSE = 1526.0295803419178
+Time Step 2: MSE = 1172.3778430237085
+Time Step 3: MSE = 870.0549545983291
+Time Step 4: MSE = 658.7862884155513
+Time Step 5: MSE = 551.0290113800972
+Time Step 6: MSE = 508.82292572923325
+Time Step 7: MSE = 492.34675950566594
+Time Step 8: MSE = 453.52539600601773
+Time Step 9: MSE = 429.6728166291716
+Time Step 10: MSE = 393.9352299438325
+Time Step 11: MSE = 358.8179222592126
+Time Step 12: MSE = 329.02104955584724
+Time Step 13: MSE = 303.7709091046697
+Time Step 14: MSE = 282.2674937473222
+Time Step 15: MSE = 264.7589573783368
+Time Step 16: MSE = 248.600851379924
+Time Step 17: MSE = 234.33624542730485
+Time Step 18: MSE = 221.32052952335104
 
 =================================
 

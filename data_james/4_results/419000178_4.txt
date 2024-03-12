@@ -1,10 +1,87 @@
-Analyzing journey 1 with 33 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
+Analyzing journey 1 with 34 records
+Arrival Time: 2023-09-19 21:52:48
+
+=== Random Forest Time Regression ===
+Feature Importances: [0.7555875 0.2444125 0.        0.       ]
+Mean Squared Error (MSE): 0.41244401362834965
+MSE over time (as ship approaches):
+Time Step 1: MSE = 2.428070431279299
+Time Step 2: MSE = 1.8770792936752903
+Time Step 3: MSE = 1.2575687110711635
+Time Step 4: MSE = 1.1768378318782013
+Time Step 5: MSE = 1.0991322003447397
+Time Step 6: MSE = 1.4197866442493294
+Time Step 7: MSE = 1.2170554819937547
+Time Step 8: MSE = 1.1097097633402453
+Time Step 9: MSE = 1.02345763206442
+Time Step 10: MSE = 0.9608457146104479
+Time Step 11: MSE = 0.8871590191915502
+Time Step 12: MSE = 0.8276918067781199
+Time Step 13: MSE = 0.7640504123825848
+Time Step 14: MSE = 0.7109555145279259
+Time Step 15: MSE = 0.6640696340707465
+Time Step 16: MSE = 0.6640382477717385
+Time Step 17: MSE = 0.6803855088172941
+Time Step 18: MSE = 0.6456221531997745
+Time Step 19: MSE = 0.612693172207139
+Time Step 20: MSE = 0.5846534096632792
+Time Step 21: MSE = 0.5582478198015655
+Time Step 22: MSE = 0.5383176765277343
+Time Step 23: MSE = 0.5176681246864335
+Time Step 24: MSE = 0.5059919402280986
+Time Step 25: MSE = 0.5012259471345498
+Time Step 26: MSE = 0.49475350323584727
+Time Step 27: MSE = 0.47965109919943466
+Time Step 28: MSE = 0.4825903132740095
+Time Step 29: MSE = 0.465974571709431
+Time Step 30: MSE = 0.4504664936046748
+Time Step 31: MSE = 0.43694705568379766
+Time Step 32: MSE = 0.42332163385307575
+Time Step 33: MSE = 0.41244401362834965
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 11.588429532801259
+Model Intercept: 25.596817244362057
+Mean Squared Error (MSE): 337.6401365701648
+MSE over time (as ship approaches):
+Time Step 1: MSE = 195.9925463652592
+Time Step 2: MSE = 311.4560584165525
+Time Step 3: MSE = 303.6175125233881
+Time Step 4: MSE = 457.7688146511357
+Time Step 5: MSE = 381.8778264083054
+Time Step 6: MSE = 345.2699227820365
+Time Step 7: MSE = 296.06396549298603
+Time Step 8: MSE = 261.2342547663534
+Time Step 9: MSE = 232.48714951610015
+Time Step 10: MSE = 209.5093697559054
+Time Step 11: MSE = 199.59526097499267
+Time Step 12: MSE = 208.36083465359002
+Time Step 13: MSE = 246.124988893939
+Time Step 14: MSE = 281.83072398126694
+Time Step 15: MSE = 328.8851428503523
+Time Step 16: MSE = 387.88750398874413
+Time Step 17: MSE = 430.8585353453962
+Time Step 18: MSE = 445.61348525154284
+Time Step 19: MSE = 439.7342585188224
+Time Step 20: MSE = 423.7201781672078
+Time Step 21: MSE = 407.5307545885551
+Time Step 22: MSE = 394.8735432974807
+Time Step 23: MSE = 377.71937066177344
+Time Step 24: MSE = 363.41409757640434
+Time Step 25: MSE = 352.6987864131259
+Time Step 26: MSE = 343.71035280598187
+Time Step 27: MSE = 332.83477770094566
+Time Step 28: MSE = 331.2336624929896
+Time Step 29: MSE = 329.34797967582165
+Time Step 30: MSE = 328.4861188281662
+Time Step 31: MSE = 331.2835145276019
+Time Step 32: MSE = 337.1808631409499
+Time Step 33: MSE = 337.6401365701648
 
 =================================
 
 Analyzing journey 2 with 40 records
-Arrival Time: 2023-09-19 21:52:48
+Arrival Time: 2023-11-02 08:20:55
 
 === Random Forest Time Regression ===
 Feature Importances: [0.98855023 0.01144977 0.         0.        ]
@@ -98,7 +175,7 @@ Time Step 39: MSE = 387.1293697110747
 =================================
 
 Analyzing journey 3 with 51 records
-Arrival Time: 2023-11-02 08:20:55
+Arrival Time: 2023-12-08 16:14:31
 
 === Random Forest Time Regression ===
 Feature Importances: [0.98975511 0.01024489 0.         0.        ]
@@ -214,7 +291,7 @@ Time Step 50: MSE = 154.3929193067549
 =================================
 
 Analyzing journey 4 with 108 records
-Arrival Time: 2023-12-08 16:14:31
+Arrival Time: 2024-01-16 01:42:12
 
 === Random Forest Time Regression ===
 Feature Importances: [0.99466158 0.00533842 0.         0.        ]
@@ -440,13 +517,6 @@ Time Step 104: MSE = 816.0851459191098
 Time Step 105: MSE = 809.1995286206137
 Time Step 106: MSE = 802.7741053221829
 Time Step 107: MSE = 797.126085611743
-
-=================================
-
-Analyzing journey 5 with 1 records
-Arrival Time: 2024-01-16 01:42:12
-
-No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 
