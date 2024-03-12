@@ -1,0 +1,78 @@
+Analyzing journey 1 with 13 records
+No 'Arrival Time' found for this journey, skipping regression analysis.
+
+=================================
+
+Analyzing journey 2 with 11 records
+Arrival Time: 2023-07-27 04:29:09
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.08139019726090595
+Model Intercept: -0.4353656769701102
+Mean Squared Error (MSE): 0.05185309992252237
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.04437587182517811
+Time Step 2: MSE = 0.04849270166711942
+Time Step 3: MSE = 0.032354467573726994
+Time Step 4: MSE = 0.05475983498520086
+Time Step 5: MSE = 0.07343711406853504
+Time Step 6: MSE = 0.06309348028531753
+Time Step 7: MSE = 0.05684438157479592
+Time Step 8: MSE = 0.059586379005510594
+Time Step 9: MSE = 0.05573534954873892
+Time Step 10: MSE = 0.05185309992252237
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 12.25925544273128
+Model Intercept: 5.56240011206701
+Mean Squared Error (MSE): 7.810282059028848
+MSE over time (as ship approaches):
+Time Step 1: MSE = 5.508154375406106
+Time Step 2: MSE = 6.319462255639527
+Time Step 3: MSE = 4.213108636867863
+Time Step 4: MSE = 7.878925081398851
+Time Step 5: MSE = 10.821761477937391
+Time Step 6: MSE = 9.297029957560424
+Time Step 7: MSE = 8.41288921322211
+Time Step 8: MSE = 8.973022189476419
+Time Step 9: MSE = 8.32697766278156
+Time Step 10: MSE = 7.810282059028848
+
+=================================
+
+Analyzing journey 3 with 7 records
+Arrival Time: 2023-11-01 05:54:20
+
+=== Predicting Time Estimates ===
+Model Coefficients: 0.06922593460428683
+Model Intercept: -0.17633139588268687
+Mean Squared Error (MSE): 0.05441063031116769
+MSE over time (as ship approaches):
+Time Step 1: MSE = 0.11623216784240152
+Time Step 2: MSE = 0.05975528458027495
+Time Step 3: MSE = 0.09268747800331183
+Time Step 4: MSE = 0.07442452652712427
+Time Step 5: MSE = 0.05968835607721532
+Time Step 6: MSE = 0.05441063031116769
+
+=== Predicting Travel Estimates ===
+Model Coefficients: 14.252924217799688
+Model Intercept: 3.7209622556110844
+Mean Squared Error (MSE): 11.153807959813088
+MSE over time (as ship approaches):
+Time Step 1: MSE = 27.382486471446473
+Time Step 2: MSE = 14.213307598088825
+Time Step 3: MSE = 20.000618978184917
+Time Step 4: MSE = 15.894435280321083
+Time Step 5: MSE = 12.766135019238643
+Time Step 6: MSE = 11.153807959813088
+
+=================================
+
+Analyzing journey 4 with 1 records
+Arrival Time: 2024-01-23 11:40:53
+
+No 'Underway' records found for this journey, skipping regression analysis.
+
+=================================
+

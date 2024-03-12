@@ -52,25 +52,41 @@ def process_file(input_file, output_folder):
     # Sort records by record time
     df.sort_values(by='RecordTime', inplace=True)
     
-    # Add journey number
-    df['Journey'] = (df['Status'] == 'Arrived').cumsum()
+    # Initialize journey number and valid journey flag
+    df['Journey'] = 0
+    journey_number = 0
+    valid_journey = False
+
+    for index, row in df.iterrows():
+        if row['Status'] == 'Underway':
+            valid_journey = True
+            journey_number += 1
+        elif row['Status'] == 'Arrived' and valid_journey:
+            valid_journey = False  # Reset for the next journey
+        else:
+            continue  # Skip invalid 'Arrived' entries
+        
+        df.at[index, 'Journey'] = journey_number
+
+    # Filter out records not part of a valid journey
+    df = df[df['Journey'] > 0]
     
-    # Count the number of journeys for each MMSI
-    num_journeys = df['Journey'].max() or 0
+    # Count the number of unique journeys
+    num_journeys = df[df['Status'] == 'Arrived']['Journey'].nunique()
     
     # Format and write the records to a file
     output_file_path = os.path.join(output_folder, f"{mmsi}_processed.txt")
     with open(output_file_path, 'w') as output_file:
         for _, row in df.iterrows():
-            output_file.write(f"MMSI: {row['MMSI']}\n")
+            # output_file.write(f"MMSI: {row['MMSI']}\n")
             output_file.write(f"Record time: {row['RecordTime']}\n")
             output_file.write(f"Event time: {row['EventTime']}\n")
             output_file.write(f"Status: {row['Status']}\n")
             output_file.write(f"Travel distance: {row['TravelDistance']}\n")
             output_file.write(f"Num waypoints: {row['NumWaypoints']}\n")
-            output_file.write(f"Waypoints: {row['Waypoints']}\n")
-            output_file.write(f"Day of Week: {row['DayOfWeek']}\n\n")
-        output_file.write(f"Number of Journeys: {num_journeys}\n")
+            output_file.write(f"Waypoints: {row['Waypoints']}\n\n")
+            # output_file.write(f"Day of Week: {row['DayOfWeek']}\n\n")
+        # output_file.write(f"Number of Journeys: {num_journeys}\n")
 
 def main():
     input_folder = '../data_james/ships_basic'

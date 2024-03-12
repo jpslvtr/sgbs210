@@ -51,7 +51,11 @@ def perform_space_regression(df):
         mse_i = mean_squared_error(y.iloc[:i], y_pred_i)
         mse_over_time.append(mse_i)
 
-    return model, mse, y_pred, mse_over_time
+    # Extract the coefficients and intercept
+    coef = model.coef_[0]
+    intercept = model.intercept_
+
+    return coef, intercept, mse, mse_over_time
 
 def perform_time_regression(df):
     X = df[['TravelDistance']].values.reshape(-1, 1)
