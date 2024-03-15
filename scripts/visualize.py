@@ -3,70 +3,93 @@ import glob
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
+import re
 
-# Define the paths to the directories containing the result and analysis files
+# Function to extract MSE values from result files
+def extract_mse_from_results(file_path):
+    mse_values = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if 'Mean Squared Error (MSE):' in line:
+                mse = float(line.split(':')[-1].strip())
+                mse_values.append(mse)
+    return mse_values
+
+# Function to read analysis results and return a DataFrame
+def read_analysis_results(file_path):
+    data = {'Ship': [], 'Quality': [], 'Day': [], 'DayQuality': [], 'JourneyCount': [], 'JourneyQuality': []}
+    current_section = ''
+    with open(file_path, 'r') as file:
+        for line in file:
+            if 'Ranked Ships by Quality of Prediction:' in line:
+                current_section = 'ship'
+            elif 'Ranked Days of the Week by Quality of Prediction:' in line:
+                current_section = 'day'
+            elif 'Impact of Journey Count on Quality of Prediction:' in line:
+                current_section = 'journey'
+            else:
+                if current_section == 'ship' and ':' in line:
+                    ship, quality = line.split(':')
+                    data['Ship'].append(ship.strip())
+                    data['Quality'].append(float(quality.strip()))
+                elif current_section == 'day' and ':' in line:
+                    day, quality = line.split(':')
+                    data['Day'].append(day.strip())
+                    data['DayQuality'].append(float(quality.strip()))
+                elif current_section == 'journey' and ':' in line:
+                    count, quality = line.split(':')
+                    data['JourneyCount'].append(count.strip())
+                    data['JourneyQuality'].append(float(quality.strip()))
+
+    # Ensure all lists in the dictionary have the same length
+    max_length = max(len(lst) for lst in data.values())
+    for key in data:
+        data[key].extend([None] * (max_length - len(data[key])))
+
+    return pd.DataFrame(data)
+# Directory paths
 results_dir = '../data_james'
 analysis_dir = '../analysis'
 
-# Define the pattern to match the result files for models 1-4
-result_file_patterns = [
-    os.path.join(results_dir, '1_results', '*.txt'),
-    os.path.join(results_dir, '2_results', '*.txt'),
-    os.path.join(results_dir, '3_results', '*.txt'),
-    os.path.join(results_dir, '4_results', '*.txt')
-]
+day_quality_data = []
+journey_quality_data = []
 
-# Define the pattern to match the analysis files for models 2-4
-analysis_file_patterns = [
-    os.path.join(analysis_dir, 'results_2.txt'),
-    os.path.join(analysis_dir, 'results_3.txt'),
-    os.path.join(analysis_dir, 'results_4.txt')
-]
+for i in [2, 4]:  # Adjusted to only include models 2 and 4
+    analysis_data = read_analysis_results(f'{analysis_dir}/results_{i}.txt')
+    
+    # Extracting Day of the Week Quality data
+    for day, quality in zip(analysis_data['Day'], analysis_data['DayQuality']):
+        if pd.notna(day) and pd.notna(quality):
+            day_quality_data.append({'Model': f'Model {i}', 'Day': day, 'Quality': quality})
+    
+    # Extracting Journey Count Quality data
+    for count, quality in zip(analysis_data['JourneyCount'], analysis_data['JourneyQuality']):
+        if pd.notna(count) and pd.notna(quality):
+            # Remove the word 'Journey' and convert to integer
+            count = int(count.replace('Journey Count ', ''))
+            journey_quality_data.append({'Model': f'Model {i}', 'JourneyCount': count, 'Quality': quality})
 
-# Function to extract MSE values from a result file
-def extract_mse(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-        mse_values = []
-        for line in lines:
-            if 'Mean Squared Error (MSE):' in line:
-                mse = float(line.split()[-1])
-                mse_values.append(mse)
-        return mse_values
+day_quality_df = pd.DataFrame(day_quality_data)
+journey_quality_df = pd.DataFrame(journey_quality_data)
 
-# Function to extract analysis data from an analysis file
-def extract_analysis_data(file_path):
-    with open(file_path, 'r') as file:
-        content = file.read()
-        # Implement parsing logic based on the structure of the analysis files
-        # This is a placeholder for the actual parsing logic
-        analysis_data = {}
-        return analysis_data
-
-# Read and process result files for each model
-all_mse_values = []
-for i, pattern in enumerate(result_file_patterns, start=1):
-    mse_values = []
-    for file_path in glob.glob(pattern):
-        mse_values.extend(extract_mse(file_path))
-    all_mse_values.append(mse_values)
-
-# Read and process analysis files for models 2-4
-all_analysis_data = []
-for file_path in analysis_file_patterns:
-    analysis_data = extract_analysis_data(file_path)
-    all_analysis_data.append(analysis_data)
-
-# Visualization of MSE comparison across models (1-4)
-plt.boxplot(all_mse_values, labels=[f'Model {i}' for i in range(1, 5)])
-plt.title('MSE Comparison Across Models')
-plt.ylabel('MSE')
+# Plotting Day of the Week Quality for models 2 and 4
+plt.figure(figsize=(10, 6))
+sns.barplot(x='Day', y='Quality', hue='Model', data=day_quality_df)
+plt.title('Day of the Week Quality of Prediction Across Models 2 and 4')
+plt.ylabel('Quality of Prediction')
+plt.xlabel('Day of the Week')
+plt.legend(title='Model')
 plt.show()
 
-# Analysis of the effect of MMSI, day of the week, and number of journeys on each model (2-4)
-# Placeholder for the actual analysis and visualization code
-# You would need to implement the logic based on the structure of the analysis data
+# Plotting Impact of Journey Count on Quality for models 2 and 4
+plt.figure(figsize=(10, 6))
+sns.lineplot(x='JourneyCount', y='Quality', hue='Model', data=journey_quality_df, marker='o')
+plt.title('Impact of Journey Count on Quality of Prediction Across Models 2 and 4')
+plt.ylabel('Quality of Prediction')
+plt.xlabel('Number of Journeys')
+# Set x-axis ticks to be the unique sorted journey counts
+plt.xticks(sorted(journey_quality_df['JourneyCount'].unique()))
+plt.legend(title='Model')
+plt.show()
 
-# For example, if analysis_data is a DataFrame, you could use seaborn to create visualizations
-# sns.barplot(x='MMSI', y='MSE', data=analysis_data)
-# plt.show()
