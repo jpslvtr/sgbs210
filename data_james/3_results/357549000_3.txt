@@ -1,72 +1,35 @@
 Analyzing journey 1 with 7 records
+
 Arrival Time: 2023-06-25 13:23:46
 
 === Decision Tree Time Regression ===
-Feature Importances: [0.83178368 0.16821632 0.         0.        ]
-Mean Squared Error (MSE): 0.0
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 33.46532217782753
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-Time Step 6: MSE = 0.0
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 4.178481674783472
-Model Intercept: 16.10212285785323
-Mean Squared Error (MSE): 1.309084626254473
-MSE over time (as ship approaches):
-Time Step 1: MSE = 0.7972778503274556
-Time Step 2: MSE = 3.0673429196862845
-Time Step 3: MSE = 2.1788352476587622
-Time Step 4: MSE = 1.7229418413379878
-Time Step 5: MSE = 1.4952710343528293
-Time Step 6: MSE = 1.309084626254473
+Time Step 1: MSE = 65.05318641975313
+Time Step 2: MSE = 33.46532217782753
 
 =================================
 
 Analyzing journey 2 with 6 records
+
 Arrival Time: 2023-07-04 13:27:39
 
 === Decision Tree Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
-Mean Squared Error (MSE): 0.0
+Mean Squared Error (MSE): 0.47665676267777646
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 4.698895134614607
-Model Intercept: 7.046801808829741
-Mean Squared Error (MSE): 1.2529940439381688
-MSE over time (as ship approaches):
-Time Step 1: MSE = 1.4008954485100822
-Time Step 2: MSE = 2.0145431374762524
-Time Step 3: MSE = 1.4014694609185854
-Time Step 4: MSE = 1.3038865589793278
-Time Step 5: MSE = 1.2529940439381688
+Time Step 1: MSE = 0.47665676267777646
 
 =================================
 
 Analyzing journey 3 with 2 records
+
 Arrival Time: 2023-10-19 20:21:13
 
-=== Decision Tree Time Regression ===
-Feature Importances: [0. 0. 0. 0.]
-Mean Squared Error (MSE): 0.0
-MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
+No 'Underway' records found for this journey, skipping regression analysis.
 
-=== Predicting Travel Estimates ===
-Model Coefficients: 0.0
-Model Intercept: 61.203563714902806
-Mean Squared Error (MSE): 0.0
-MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
+
 
 =================================
 

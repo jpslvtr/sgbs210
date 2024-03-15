@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
 from datetime import datetime
 import re
 import os
@@ -50,45 +51,50 @@ def identify_journeys(df):
     return df
 
 def perform_space_regression(df):
+    if len(df) < 5:  # Ensure there are enough records to split
+        return None, None, None, None
+
     X = df[["TimeDiff"]]
     y = df["TravelDistance"]
 
-    model = LinearRegression()
-    model.fit(X, y)
-
-    y_pred = model.predict(X)
-    mse = mean_squared_error(y, y_pred)
-
-    # Calculate MSE over time
-    mse_over_time = []
-    for i in range(1, len(X) + 1):
-        y_pred_i = model.predict(X.iloc[:i])
-        mse_i = mean_squared_error(y.iloc[:i], y_pred_i)
-        mse_over_time.append(mse_i)
-
-    # Extract the coefficients and intercept
-    coef = model.coef_[0]
-    intercept = model.intercept_
-
-    return coef, intercept, mse, mse_over_time
-
-def perform_time_regression(df):
-    X = df[['TravelDistance', 'DayOfWeek', 'ShipID', 'TotalJourneys']]
-    y = (df['EventTime'] - df['RecordTime']).dt.total_seconds() / 3600
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     model = LinearRegression()
-    model.fit(X, y)
+    model.fit(X_train, y_train)
 
-    y_pred = model.predict(X)
-    mse = mean_squared_error(y, y_pred)
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
 
     mse_over_time = []
-    for i in range(1, len(X) + 1):
-        y_pred_i = model.predict(X[:i])
-        mse_i = mean_squared_error(y[:i], y_pred_i)
+    for i in range(1, len(X_test) + 1):
+        y_pred_i = model.predict(X_test.iloc[:i])
+        mse_i = mean_squared_error(y_test.iloc[:i], y_pred_i)
         mse_over_time.append(mse_i)
 
     return model.coef_[0], model.intercept_, mse, mse_over_time
+
+def perform_time_regression(df):
+    if len(df) < 5:  # Ensure there are enough records to split
+        return None, None, None, None
+
+    X = df[['TravelDistance', 'DayOfWeek', 'ShipID', 'TotalJourneys']]
+    y = (df['EventTime'] - df['RecordTime']).dt.total_seconds() / 3600
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
+
+    mse_over_time = []
+    for i in range(1, len(X_test) + 1):
+        y_pred_i = model.predict(X_test.iloc[:i])
+        mse_i = mean_squared_error(y_test.iloc[:i], y_pred_i)
+        mse_over_time.append(mse_i)
+
+    return model.coef_, model.intercept_, mse, mse_over_time
 
 def main():
     input_folder = '../data_james/ships_processed'
@@ -100,7 +106,7 @@ def main():
     input_files = [f for f in os.listdir(input_folder) if f.endswith('_processed.txt')]
 
     for input_file in tqdm(input_files, desc="Processing files"):
-        ship_id = int(input_file.split('_')[0])  # Assuming the file name format is "shipID_rest_of_the_file_name.txt"
+        ship_id = int(re.search(r'^(\d+)_', input_file).group(1))  # Assuming the file name format is "shipID_rest_of_the_file_name.txt"
         file_path = os.path.join(input_folder, input_file)
         with open(file_path, 'r') as file:
             content = file.read()
@@ -114,40 +120,44 @@ def main():
             results = {}
 
             for journey_id, journey_df in journeys:
-                analysis_output = f"Analyzing journey {journey_id} with {len(journey_df)} records"
+                analysis_output = f"Analyzing journey {journey_id} with {len(journey_df)} records\n"
                 if 'Arrived' in journey_df['Status'].values:
                     arrival_time = journey_df[journey_df['Status'] == 'Arrived']['EventTime'].iloc[0]
                     analysis_output += f"\nArrival Time: {arrival_time}\n"
                 else:
                     analysis_output += "\nNo 'Arrival Time' found for this journey, skipping regression analysis.\n"
-                    analysis_output += "\n=================================\n\n"
+                    analysis_output += "=================================\n\n"
                     results[journey_id] = analysis_output
                     continue
 
                 underway_df = journey_df[journey_df['Status'] == 'Underway']
-                if not underway_df.empty:
+                if len(underway_df) >= 5:
                     # Perform time regression
                     time_coef, time_intercept, time_mse, time_mse_over_time = perform_time_regression(underway_df)
-                    analysis_output += "\n=== Predicting Time Estimates ==="
-                    analysis_output += f"\nModel Coefficients: {time_coef}"
-                    analysis_output += f"\nModel Intercept: {time_intercept}"
-                    analysis_output += f"\nMean Squared Error (MSE): {time_mse}"
-                    analysis_output += "\nMSE over time (as ship approaches):"
-                    for i, mse_val in enumerate(time_mse_over_time, 1):
-                        analysis_output += f"\nTime Step {i}: MSE = {mse_val}"
+                    if time_coef is not None:
+                        analysis_output += "\n=== Predicting Time Estimates ==="
+                        analysis_output += f"\nModel Coefficients: {time_coef}"
+                        analysis_output += f"\nModel Intercept: {time_intercept}"
+                        analysis_output += f"\nMean Squared Error (MSE): {time_mse}"
+                        analysis_output += "\nMSE over time (as ship approaches):"
+                        for i, mse_val in enumerate(time_mse_over_time, 1):
+                            analysis_output += f"\nTime Step {i}: MSE = {mse_val}"
+                    else:
+                        analysis_output += "\nInsufficient data for time regression analysis.\n"
 
                     # Perform space regression
                     space_coef, space_intercept, space_mse, space_mse_over_time = perform_space_regression(underway_df)
-                    analysis_output += "\n\n=== Predicting Travel Estimates ==="
-                    analysis_output += f"\nModel Coefficients: {space_coef}"
-                    analysis_output += f"\nModel Intercept: {space_intercept}"
-                    analysis_output += f"\nMean Squared Error (MSE): {space_mse}"
-                    analysis_output += "\nMSE over time (as ship approaches):"
-                    for i, mse_val in enumerate(space_mse_over_time, 1):
-                        analysis_output += f"\nTime Step {i}: MSE = {mse_val}"
-                    analysis_output += "\n\n"
+                    if space_coef is not None:
+                        analysis_output += "\n\n=== Predicting Travel Estimates ==="
+                        analysis_output += f"\nModel Coefficients: {space_coef}"
+                        analysis_output += f"\nModel Intercept: {space_intercept}"
+                        analysis_output += f"\nMean Squared Error (MSE): {space_mse}"
+                        analysis_output += "\nMSE over time (as ship approaches):"
+                        for i, mse_val in enumerate(space_mse_over_time, 1):
+                            analysis_output += f"\nTime Step {i}: MSE = {mse_val}"
+                        analysis_output += "\n\n"
                 else:
-                    analysis_output += "\nNo 'Underway' records found for this journey, skipping regression analysis.\n\n"
+                    analysis_output += "\nInsufficient 'Underway' records found for this journey, skipping regression analysis.\n\n"
 
                 analysis_output += "=================================\n\n"
                 results[journey_id] = analysis_output

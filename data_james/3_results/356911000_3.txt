@@ -1,67 +1,30 @@
 Analyzing journey 1 with 11 records
+
 Arrival Time: 2024-01-08 07:44:48
 
 === Decision Tree Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
-Mean Squared Error (MSE): 0.0
+Mean Squared Error (MSE): 2.0135002333793617
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-Time Step 6: MSE = 0.0
-Time Step 7: MSE = 0.0
-Time Step 8: MSE = 0.0
-Time Step 9: MSE = 0.0
-Time Step 10: MSE = 0.0
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 10.871090488914742
-Model Intercept: 3.8208344512221117
-Mean Squared Error (MSE): 3.714262004367142
-MSE over time (as ship approaches):
-Time Step 1: MSE = 3.747728995554167
-Time Step 2: MSE = 3.3612867496845236
-Time Step 3: MSE = 2.970205367310226
-Time Step 4: MSE = 6.695386115797617
-Time Step 5: MSE = 5.814833707125119
-Time Step 6: MSE = 4.853658467044618
-Time Step 7: MSE = 4.170760174958145
-Time Step 8: MSE = 3.738809430985064
-Time Step 9: MSE = 4.075459995886193
-Time Step 10: MSE = 3.714262004367142
+Time Step 1: MSE = 0.14341642506859548
+Time Step 2: MSE = 2.0135002333793617
 
 =================================
 
 Analyzing journey 2 with 6 records
+
 Arrival Time: 2024-01-22 13:18:46
 
 === Decision Tree Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
-Mean Squared Error (MSE): 0.0
+Mean Squared Error (MSE): 1.961457048466729
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 10.962555096999802
-Model Intercept: 17.376579636912652
-Mean Squared Error (MSE): 34.62945277676105
-MSE over time (as ship approaches):
-Time Step 1: MSE = 71.1868692686272
-Time Step 2: MSE = 70.98769832930579
-Time Step 3: MSE = 54.21297356734892
-Time Step 4: MSE = 41.54744145636787
-Time Step 5: MSE = 34.62945277676105
+Time Step 1: MSE = 1.961457048466729
 
 =================================
 
 Analyzing journey 3 with 25 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
 
+No 'Arrival Time' found for this journey, skipping regression analysis.
 =================================
 

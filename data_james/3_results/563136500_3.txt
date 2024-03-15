@@ -1,67 +1,31 @@
 Analyzing journey 1 with 8 records
+
 Arrival Time: 2023-10-09 20:06:42
 
 === Decision Tree Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
-Mean Squared Error (MSE): 0.0
+Mean Squared Error (MSE): 0.13602317949459833
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-Time Step 6: MSE = 0.0
-Time Step 7: MSE = 0.0
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 13.012661195691635
-Model Intercept: -1.8084935697730344
-Mean Squared Error (MSE): 13.4501690621078
-MSE over time (as ship approaches):
-Time Step 1: MSE = 37.93687865832089
-Time Step 2: MSE = 21.03821047234663
-Time Step 3: MSE = 19.342260888346186
-Time Step 4: MSE = 20.157107377178967
-Time Step 5: MSE = 16.94737641817203
-Time Step 6: MSE = 14.157105373311401
-Time Step 7: MSE = 13.4501690621078
+Time Step 1: MSE = 0.2443379822530851
+Time Step 2: MSE = 0.13602317949459833
 
 =================================
 
 Analyzing journey 2 with 9 records
+
 Arrival Time: 2023-12-16 18:11:39
 
 === Decision Tree Time Regression ===
 Feature Importances: [1. 0. 0. 0.]
-Mean Squared Error (MSE): 0.0
+Mean Squared Error (MSE): 0.014499732193094177
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-Time Step 6: MSE = 0.0
-Time Step 7: MSE = 0.0
-Time Step 8: MSE = 0.0
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 13.55546176992913
-Model Intercept: 0.10147993586835469
-Mean Squared Error (MSE): 10.657029133764368
-MSE over time (as ship approaches):
-Time Step 1: MSE = 53.55439417911267
-Time Step 2: MSE = 27.134999760139134
-Time Step 3: MSE = 26.674577273947307
-Time Step 4: MSE = 20.492782274130814
-Time Step 5: MSE = 16.403012243880084
-Time Step 6: MSE = 13.673404162466023
-Time Step 7: MSE = 11.883977714880439
-Time Step 8: MSE = 10.657029133764368
+Time Step 1: MSE = 6.791133402775449e-05
+Time Step 2: MSE = 0.014499732193094177
 
 =================================
 
 Analyzing journey 3 with 11 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
 
+No 'Arrival Time' found for this journey, skipping regression analysis.
 =================================
 

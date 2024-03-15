@@ -1,42 +1,14 @@
 Analyzing journey 1 with 14 records
+
 Arrival Time: 2024-02-13 12:17:52
 
 === Decision Tree Time Regression ===
-Feature Importances: [0.2602228 0.7397772 0.        0.       ]
-Mean Squared Error (MSE): 0.1606532720871912
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 4.837998589007845
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.5208731342833715
-Time Step 3: MSE = 0.6944975123778286
-Time Step 4: MSE = 0.5208731342833715
-Time Step 5: MSE = 0.4166985074266972
-Time Step 6: MSE = 0.3472487561889143
-Time Step 7: MSE = 0.2976417910190694
-Time Step 8: MSE = 0.2604365671416857
-Time Step 9: MSE = 0.23149917079260954
-Time Step 10: MSE = 0.2083492537133486
-Time Step 11: MSE = 0.18940841246668053
-Time Step 12: MSE = 0.17383271142779047
-Time Step 13: MSE = 0.1606532720871912
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 12.346693680275228
-Model Intercept: 9.082841599183922
-Mean Squared Error (MSE): 457.3911423074603
-MSE over time (as ship approaches):
-Time Step 1: MSE = 4229.78065565374
-Time Step 2: MSE = 2429.0356285504186
-Time Step 3: MSE = 1619.3634171742676
-Time Step 4: MSE = 1223.7704172628808
-Time Step 5: MSE = 994.8554365061416
-Time Step 6: MSE = 866.2396682328476
-Time Step 7: MSE = 802.223263705361
-Time Step 8: MSE = 706.5908519248335
-Time Step 9: MSE = 640.2477431686989
-Time Step 10: MSE = 587.1842858284622
-Time Step 11: MSE = 539.5009212383507
-Time Step 12: MSE = 494.7855598308584
-Time Step 13: MSE = 457.3911423074603
+Time Step 1: MSE = 0.009999999999999995
+Time Step 2: MSE = 0.05348152006172861
+Time Step 3: MSE = 4.837998589007845
 
 =================================
 

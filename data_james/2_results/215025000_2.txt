@@ -1,45 +1,24 @@
 Analyzing journey 1 with 15 records
+
 Arrival Time: 2023-11-22 18:47:29
 
 === Predicting Time Estimates ===
-Model Coefficients: 0.09950905047211779
-Model Intercept: -0.6207151728283264
-Mean Squared Error (MSE): 0.1287883756346
+Model Coefficients: [0.09505544 0.         0.         0.        ]
+Model Intercept: -0.43532895865076515
+Mean Squared Error (MSE): 0.6799110064199647
 MSE over time (as ship approaches):
-Time Step 1: MSE = 1.0340710647652134
-Time Step 2: MSE = 0.5268882574126091
-Time Step 3: MSE = 0.46643811428235643
-Time Step 4: MSE = 0.3841354333438278
-Time Step 5: MSE = 0.3075276087406066
-Time Step 6: MSE = 0.2591893264211516
-Time Step 7: MSE = 0.22216334557311268
-Time Step 8: MSE = 0.19442087868739372
-Time Step 9: MSE = 0.17326976796650678
-Time Step 10: MSE = 0.15647916497924735
-Time Step 11: MSE = 0.14782242826660769
-Time Step 12: MSE = 0.14205644499773587
-Time Step 13: MSE = 0.13493222225537813
-Time Step 14: MSE = 0.1287883756346
+Time Step 1: MSE = 0.010271444638207339
+Time Step 2: MSE = 0.03848428791006367
+Time Step 3: MSE = 0.6799110064199647
 
 === Predicting Travel Estimates ===
-Model Coefficients: 9.935003344292095
-Model Intercept: 6.961656687077742
-Mean Squared Error (MSE): 12.858256978285764
+Model Coefficients: 10.488305304816157
+Model Intercept: 4.776725180758476
+Mean Squared Error (MSE): 73.30600820223117
 MSE over time (as ship approaches):
-Time Step 1: MSE = 89.16801628098516
-Time Step 2: MSE = 46.602024457266474
-Time Step 3: MSE = 44.72994290088792
-Time Step 4: MSE = 37.73373513568485
-Time Step 5: MSE = 30.204552495336806
-Time Step 6: MSE = 25.464331580600255
-Time Step 7: MSE = 21.82893620439692
-Time Step 8: MSE = 19.1119017155297
-Time Step 9: MSE = 17.07172462291344
-Time Step 10: MSE = 15.460017383705807
-Time Step 11: MSE = 14.479341858474879
-Time Step 12: MSE = 14.106835856095598
-Time Step 13: MSE = 13.29185568801493
-Time Step 14: MSE = 12.858256978285764
+Time Step 1: MSE = 1.2737442370153331
+Time Step 2: MSE = 4.580741731715248
+Time Step 3: MSE = 73.30600820223117
 
 =================================
 

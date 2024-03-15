@@ -2,15 +2,11 @@ Analyzing journey 1 with 7 records
 Arrival Time: 2023-06-25 13:23:46
 
 === Random Forest Time Regression ===
-Feature Importances: [0.80419748 0.19580252 0.         0.        ]
-Mean Squared Error (MSE): 0.9633499640459834
+Feature Importances: [0.52906714 0.47093286 0.         0.        ]
+Mean Squared Error (MSE): 36.54684644496087
 MSE over time (as ship approaches):
-Time Step 1: MSE = 4.715296533887565
-Time Step 2: MSE = 2.4849448166470154
-Time Step 3: MSE = 1.6567928036942294
-Time Step 4: MSE = 1.2559242657678356
-Time Step 5: MSE = 1.0327879604732664
-Time Step 6: MSE = 0.9633499640459834
+Time Step 1: MSE = 70.25042086676702
+Time Step 2: MSE = 36.54684644496087
 
 === Predicting Travel Estimates ===
 Model Coefficients: 4.178481674783472
@@ -30,14 +26,10 @@ Analyzing journey 2 with 6 records
 Arrival Time: 2023-07-04 13:27:39
 
 === Random Forest Time Regression ===
-Feature Importances: [0.86969745 0.13030255 0.         0.        ]
-Mean Squared Error (MSE): 1.5201445538673999
+Feature Importances: [0.74776712 0.25223288 0.         0.        ]
+Mean Squared Error (MSE): 6.752322936428137
 MSE over time (as ship approaches):
-Time Step 1: MSE = 2.2490021439931125
-Time Step 2: MSE = 1.3120957825020565
-Time Step 3: MSE = 0.889725022308148
-Time Step 4: MSE = 0.8354221262604535
-Time Step 5: MSE = 1.5201445538673999
+Time Step 1: MSE = 6.752322936428137
 
 === Predicting Travel Estimates ===
 Model Coefficients: 4.698895134614607
@@ -54,19 +46,7 @@ Time Step 5: MSE = 1.2529940439381688
 
 Analyzing journey 3 with 2 records
 Arrival Time: 2023-10-19 20:21:13
-
-=== Random Forest Time Regression ===
-Feature Importances: [0. 0. 0. 0.]
-Mean Squared Error (MSE): 3.818086781269697e-28
-MSE over time (as ship approaches):
-Time Step 1: MSE = 3.818086781269697e-28
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 0.0
-Model Intercept: 61.203563714902806
-Mean Squared Error (MSE): 0.0
-MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
+No 'Underway' records found for this journey, skipping regression analysis.
 
 =================================
 

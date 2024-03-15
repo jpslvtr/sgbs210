@@ -1,39 +1,24 @@
 Analyzing journey 1 with 12 records
+
 Arrival Time: 2023-10-22 17:47:58
 
 === Predicting Time Estimates ===
-Model Coefficients: 0.04628602631121626
-Model Intercept: 16.735615199685853
-Mean Squared Error (MSE): 1.7517785885241346
+Model Coefficients: [ 0.05858211 -1.417086    0.          0.        ]
+Model Intercept: 8.614281181717978
+Mean Squared Error (MSE): 4.665930120589199
 MSE over time (as ship approaches):
-Time Step 1: MSE = 7.865576788274874
-Time Step 2: MSE = 4.5886419406773875
-Time Step 3: MSE = 3.0590987820920117
-Time Step 4: MSE = 2.5991698811904382
-Time Step 5: MSE = 2.904867491824946
-Time Step 6: MSE = 2.587123809756419
-Time Step 7: MSE = 2.222626481548492
-Time Step 8: MSE = 2.2049938457432745
-Time Step 9: MSE = 1.9620278891792187
-Time Step 10: MSE = 1.7788655310096886
-Time Step 11: MSE = 1.7517785885241346
+Time Step 1: MSE = 1.0730566979068719
+Time Step 2: MSE = 6.92119678241856
+Time Step 3: MSE = 4.665930120589199
 
 === Predicting Travel Estimates ===
-Model Coefficients: 14.50689709622539
-Model Intercept: -5.4176740123572245
-Mean Squared Error (MSE): 491.7909006906046
+Model Coefficients: 14.35798939827116
+Model Intercept: -7.337054170991763
+Mean Squared Error (MSE): 1217.1241461731815
 MSE over time (as ship approaches):
-Time Step 1: MSE = 2809.294462319712
-Time Step 2: MSE = 1772.06471642435
-Time Step 3: MSE = 1203.7355441144334
-Time Step 4: MSE = 925.9493966812014
-Time Step 5: MSE = 861.0545693854634
-Time Step 6: MSE = 811.1676027645494
-Time Step 7: MSE = 753.7597920598937
-Time Step 8: MSE = 672.2064049696322
-Time Step 9: MSE = 599.7218802275343
-Time Step 10: MSE = 539.8369993438416
-Time Step 11: MSE = 491.7909006906046
+Time Step 1: MSE = 381.20375465780364
+Time Step 2: MSE = 1818.7725095382043
+Time Step 3: MSE = 1217.1241461731815
 
 =================================
 

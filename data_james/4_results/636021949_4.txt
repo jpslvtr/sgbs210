@@ -2,28 +2,13 @@ Analyzing journey 1 with 20 records
 Arrival Time: 2023-08-23 01:30:12
 
 === Random Forest Time Regression ===
-Feature Importances: [0.91923371 0.08076629 0.         0.        ]
-Mean Squared Error (MSE): 0.09836064285721276
+Feature Importances: [0.78456786 0.21543214 0.         0.        ]
+Mean Squared Error (MSE): 0.5613323238859685
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.022126967432415174
-Time Step 2: MSE = 0.01162648497925366
-Time Step 3: MSE = 0.011002948827274414
-Time Step 4: MSE = 0.024518694160728657
-Time Step 5: MSE = 0.04050628467853991
-Time Step 6: MSE = 0.03899623184043233
-Time Step 7: MSE = 0.03350576302630474
-Time Step 8: MSE = 0.030781794134835668
-Time Step 9: MSE = 0.030821118798244857
-Time Step 10: MSE = 0.04620990384953111
-Time Step 11: MSE = 0.04417627949354407
-Time Step 12: MSE = 0.040659694349459964
-Time Step 13: MSE = 0.05879942419877065
-Time Step 14: MSE = 0.07201325722593743
-Time Step 15: MSE = 0.08277462292159894
-Time Step 16: MSE = 0.08637945815034048
-Time Step 17: MSE = 0.0834700955851404
-Time Step 18: MSE = 0.07888854681418005
-Time Step 19: MSE = 0.09836064285721276
+Time Step 1: MSE = 0.49284880421830246
+Time Step 2: MSE = 0.9791302882883686
+Time Step 3: MSE = 0.6538792897013735
+Time Step 4: MSE = 0.5613323238859685
 
 === Predicting Travel Estimates ===
 Model Coefficients: 12.895005933051943
@@ -56,24 +41,12 @@ Analyzing journey 2 with 16 records
 Arrival Time: 2024-01-18 11:54:47
 
 === Random Forest Time Regression ===
-Feature Importances: [0.7801908 0.2198092 0.        0.       ]
-Mean Squared Error (MSE): 1.938119664325861
+Feature Importances: [0.59087646 0.40912354 0.         0.        ]
+Mean Squared Error (MSE): 31.758668563404356
 MSE over time (as ship approaches):
-Time Step 1: MSE = 23.92537099164156
-Time Step 2: MSE = 11.963280540802636
-Time Step 3: MSE = 7.975628400705491
-Time Step 4: MSE = 5.983507368427245
-Time Step 5: MSE = 4.839930604414784
-Time Step 6: MSE = 4.034393609601214
-Time Step 7: MSE = 3.973324669367724
-Time Step 8: MSE = 3.525120323452966
-Time Step 9: MSE = 3.145549048358227
-Time Step 10: MSE = 2.832946645152227
-Time Step 11: MSE = 2.576923325399506
-Time Step 12: MSE = 2.3777037775074583
-Time Step 13: MSE = 2.2008806827766865
-Time Step 14: MSE = 2.044433379990306
-Time Step 15: MSE = 1.938119664325861
+Time Step 1: MSE = 0.23897364354215897
+Time Step 2: MSE = 0.39250216252725
+Time Step 3: MSE = 31.758668563404356
 
 === Predicting Travel Estimates ===
 Model Coefficients: 7.8770558151967744

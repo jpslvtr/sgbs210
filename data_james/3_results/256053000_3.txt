@@ -1,59 +1,20 @@
 Analyzing journey 1 with 20 records
+
 Arrival Time: 2023-07-07 20:35:57
 
 === Decision Tree Time Regression ===
-Feature Importances: [0.9972377 0.0027623 0.        0.       ]
-Mean Squared Error (MSE): 6.560685205490571e-05
+Feature Importances: [1. 0. 0. 0.]
+Mean Squared Error (MSE): 7.522344881935743
 MSE over time (as ship approaches):
-Time Step 1: MSE = 0.0
-Time Step 2: MSE = 0.0
-Time Step 3: MSE = 0.0
-Time Step 4: MSE = 0.0
-Time Step 5: MSE = 0.0
-Time Step 6: MSE = 0.0
-Time Step 7: MSE = 0.0
-Time Step 8: MSE = 0.0
-Time Step 9: MSE = 0.0
-Time Step 10: MSE = 0.0
-Time Step 11: MSE = 0.0
-Time Step 12: MSE = 0.0
-Time Step 13: MSE = 0.0
-Time Step 14: MSE = 0.0
-Time Step 15: MSE = 0.0
-Time Step 16: MSE = 0.0
-Time Step 17: MSE = 0.0
-Time Step 18: MSE = 3.46258385845335e-05
-Time Step 19: MSE = 6.560685205490571e-05
-
-=== Predicting Travel Estimates ===
-Model Coefficients: 11.243568849760587
-Model Intercept: 2.7178853635510904
-Mean Squared Error (MSE): 36.62257089592982
-MSE over time (as ship approaches):
-Time Step 1: MSE = 0.05364269152409835
-Time Step 2: MSE = 31.307311402169066
-Time Step 3: MSE = 59.46112674381151
-Time Step 4: MSE = 54.207864289179156
-Time Step 5: MSE = 45.67323060675247
-Time Step 6: MSE = 44.162202570753124
-Time Step 7: MSE = 50.865779822631374
-Time Step 8: MSE = 71.29835990020936
-Time Step 9: MSE = 66.02803748150575
-Time Step 10: MSE = 60.838058064323604
-Time Step 11: MSE = 55.58475499709771
-Time Step 12: MSE = 51.11632921837954
-Time Step 13: MSE = 51.35512791451277
-Time Step 14: MSE = 47.93213132583923
-Time Step 15: MSE = 44.913277553834384
-Time Step 16: MSE = 42.96338371688137
-Time Step 17: MSE = 40.45821572462276
-Time Step 18: MSE = 38.3719334349193
-Time Step 19: MSE = 36.62257089592982
+Time Step 1: MSE = 23.65484814062499
+Time Step 2: MSE = 11.861686054904508
+Time Step 3: MSE = 9.39700586691422
+Time Step 4: MSE = 7.522344881935743
 
 =================================
 
 Analyzing journey 2 with 179 records
-No 'Arrival Time' found for this journey, skipping regression analysis.
 
+No 'Arrival Time' found for this journey, skipping regression analysis.
 =================================
 

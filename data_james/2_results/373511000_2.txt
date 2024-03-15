@@ -1,45 +1,24 @@
 Analyzing journey 1 with 15 records
+
 Arrival Time: 2023-07-20 16:00:47
 
 === Predicting Time Estimates ===
-Model Coefficients: 0.10872524692633231
-Model Intercept: -1.6367346784551984
-Mean Squared Error (MSE): 2.6352360718565744
+Model Coefficients: [0.10091412 0.         0.         0.        ]
+Model Intercept: -1.2564034584892543
+Mean Squared Error (MSE): 6.137218061499309
 MSE over time (as ship approaches):
-Time Step 1: MSE = 12.797909248457248
-Time Step 2: MSE = 8.831405962898724
-Time Step 3: MSE = 6.253035822016991
-Time Step 4: MSE = 4.6915838785740265
-Time Step 5: MSE = 4.255829143303442
-Time Step 6: MSE = 4.701146431132546
-Time Step 7: MSE = 4.460489981535188
-Time Step 8: MSE = 4.207746131850365
-Time Step 9: MSE = 3.8201044212627426
-Time Step 10: MSE = 3.4559719156944544
-Time Step 11: MSE = 3.14921671667405
-Time Step 12: MSE = 2.8941436215571215
-Time Step 13: MSE = 2.7192227773323916
-Time Step 14: MSE = 2.6352360718565744
+Time Step 1: MSE = 0.15008344590676398
+Time Step 2: MSE = 0.09803235007354758
+Time Step 3: MSE = 6.137218061499309
 
 === Predicting Travel Estimates ===
-Model Coefficients: 8.279784637404974
-Model Intercept: 22.146477372821778
-Mean Squared Error (MSE): 200.68188172041826
+Model Coefficients: 9.04863303670588
+Model Intercept: 19.087969572604266
+Mean Squared Error (MSE): 408.63069344277557
 MSE over time (as ship approaches):
-Time Step 1: MSE = 601.9915968885347
-Time Step 2: MSE = 394.8177452112848
-Time Step 3: MSE = 268.8295683680107
-Time Step 4: MSE = 207.4685485434666
-Time Step 5: MSE = 225.53503741950854
-Time Step 6: MSE = 295.998176890877
-Time Step 7: MSE = 291.98382020047706
-Time Step 8: MSE = 278.9126106734362
-Time Step 9: MSE = 250.06147212847554
-Time Step 10: MSE = 225.06003109694024
-Time Step 11: MSE = 204.7541295079891
-Time Step 12: MSE = 192.07728511075308
-Time Step 13: MSE = 190.31044541188473
-Time Step 14: MSE = 200.68188172041826
+Time Step 1: MSE = 0.16782911947123064
+Time Step 2: MSE = 20.24936073623457
+Time Step 3: MSE = 408.63069344277557
 
 =================================
 
