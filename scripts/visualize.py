@@ -49,7 +49,7 @@ def read_analysis_results(file_path):
 
     return pd.DataFrame(data)
 # Directory paths
-results_dir = '../data_james'
+results_dir = '../data_cleaned'
 analysis_dir = '../analysis'
 
 day_quality_data = []

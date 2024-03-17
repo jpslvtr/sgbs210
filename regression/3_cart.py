@@ -100,8 +100,8 @@ def perform_time_regression(df):
     return feature_importances, mse, mse_over_time
 
 def main():
-    input_folder = '../data_james/ships_processed'
-    output_folder = '../data_james/3_results'
+    input_folder = '../data_cleaned/ships_processed'
+    output_folder = '../data_cleaned/3_results'
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)

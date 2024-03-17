@@ -67,9 +67,9 @@ def print_analysis_results(results, description, output_file_name):
 
 def main():
     result_folders = {
-        '2_results': '../data_james/2_results',
-        '3_results': '../data_james/3_results',
-        '4_results': '../data_james/4_results'
+        '2_results': '../data_cleaned/2_results',
+        '3_results': '../data_cleaned/3_results',
+        '4_results': '../data_cleaned/4_results'
     }
 
     for index, (description, folder_path) in enumerate(result_folders.items(), start=1):

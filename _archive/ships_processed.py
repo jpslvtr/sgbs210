@@ -61,8 +61,8 @@ def process_file(input_file, output_folder):
         f.write('\n'.join(formatted_records))
 
 def main():
-    input_folder = '../data_james/ships_basic'
-    output_folder = '../data_james/ships_processed'
+    input_folder = '../data_cleaned/ships_basic'
+    output_folder = '../data_cleaned/ships_processed'
 
     # Create the output directory if it doesn't exist
     if not os.path.exists(output_folder):

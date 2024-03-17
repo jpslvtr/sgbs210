@@ -60,10 +60,10 @@ def perform_regression_analysis(df):
     return model, mse, y_pred, mse_over_time
 
 def main():
-    # # fp = '../data_james/ships_processed/422039900_processed.txt'
-    # fp = '../data_james/ships_processed/677010900_processed.txt'
-    # # fp = '../data_james/ships_processed/677076600_processed.txt'
-    # # fp = '../data_james/ships_processed/525119020_processed.txt'
+    # # fp = '../data_cleaned/ships_processed/422039900_processed.txt'
+    # fp = '../data_cleaned/ships_processed/677010900_processed.txt'
+    # # fp = '../data_cleaned/ships_processed/677076600_processed.txt'
+    # # fp = '../data_cleaned/ships_processed/525119020_processed.txt'
     # with open(fp, 'r') as file:
     #     content = file.read()
 
@@ -91,8 +91,8 @@ def main():
     # else:
     #     print("No valid data found for regression analysis.")
 
-    input_folder = '../data_james/ships_processed'
-    output_folder = '../data_james/regression_results/space'
+    input_folder = '../data_cleaned/ships_processed'
+    output_folder = '../data_cleaned/regression_results/space'
 
     # Create the output folder if it doesn't exist
     if not os.path.exists(output_folder):

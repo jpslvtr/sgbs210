@@ -36,5 +36,5 @@ def process_ais_data(input_folder, output_folder):
 
 if __name__ == '__main__':
     input_folder = '../data_master'
-    output_folder = '../data_james/ships_basic'
+    output_folder = '../data_cleaned/ships_basic'
     process_ais_data(input_folder, output_folder)

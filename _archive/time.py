@@ -58,10 +58,10 @@ def perform_regression_analysis(df):
     return model.coef_[0], model.intercept_, mse, mse_over_time
 
 def main():
-    # # fp = '../data_james/ships_processed/422039900_processed.txt'
-    # fp = '../data_james/ships_processed/677010900_processed.txt'
-    # # fp = '../data_james/ships_processed/677076600_processed.txt'
-    # # fp = '../data_james/ships_processed/525119020_processed.txt'
+    # # fp = '../data_cleaned/ships_processed/422039900_processed.txt'
+    # fp = '../data_cleaned/ships_processed/677010900_processed.txt'
+    # # fp = '../data_cleaned/ships_processed/677076600_processed.txt'
+    # # fp = '../data_cleaned/ships_processed/525119020_processed.txt'
     # with open(fp, 'r') as file:
     #     content = file.read()
 
@@ -101,8 +101,8 @@ def main():
     # for journey_id in sorted(results.keys(), reverse=True):
     #     print(results[journey_id])
 
-    input_folder = '../data_james/ships_processed'
-    output_folder = '../data_james/regression_results/time'
+    input_folder = '../data_cleaned/ships_processed'
+    output_folder = '../data_cleaned/regression_results/time'
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
