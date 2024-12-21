@@ -1,8 +1,30 @@
-# sgbs210
+# Predicting Ship Arrival Times at Saqr Port
 
-## In the scripts folder
-- unique_ships.py tell us that there are 904 unique ships.
-- ships_basic.py reads in json and outputs a more manageable version of the data in data_cleaned/ships_basic. One file per ship.
-- ships_detailed.py reads in the text files from data_cleaned/ships_basic and outputs an even more accessible version in data_cleaned/ships_detailed. Also one file per ship.
-- plot.py takes in a file from data_cleaned/ships_basic and makes a plot for that ship. Something like this:
-![alt text](img/image.png "1")
+An analysis project examining the quality and temporal reliability of AIS data for predicting ship arrivals at Saqr Port in Ras Al Khaimah (RAK), UAE.
+
+## Overview
+
+This project analyzes Automatic Identification System (AIS) data to improve the prediction accuracy of ship arrivals at Saqr Port. The research aims to enhance operational efficiency and reduce demurrage costs through better arrival time forecasting.
+
+## Key Components
+
+- Data analysis of 23,626 AIS records (2.18GB) from 904 unique vessels
+- Implementation of four regression models:
+  - Linear Regression (single variable)
+  - Multiple Linear Regression
+  - Regression Decision Tree
+  - Random Forest
+
+## Findings
+
+- Random Forest and Regression Tree models outperformed linear regression approaches
+- Arrival prediction accuracy varies significantly by day of the week
+- Ship-specific patterns significantly influence prediction quality
+- Multiple variables improve prediction accuracy
+
+## Recommendations
+
+- Integrate weather pattern data
+- Segment ships based on seasonal patterns
+- Optimize port operations personnel based on predictions
+- Plan for future port capacity considering RAK's growth
